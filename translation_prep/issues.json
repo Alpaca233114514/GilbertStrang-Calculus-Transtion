@@ -1,0 +1,305 @@
+{
+  "issues": [
+    {
+      "id": "PREP-001",
+      "scope": "whole_book",
+      "status": "open",
+      "description": "Formula glyphs are unreliable in extracted text. PDF page 101 checked with pypdf, pdfplumber and pypdfium2; all show mapping problems. Original render displays the formulas correctly.",
+      "action": "Visually verify every translated formula. Do not globally replace letters or punctuation."
+    },
+    {
+      "id": "PREP-002",
+      "scope": "pagination",
+      "status": "open",
+      "description": "Body PDF pages 14-403 have been visually checked during drafting (printed pages 1-282). Front matter and later pages require individual verification.",
+      "action": "Verify printed page references during each translation batch."
+    },
+    {
+      "id": "PREP-003",
+      "scope": "export",
+      "status": "not_tested",
+      "description": "PDF and DOCX libraries are available, but final Chinese document layout and conversion are not yet validated.",
+      "action": "Create and visually review a representative output sample once the requested delivery format is established."
+    },
+    {
+      "id": "DRAFT-001",
+      "scope": "section_notes",
+      "status": "open",
+      "description": "Source typos, missing mathematical hypotheses, domain restrictions, model limits, and ambiguous exercise wording are recorded in the translator notes at the end of each draft section. These notes require review with the translation.",
+      "action": "Review each section note against the source; preserve original issue attribution and avoid treating drafted as final-reviewed."
+    },
+    {
+      "id": "DRAFT-086",
+      "scope": "section_8.6_pdf_419-424",
+      "status": "open",
+      "description": "已逐页自校；外力与恢复力功的符号、机械能守恒条件、相对论质量旧式表述、转折点约去速度、表压及曲面受力、水密度近似值、习题条件与单位问题，详见56_ch08_sec06.zh-CN.md节末9条译注。",
+      "action": "统一复审时逐项核对；保持drafted与reviewed=false。"
+    },
+    {
+      "id": "DRAFT-091",
+      "scope": "section_9.1_pdf_425-428",
+      "status": "open",
+      "description": "已逐页自校；例1原书y=1与图中B=(1,-1)不符，已明确标注订正。负极径、反正切象限、原点、消元与参数范围、习题条件详见57_ch09_sec01.zh-CN.md节末7条译注。保留原书方法5、方法6编号及习题24填空。",
+      "action": "统一复审时逐项核对；保持drafted与reviewed=false。"
+    },
+    {
+      "id": "DRAFT-092",
+      "scope": "pdf_429-433",
+      "status": "open",
+      "description": "原书疑点、条件限制、历史叙述及公式问题详见translation_draft/58_ch09_sec02.zh-CN.md节末译注；已逐页自校，未统一复审。",
+      "action": "保留问题归属，复审逐项检查，不将drafted误计为reviewed。"
+    },
+    {
+      "id": "DRAFT-093",
+      "scope": "pdf_434-437",
+      "status": "open",
+      "description": "原书疑点、条件限制、历史叙述及公式问题详见translation_draft/59_ch09_sec03.zh-CN.md节末译注；已逐页自校，未统一复审。",
+      "action": "保留问题归属，复审逐项检查，不将drafted误计为reviewed。"
+    },
+    {
+      "id": "DRAFT-094",
+      "scope": "pdf_438-443",
+      "status": "open",
+      "description": "原书疑点、条件限制、历史叙述及公式问题详见translation_draft/60_ch09_sec04.zh-CN.md节末译注；已逐页自校，未统一复审。",
+      "action": "保留问题归属，复审逐项检查，不将drafted误计为reviewed。"
+    },
+    {
+      "id": "DRAFT-101",
+      "scope": "pdf_444-452",
+      "status": "open",
+      "description": "原书疑点、条件限制、历史叙述及公式问题详见translation_draft/61_ch10_sec01.zh-CN.md节末译注；已逐页自校，未统一复审。",
+      "action": "保留问题归属，复审逐项检查，不将drafted误计为reviewed。"
+    },
+    {
+      "id": "DRAFT-102",
+      "scope": "pdf_453-460",
+      "status": "open",
+      "description": "原书疑点、条件限制、历史叙述及公式问题详见translation_draft/62_ch10_sec02.zh-CN.md节末译注；已逐页自校，未统一复审。",
+      "action": "保留问题归属，复审逐项检查，不将drafted误计为reviewed。"
+    },
+    {
+      "id": "DRAFT-103",
+      "scope": "pdf_461-464",
+      "status": "open",
+      "description": "原书疑点、条件限制、历史叙述及公式问题详见translation_draft/63_ch10_sec03.zh-CN.md节末译注；已逐页自校，未统一复审。",
+      "action": "保留问题归属，复审逐项检查，不将drafted误计为reviewed。"
+    },
+    {
+      "id": "DRAFT-104",
+      "scope": "pdf_465-470",
+      "status": "open",
+      "description": "泰勒展开条件、复对数与分数幂分支及原题问题详见64_ch10_sec04.zh-CN.md节末译注。",
+      "action": "统一复审时逐项核对。"
+    },
+    {
+      "id": "DRAFT-105",
+      "scope": "pdf_471-476",
+      "status": "open",
+      "description": "比值判别法绝对值、二项式系数笔误、第32题漏符号等详见65_ch10_sec05.zh-CN.md末尾。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-111",
+      "scope": "pdf_477-488",
+      "status": "open",
+      "description": "坐标向量误标、零向量条件、医学教学模型与习题笔误详见66_ch11_sec01.zh-CN.md节末。",
+      "action": "统一复审逐项核对；医学段落需专业复核。"
+    },
+    {
+      "id": "DRAFT-112",
+      "scope": "pdf_489-498",
+      "status": "open",
+      "description": "平面及投影条件、有向长度、心电图模型和第三方图示署名详见67_ch11_sec02.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-113",
+      "scope": "pdf_499-508",
+      "status": "open",
+      "description": "叉积展开笔误、旋转角、有向面积与平面退化条件详见68_ch11_sec03.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-114",
+      "scope": "pdf_509-519",
+      "status": "open",
+      "description": "奇异系统退化条件、37题漏等号、特殊历史记号与最小二乘条件详见69_ch11_sec04.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-115",
+      "scope": "pdf_520-529",
+      "status": "open",
+      "description": "奇异与无解的区别、克拉默法则段落笔误、换行符号与图像公式详见70_ch11_sec05.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-121",
+      "scope": "pdf_530-537",
+      "status": "open",
+      "description": "最近点原书算错、积分漏常数、单位切向量条件和时间参数限制详见71_ch12_sec01.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-122",
+      "scope": "pdf_538-543",
+      "status": "open",
+      "description": "弧长平方和误印、外摆线符号疑误、引用编号与最速降线条件详见72_ch12_sec02.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-123",
+      "scope": "pdf_544-549",
+      "status": "open",
+      "description": "曲率公式表和叉积笔误、正则性、法向量方向与有符号挠率详见73_ch12_sec03.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-124",
+      "scope": "pdf_550-556",
+      "status": "open",
+      "description": "极坐标基向量符号、一般中心力缺因子、面积图缺半系数、历史状态及纽约同步轨道题详见74_ch12_sec04.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-131",
+      "scope": "pdf_557-561",
+      "status": "open",
+      "description": "等值集退化、经济例金额单位、空等值线与正象限限制详见75_ch13_sec01.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-132",
+      "scope": "pdf_562-566",
+      "status": "open",
+      "description": "混合偏导条件、极限定义去心条件、实幂定义域与热核时间条件详见76_ch13_sec02.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-133",
+      "scope": "pdf_567-577",
+      "status": "open",
+      "description": "切平面正则条件、例2系数及例9步长笔误、近似号、牛顿法收敛条件与退化题目详见77_ch13_sec03.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-134",
+      "scope": "pdf_578-585",
+      "status": "open",
+      "description": "单位向量漏根号、双锥上坡方向、弧长含义与可微条件详见78_ch13_sec04.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-135",
+      "scope": "pdf_586-593",
+      "status": "open",
+      "description": "二阶界缺绝对值、极坐标组合因子、固定变量矛盾和隐函数分支条件详见79_ch13_sec05.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-136",
+      "scope": "pdf_594-603",
+      "status": "open",
+      "description": "距离幂下标、泰勒混合偏导漏字、退化判别及习题条件问题详见80_ch13_sec06.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-137",
+      "scope": "pdf_604-610",
+      "status": "open",
+      "description": "直线系数及图中梯度笔误、乘子正则条件和不等式退化条件详见81_ch13_sec07.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-141",
+      "scope": "pdf_611-618",
+      "status": "open",
+      "description": "有向体积、原书分母笔误和广义积分/区域歧义详见82_ch14_sec01.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-142",
+      "scope": "pdf_619-627",
+      "status": "open",
+      "description": "雅可比方向和绝对值、截断公式、题27区间及题29角度笔误详见83_ch14_sec02.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-143",
+      "scope": "pdf_628-633",
+      "status": "open",
+      "description": "积分上限及椭球因子笔误、截面积与半径混淆和题25变量记号问题详见84_ch14_sec03.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-144",
+      "scope": "pdf_634-641",
+      "status": "open",
+      "description": "势与引力符号、雅可比绝对值、球壳几何论证、雷电段落及题33/39疑误详见85_ch14_sec04.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-151",
+      "scope": "pdf_642-648",
+      "status": "open",
+      "description": "局部/全局势函数、径向场条件、电势和引力符号等详见86_ch15_sec01.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-152",
+      "scope": "pdf_649-657",
+      "status": "open",
+      "description": "例题微分与端点笔误、文字重叠、定向及保守场条件详见87_ch15_sec02.zh-CN.md节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-153",
+      "scope": "pdf_658-668",
+      "status": "open",
+      "description": "格林定理的定向、单连通条件、奇点与分布解释、符号修正见88节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-154",
+      "scope": "pdf_669-678",
+      "status": "open",
+      "description": "面积元绝对值、法向定向、例2长度互换、例12多余平方及圆锥角度疑误详见89节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-155",
+      "scope": "pdf_679-685",
+      "status": "open",
+      "description": "散度定理奇点与定向、积分号和题21不等号修正、物理简化及历史表述详见90节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "DRAFT-156",
+      "scope": "pdf_686-693",
+      "status": "open",
+      "description": "斯托克斯定理的全局条件、填空缺分量、定向与投影适用条件详见91节末。",
+      "action": "统一复审逐项核对。"
+    },
+    {
+      "id": "SOURCE-016-GAP",
+      "scope": "pdf_694-696",
+      "status": "source_missing",
+      "description": "PDF694–695为第16章两页导言，PDF696直接为积分表；正文提及16.1–16.3及索引页码683–701无对应原页。未虚构或补写。",
+      "action": "当前PDF初译已完成；若未来补充该版本缺页，应作为新增来源另译。"
+    },
+    {
+      "id": "DRAFT-ENDMATTER",
+      "scope": "pdf_1-3_7-13_694-706",
+      "status": "open",
+      "description": "附表公式条件、原书疑误、索引页码问题及历史常数详见92–98各文件末尾。",
+      "action": "独立复审时核对。"
+    },
+    {
+      "id": "DRAFT-COVERAGE",
+      "scope": "whole_pdf",
+      "status": "draft_complete",
+      "description": "706页均已映射至已有中文初译文件；所有100个分稿的图片引用存在，显示公式分隔符配对，未发现控制字符。该检查不证明语义、公式或最终排版完全正确。",
+      "action": "保留drafted状态，后续独立复审。"
+    }
+  ]
+}
