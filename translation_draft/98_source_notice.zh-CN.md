@@ -12,9 +12,9 @@
 
 作者：吉尔伯特·斯特朗（Gilbert Strang）
 
-本资料未必对应 MIT 开放课程中的某一门特定课程，而是由作者作为独立学习资源提供。
+本资料未必对应 MIT 开放课程中的某一门特定课程，而是作者作为独立学习资源提供的。
 
-关于引用这些材料或使用条款的信息，请参阅 [MIT OpenCourseWare 使用条款](https://ocw.mit.edu/terms)。
+如需引用这些材料，或想了解使用条款，请参阅 [MIT OpenCourseWare 使用条款](https://ocw.mit.edu/terms)。
 
 <!-- PDF 706 / 印刷页 无 -->
 
@@ -26,9 +26,9 @@
 
 作者：吉尔伯特·斯特朗（Gilbert Strang）
 
-本资料未必对应 MIT 开放课程中的某一门特定课程，而是由作者作为独立学习资源提供。
+本资料未必对应 MIT 开放课程中的某一门特定课程，而是作者作为独立学习资源提供的。
 
-关于引用这些材料或使用条款的信息，请参阅 [MIT OpenCourseWare 使用条款](https://ocw.mit.edu/terms)。
+如需引用这些材料，或想了解使用条款，请参阅 [MIT OpenCourseWare 使用条款](https://ocw.mit.edu/terms)。
 
 ## 译注
 
