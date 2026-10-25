@@ -1,0 +1,504 @@
+{
+  "status": "provisional",
+  "language": "en-to-zh-CN",
+  "note": "Initial terminology suggestions; revise against context during translation.",
+  "terms": [
+    {
+      "en": "calculus",
+      "zh": "微积分"
+    },
+    {
+      "en": "differential calculus",
+      "zh": "微分学"
+    },
+    {
+      "en": "integral calculus",
+      "zh": "积分学"
+    },
+    {
+      "en": "function",
+      "zh": "函数"
+    },
+    {
+      "en": "derivative",
+      "zh": "导数"
+    },
+    {
+      "en": "differentiation",
+      "zh": "求导",
+      "note": "按上下文也可译为微分运算"
+    },
+    {
+      "en": "differential",
+      "zh": "微分"
+    },
+    {
+      "en": "rate of change",
+      "zh": "变化率"
+    },
+    {
+      "en": "slope",
+      "zh": "斜率"
+    },
+    {
+      "en": "tangent line",
+      "zh": "切线"
+    },
+    {
+      "en": "secant line",
+      "zh": "割线"
+    },
+    {
+      "en": "limit",
+      "zh": "极限"
+    },
+    {
+      "en": "continuity",
+      "zh": "连续性"
+    },
+    {
+      "en": "velocity",
+      "zh": "速度",
+      "note": "保留方向或带符号的含义"
+    },
+    {
+      "en": "speed",
+      "zh": "速率",
+      "note": "依上下文区别于 velocity"
+    },
+    {
+      "en": "distance",
+      "zh": "距离",
+      "note": "运动语境可为路程，核对作者是否采用带符号位置"
+    },
+    {
+      "en": "displacement",
+      "zh": "位移"
+    },
+    {
+      "en": "antiderivative",
+      "zh": "原函数"
+    },
+    {
+      "en": "indefinite integral",
+      "zh": "不定积分"
+    },
+    {
+      "en": "definite integral",
+      "zh": "定积分"
+    },
+    {
+      "en": "fundamental theorem of calculus",
+      "zh": "微积分基本定理"
+    },
+    {
+      "en": "chain rule",
+      "zh": "链式法则"
+    },
+    {
+      "en": "mean value theorem",
+      "zh": "中值定理"
+    },
+    {
+      "en": "integration by parts",
+      "zh": "分部积分法"
+    },
+    {
+      "en": "improper integral",
+      "zh": "反常积分"
+    },
+    {
+      "en": "power series",
+      "zh": "幂级数"
+    },
+    {
+      "en": "convergence",
+      "zh": "收敛"
+    },
+    {
+      "en": "partial derivative",
+      "zh": "偏导数"
+    },
+    {
+      "en": "gradient",
+      "zh": "梯度"
+    },
+    {
+      "en": "directional derivative",
+      "zh": "方向导数"
+    },
+    {
+      "en": "line integral",
+      "zh": "曲线积分"
+    },
+    {
+      "en": "surface integral",
+      "zh": "曲面积分"
+    },
+    {
+      "en": "vector field",
+      "zh": "向量场"
+    },
+    {
+      "en": "divergence",
+      "zh": "散度",
+      "note": "级数语境中译为发散"
+    },
+    {
+      "en": "curl",
+      "zh": "旋度"
+    },
+    {
+      "en": "normal vector",
+      "zh": "法向量"
+    },
+    {
+      "en": "potential function",
+      "zh": "势函数"
+    },
+    {
+      "en": "fixed point",
+      "zh": "不动点"
+    },
+    {
+      "en": "basin of attraction",
+      "zh": "吸引域"
+    },
+    {
+      "en": "cobweb",
+      "zh": "蛛网图"
+    },
+    {
+      "en": "quadratic convergence",
+      "zh": "二次收敛"
+    },
+    {
+      "en": "implicit differentiation",
+      "zh": "隐函数求导"
+    },
+    {
+      "en": "related rates",
+      "zh": "相关变化率"
+    },
+    {
+      "en": "inverse function",
+      "zh": "反函数"
+    },
+    {
+      "en": "principal value",
+      "zh": "主值"
+    },
+    {
+      "en": "Rolle's theorem",
+      "zh": "罗尔定理"
+    },
+    {
+      "en": "Cauchy mean value theorem",
+      "zh": "柯西中值定理"
+    },
+    {
+      "en": "l'Hôpital's rule",
+      "zh": "洛必达法则"
+    },
+    {
+      "en": "secant method",
+      "zh": "割线法"
+    },
+    {
+      "en": "Cantor set",
+      "zh": "康托集"
+    },
+    {
+      "en": "fractal",
+      "zh": "分形"
+    },
+    {
+      "en": "directrix",
+      "zh": "准线"
+    },
+    {
+      "en": "focus",
+      "zh": "焦点"
+    },
+    {
+      "en": "eccentricity",
+      "zh": "离心率"
+    },
+    {
+      "en": "Riemann sum",
+      "zh": "黎曼和"
+    },
+    {
+      "en": "upper sum",
+      "zh": "上和"
+    },
+    {
+      "en": "lower sum",
+      "zh": "下和"
+    },
+    {
+      "en": "uniform continuity",
+      "zh": "一致连续性"
+    },
+    {
+      "en": "signed area",
+      "zh": "带符号面积"
+    },
+    {
+      "en": "expected value",
+      "zh": "期望"
+    },
+    {
+      "en": "probability density",
+      "zh": "概率密度"
+    },
+    {
+      "en": "trapezoidal rule",
+      "zh": "梯形公式"
+    },
+    {
+      "en": "midpoint rule",
+      "zh": "中点公式"
+    },
+    {
+      "en": "Simpson rule",
+      "zh": "辛普森公式"
+    },
+    {
+      "en": "Gaussian quadrature",
+      "zh": "高斯求积"
+    },
+    {
+      "en": "aliasing",
+      "zh": "混叠"
+    },
+    {
+      "en": "force",
+      "zh": "力"
+    },
+    {
+      "en": "work",
+      "zh": "功"
+    },
+    {
+      "en": "potential energy",
+      "zh": "势能"
+    },
+    {
+      "en": "kinetic energy",
+      "zh": "动能"
+    },
+    {
+      "en": "restoring force",
+      "zh": "恢复力"
+    },
+    {
+      "en": "spring constant",
+      "zh": "弹性系数"
+    },
+    {
+      "en": "Hooke’s law",
+      "zh": "胡克定律"
+    },
+    {
+      "en": "pressure",
+      "zh": "压强"
+    },
+    {
+      "en": "hydrostatic force",
+      "zh": "静水压力"
+    },
+    {
+      "en": "weight-density",
+      "zh": "重量密度"
+    },
+    {
+      "en": "polar coordinates",
+      "zh": "极坐标"
+    },
+    {
+      "en": "rectangular coordinates",
+      "zh": "直角坐标"
+    },
+    {
+      "en": "polar angle",
+      "zh": "极角"
+    },
+    {
+      "en": "parametric equations",
+      "zh": "参数方程"
+    },
+    {
+      "en": "hypocycloid",
+      "zh": "内摆线"
+    },
+    {
+      "en": "complex number",
+      "zh": "复数"
+    },
+    {
+      "en": "geometric series",
+      "zh": "几何级数"
+    },
+    {
+      "en": "absolute convergence",
+      "zh": "绝对收敛"
+    },
+    {
+      "en": "conditional convergence",
+      "zh": "条件收敛"
+    },
+    {
+      "en": "radius of convergence",
+      "zh": "收敛半径"
+    },
+    {
+      "en": "Taylor series",
+      "zh": "泰勒级数"
+    },
+    {
+      "en": "dot product",
+      "zh": "点积"
+    },
+    {
+      "en": "cross product",
+      "zh": "叉积"
+    },
+    {
+      "en": "determinant",
+      "zh": "行列式"
+    },
+    {
+      "en": "cofactor",
+      "zh": "代数余子式"
+    },
+    {
+      "en": "matrix",
+      "zh": "矩阵"
+    },
+    {
+      "en": "inverse matrix",
+      "zh": "逆矩阵"
+    },
+    {
+      "en": "elimination",
+      "zh": "消元"
+    },
+    {
+      "en": "pivot",
+      "zh": "主元"
+    },
+    {
+      "en": "position vector",
+      "zh": "位置向量"
+    },
+    {
+      "en": "velocity vector",
+      "zh": "速度向量"
+    },
+    {
+      "en": "curvature",
+      "zh": "曲率"
+    },
+    {
+      "en": "binormal vector",
+      "zh": "副法向量"
+    },
+    {
+      "en": "torsion",
+      "zh": "挠率"
+    },
+    {
+      "en": "central force",
+      "zh": "中心力"
+    },
+    {
+      "en": "level curve",
+      "zh": "等值曲线"
+    },
+    {
+      "en": "saddle point",
+      "zh": "鞍点"
+    },
+    {
+      "en": "Lagrange multiplier",
+      "zh": "拉格朗日乘子"
+    },
+    {
+      "en": "Jacobian",
+      "zh": "雅可比行列式"
+    },
+    {
+      "en": "cylindrical coordinates",
+      "zh": "柱坐标"
+    },
+    {
+      "en": "spherical coordinates",
+      "zh": "球坐标"
+    },
+    {
+      "en": "conservative field",
+      "zh": "保守场"
+    },
+    {
+      "en": "stream function",
+      "zh": "流函数"
+    },
+    {
+      "en": "flux",
+      "zh": "通量"
+    },
+    {
+      "en": "circulation",
+      "zh": "环流"
+    },
+    {
+      "en": "Green’s Theorem",
+      "zh": "格林定理"
+    },
+    {
+      "en": "Divergence Theorem",
+      "zh": "散度定理"
+    },
+    {
+      "en": "Stokes’ Theorem",
+      "zh": "斯托克斯定理"
+    },
+    {
+      "en": "orientable",
+      "zh": "可定向"
+    },
+    {
+      "en": "simply connected",
+      "zh": "单连通"
+    },
+    {
+      "en": "source",
+      "zh": "源"
+    },
+    {
+      "en": "sink",
+      "zh": "汇"
+    },
+    {
+      "en": "Cauchy-Riemann equations",
+      "zh": "柯西–黎曼方程"
+    },
+    {
+      "en": "Laplace equation",
+      "zh": "拉普拉斯方程"
+    },
+    {
+      "en": "Fourier series",
+      "zh": "傅里叶级数"
+    },
+    {
+      "en": "fast Fourier transform",
+      "zh": "快速傅里叶变换"
+    },
+    {
+      "en": "continuity equation",
+      "zh": "连续性方程"
+    }
+  ]
+}

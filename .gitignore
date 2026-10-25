@@ -1,0 +1,18 @@
+# Local build intermediates and historical snapshots
+/tmp/
+/archives/
+/translation_prep/page_images/
+/translation_prep/source_text/
+/translation_prep/tools/
+/translation_prep/*.png
+/translation_prep/environment.json
+/translation_prep/page_manifest.json
+/translation_prep/final_delivery.json
+/translation_prep/run.ps1
+/translation_prep/README.md
+/translation_prep/暂停续接.md
+/deliveries/**/translation_draft/
+/deliveries/**/translation_prep/
+/deliveries/**/交付说明.md
+/deliveries/**/完整性检查.json
+**/__pycache__/
