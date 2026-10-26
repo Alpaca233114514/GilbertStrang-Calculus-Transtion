@@ -300,6 +300,48 @@
       "status": "draft_complete",
       "description": "706页均已映射至已有中文初译文件；所有100个分稿的图片引用存在，显示公式分隔符配对，未发现控制字符。该检查不证明语义、公式或最终排版完全正确。",
       "action": "保留drafted状态，后续独立复审。"
+    },
+    {
+      "id": "DRAFT-157",
+      "scope": "section_4.2_pdf_225",
+      "status": "open",
+      "description": "例6题干公式作 $dx/dt=3,dy/dt$，对照原书应为 $dx/dt=3dy/dt$；润色轮不得改公式，未动。",
+      "action": "复审时对照原页修订公式，并在该节译注中说明。"
+    },
+    {
+      "id": "DRAFT-158",
+      "scope": "section_4.3_pdf_229-234",
+      "status": "open",
+      "description": "正文把 $z=\\sin3t$ 称作「位置」，原书为 distance。位置与路程的术语区分需定夺；润色轮按术语不动处理。",
+      "action": "复审时对照原页确定 distance 的译法，并统一全节。"
+    },
+    {
+      "id": "DRAFT-159",
+      "scope": "section_4.1_pdf_217-223",
+      "status": "open",
+      "description": "正文称「波峰的左右位置和间距都会变」，原书只说 moves the peaks left and right，「间距」疑为初译附加，待核。",
+      "action": "复审时对照原页，确认是否删除「间距」。"
+    },
+    {
+      "id": "DRAFT-160",
+      "scope": "section_4.4_pdf_236-241",
+      "status": "open",
+      "description": "初译略去原书两处句子：p237「这些导数符号相反……图像向下」与 p240「躲不开这份清单，但它可以不必痛苦」；润色轮按不补译处理，未补。",
+      "action": "复审时决定是否补译，并核对与正文推导的衔接。"
+    },
+    {
+      "id": "DRAFT-161",
+      "scope": "section_5.4_pdf_262-266",
+      "status": "open",
+      "description": "正文「但并不是每个原函数都能写成初等表达式」，原书为 most will remain impossible forever；初译量词弱于原文，润色轮按量词不动处理，未改。",
+      "action": "复审时定夺是否改成「大多数」。"
+    },
+    {
+      "id": "DRAFT-162",
+      "scope": "section_5.8_pdf_288-294",
+      "status": "open",
+      "description": "正文「适用于一个完整周期」，原书为 applies over an exact period，exact 未体现。",
+      "action": "复审时确认是否补出「恰好一个完整周期」。"
     }
   ]
 }
