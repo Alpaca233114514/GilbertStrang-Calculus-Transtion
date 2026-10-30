@@ -33,10 +33,20 @@ for (const name of fs.readdirSync(source).filter(n=>n.endsWith('.zh-CN.md')).sor
 }
 const css = `@page{size:A4;margin:19mm 17mm 19mm}*{box-sizing:border-box}body{font-family:'Microsoft YaHei','SimSun',serif;font-size:10.5pt;line-height:1.75;color:#18212b;margin:0}h1{font-size:23pt;line-height:1.4;color:#14374a;margin:0 0 18pt}h2{font-size:16pt;line-height:1.4;color:#14374a;margin:20pt 0 10pt}h3{font-size:12pt;margin:15pt 0 8pt}h4{font-size:11pt;margin:12pt 0 7pt}h1,h2,h3,h4{break-after:avoid}p{margin:7pt 0;orphans:3;widows:3}figure{margin:10pt 0;break-inside:avoid}img{display:block;max-width:100%;max-height:190mm;width:auto;height:auto;margin:0 auto}figcaption{font-size:9pt;line-height:1.6;text-align:center;margin-top:5pt}table{border-collapse:collapse;max-width:100%;width:100%;font-size:9pt;table-layout:auto;margin:10pt 0}th,td{border:0.5pt solid #b6c2c9;padding:5pt 6pt;overflow-wrap:anywhere}th{background:#edf2f4;text-align:left}tr{break-inside:avoid}thead{display:table-header-group}blockquote{margin:12pt 0;padding:8pt 12pt;border-left:3pt solid #37667c;background:#f3f6f7}ul,ol{padding-left:24pt}ol>li::marker{content:counter(list-item) ') '}li{margin:4pt 0;orphans:2;widows:2}a{color:inherit;text-decoration:none}code,pre{font-family:Consolas,'Microsoft YaHei';font-size:9pt;white-space:pre-wrap;overflow-wrap:anywhere}hr{border:0;border-top:0.5pt solid #d5dde1;margin:16pt 0}.katex{font-size:1.04em}.katex-display{margin:10pt 0;break-inside:avoid;text-align:center}.mathblock{max-width:100%;break-inside:avoid;overflow:visible}.cover{height:245mm;display:flex;flex-direction:column;justify-content:center;text-align:center}.cover p{font-size:16pt;line-height:2.5}.katex .mord.text{font-family:'Microsoft YaHei',serif}.footnotes{font-size:9pt;border-top:.5pt solid #b6c2c9;margin-top:18pt;padding-top:6pt}.footnote-ref{font-size:75%;vertical-align:super}`;
 const errors = [];
+function sectionMarkdown(section) {
+  const md=clean(section.md), match=section.file?.match(/ch(\d+)_sec(\d+)/);
+  if(!match)return md;
+  const key=Number(match[1])+'.'+Number(match[2]);
+  const heading=md.match(new RegExp('^(#{1,6})[ \\t]+'+key.replace('.', '\\.')+'(?![\\d.])[^\\n]*','m'));
+  if(!heading)throw new Error('Missing section heading: '+section.name);
+  const shift=2-heading[1].length;
+  // Chapters are H1, sections H2; preserve relative sublevels. / 统一章、节层级，保留内部标题的相对层级。
+  return md.slice(0,heading.index)+md.slice(heading.index).replace(/^(#{1,6})([ \t]+)/gm,(_,hashes,gap)=>'#'.repeat(Math.min(6,Math.max(2,hashes.length+shift)))+gap);
+}
 function exportManuscript() {
   const directory=path.join(root,'output/markdown');
   fs.mkdirSync(directory,{recursive:true});
-  const manuscript=sections.map(section=>clean(section.md).trim().replace(/(!\[[^\]]*\]\()figures\//g,'$1../../translation_draft/figures/')).join('\n\n')+'\n';
+  const manuscript=sections.map(section=>sectionMarkdown(section).trim().replace(/(!\[[^\]]*\]\()figures\//g,'$1../../translation_draft/figures/')).join('\n\n')+'\n';
   fs.writeFileSync(path.join(directory,'GilbertStrang-Calculus.md'),manuscript);
 }
 async function main() {
@@ -48,7 +58,7 @@ async function main() {
   for (let index=0; index<sections.length; index++) {
     const section = sections[index];
     if (selected && section.name !== selected) continue;
-    let md = clean(section.md), math = [], footnotes = [];
+    let md = sectionMarkdown(section), math = [], footnotes = [];
     if (/^#{1,6}\s*译注|^>\s*译注[：:]/m.test(md)) throw new Error('Unreviewed translator note: '+section.name);
     md = md.replace(/^\[\^([^\]]+)\]:\s*(.*(?:\n(?: {2,}|\t).*)*)/gm, (_,id,body)=>{footnotes.push({id,body});return '';});
     const render = (tex, display) => {
@@ -86,6 +96,14 @@ async function main() {
     await page.goto(pathToFileURL(htmlFile).href,{waitUntil:'load'});
     await page.evaluate(()=>document.fonts.ready);
     const layout = await page.evaluate(({index,toc})=>{
+      // Keep list labels out of Scholar's section numbering. / 单层编号避免干扰阅读器识别章节。
+      const textNodes=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+      let node, normalizedLabels=0;
+      while((node=textNodes.nextNode())) {
+        if(node.parentElement.closest('.katex,code,pre'))continue;
+        const label=node.textContent.match(/^(\s*\d+)\.(?=\s|$)/);
+        if(label){node.textContent=node.textContent.replace(/^(\s*\d+)\.(?=\s|$)/,'$1)');normalizedLabels++;}
+      }
       // Keep the original caption with its image. / 原图注与图片共同分页。
       for(const figure of document.querySelectorAll('figure')) {
         if(figure.querySelector('figcaption'))continue;
@@ -120,7 +138,7 @@ async function main() {
       }
       const badImages=[...document.images].filter(img=>!img.complete||!img.naturalWidth).map(img=>img.src);
       const overflow=[...document.querySelectorAll('table,.mathblock,figure,p,pre')].filter(el=>el.scrollWidth>el.clientWidth+3).map(el=>({tag:el.tagName,text:el.textContent.slice(0,80),width:el.scrollWidth,available:el.clientWidth}));
-      return {headings,scaled,badImages,overflow};
+      return {headings,scaled,badImages,overflow,normalizedLabels};
     },{index,toc:section.toc||false});
     if(layout.badImages.length)throw new Error('Missing images: '+JSON.stringify(layout.badImages));
     const pdf = path.join(work,String(index).padStart(3,'0')+'.pdf');
