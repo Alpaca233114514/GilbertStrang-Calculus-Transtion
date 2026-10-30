@@ -1,6 +1,6 @@
 # 公式速查表（书前）
 
-> 来源：原书 PDF 第 12–13 页，无印刷页码。状态：中文初译，未独立复审。公式依原页分组；省略的适用条件与发现的疑误见末尾译注。不定积分均应补任意常数 $C$。
+> 来源：原书 PDF 第12–13页。2026-10-29 已逐式核对两页高清原图；PDF 重建与排版检查待完成。
 
 <!-- PDF 12 / 印刷页 无 -->
 
@@ -28,15 +28,13 @@ $$
 
 ## 极限与连续性
 
-当 $x\to0$ 时：
-
 $$
 \frac{\sin x}{x}\to1,\qquad\frac{1-\cos x}{x}\to0,\qquad\frac{1-\cos x}{x^2}\to\frac12.
 $$
 
-- $a_n\to0$：对任意 $\varepsilon>0$，存在 $N$，使所有 $n>N$ 满足 $|a_n|<\varepsilon$。
-- $a_n\to L$：对任意 $\varepsilon>0$，存在 $N$，使所有 $n>N$ 满足 $|a_n-L|<\varepsilon$。
-- $f(x)\to L$（$x\to a$）：对任意 $\varepsilon>0$，存在 $\delta>0$，使 $0<|x-a|<\delta$ 时 $|f(x)-L|<\varepsilon$。
+- $a_n\to0$：所有 $n>N$ 都有 $|a_n|<\varepsilon$。
+- $a_n\to L$：所有 $n>N$ 都有 $|a_n-L|<\varepsilon$。
+- $f(x)\to L$：$0<|x-a|<\delta$ 时有 $|f(x)-L|<\varepsilon$。
 - $f(x)\to f(a)$：当极限 $L=f(a)$ 时，函数在 $a$ 连续。
 - $\displaystyle\frac{f(x)-f(a)}{x-a}\to f'(a)$：$a$ 处导数。
 - $\displaystyle\frac{f(x)-f(a)}{x-a}=f'(c)$：中值定理。
@@ -46,15 +44,15 @@ $$
 
 ## 极大值与极小值
 
-候选位置：$f'(x)=0$、导数不存在处，或端点。
+临界点：$f'(x)=0$、导数不存在处，或端点。
 
 - 极小值判据：$f'(x)=0$ 且 $f''(x)>0$。
 - 极大值判据：$f'(x)=0$ 且 $f''(x)<0$。
-- 拐点候选条件：$f''(x)=0$，还需检查凹凸性改变。
+- 拐点：$f''(x)=0$。
 - 牛顿法：$\displaystyle x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$。
-- 迭代 $x_{n+1}=F(x_n)$：若不动点 $x^*=F(x^*)$ 满足 $|F'(x^*)|<1$，在适当邻域内具有吸引性。
+- 迭代 $x_{n+1}=F(x_n)$：若不动点 $x^*=F(x^*)$ 满足 $|F'(x^*)|<1$，迭代趋向这个不动点。
 
-二维驻点：$f_x=f_y=0$。在驻点处，
+二维驻点：$\partial f/\partial x=0$，$\partial f/\partial y=0$。
 
 $$
 \begin{array}{ll}
@@ -103,7 +101,7 @@ $$
 \frac{cx+d}{(x-a)(x-b)}=\frac A{x-a}+\frac B{x-b}.
 $$
 
-常见错误——下列并非一般成立的恒等式：
+错误：
 
 $$
 \frac a{b+c}\ne\frac ab+\frac ac,\qquad\sqrt{x^2+a^2}\ne x+a.
@@ -126,7 +124,7 @@ $$
 ## 圆、直线与平面
 
 $$
-x=r\cos\omega t,\qquad y=r\sin\omega t,\qquad\text{速率 }|\omega|r.
+x=r\cos\omega t,\qquad y=r\sin\omega t,\qquad\text{速率 }\omega r.
 $$
 
 直线：$y=mx+b$，或 $y-y_0=m(x-x_0)$。
@@ -145,7 +143,7 @@ $$
 
 $$
 \mathbf p=\frac{\mathbf b\cdot\mathbf a}{\mathbf a\cdot\mathbf a}\mathbf a,
-\qquad |\mathbf p|=|\mathbf b|\,|\cos\theta|.
+\qquad |\mathbf p|=|\mathbf b|\cos\theta.
 $$
 
 <!-- PDF 13 / 印刷页 无 -->
@@ -220,7 +218,7 @@ $$
 \int\cos(px)\cos(qx)\,dx=\frac{\sin((p-q)x)}{2(p-q)}+\frac{\sin((p+q)x)}{2(p+q)},
 $$
 $$
-\int\sin(px)\cos(qx)\,dx=-\frac{\cos((p-q)x)}{2(p-q)}-\frac{\cos((p+q)x)}{2(p+q)}.
+\int\sin(px)\cos(qx)\,dx=-\frac{\cos((p-q)x)}{2(p-q)}-\frac{\cos(p+q)}{2(p+q)}.
 $$
 
 ## 分部积分
@@ -274,7 +272,7 @@ $$
 $$
 $$
 \int\frac{dx}{\sqrt{ax^2+bx+c}}
-=\frac1{\sqrt a}\ln|2ax+b+2\sqrt a\sqrt{ax^2+bx+c}|\quad(a>0),
+=\frac1{\sqrt a}\ln|2ax+b+2\sqrt a\sqrt{ax^2+bx+c}|,
 $$
 $$
 \int\frac{dx}{\sqrt{ax^2+bx+c}}
@@ -297,17 +295,7 @@ $$
 $$
 \int_0^{\pi/2}\sin^nx\,dx=\int_0^{\pi/2}\cos^nx\,dx=
 \begin{cases}
-\dfrac12\dfrac34\cdots\dfrac{n-1}{n}\dfrac\pi2,&n\text{ 为正偶数},\\[6pt]
+\dfrac12\dfrac34\cdots\dfrac{n-1}{n}\dfrac\pi2,&n\text{ 为偶数},\\[6pt]
 \dfrac23\dfrac45\cdots\dfrac{n-1}{n},&n>1\text{ 为奇数}.
 \end{cases}
 $$
-
-## 译注与待复审事项
-
-- 本表为速查，不替代正文定理条件。极限定义的“任意 $\varepsilon$、存在 $N$ 或 $\delta$”在原表中省略，译文为避免误读补全量词。洛必达、中值定理、基本定理与二阶判别均须满足正文假设。
-- 原表把 $f''(x)=0$ 直接列为拐点，已明确为候选条件；它不是充分条件，二阶导数不存在的点也可能为拐点。原圆周速率 $\omega r$ 与投影长度 $|\mathbf b|\cos\theta$ 在一般情形需绝对值，已补。
-- 相位公式使用 $\arctan(b/a)$ 时隐含正确象限；一般应选 $\alpha$ 满足 $\cos\alpha=a/\sqrt{a^2+b^2},\sin\alpha=b/\sqrt{a^2+b^2}$，不能对 $a<0$ 无条件取反正切主值。
-- 原表最后一个三角积的原函数第二项漏写自变量 $x$，已补为 $\cos((p+q)x)$。$p=\pm q$ 时需另算或取极限。各递推式分母为零的情形不适用。
-- 实数积分中常取 $a>0$；$\operatorname{artanh}(x/a)$ 的实分支要求 $|x|<a$。含 $\arccos(a/x)$ 的公式按原式保留，取 $x>a>0$；负半轴须调整分支。二次根式积分须根号内为正；$a<0$ 的反正弦式还要求 $D>0$。
-- 阶乘形式取非负整数 $m,n$；高斯积分取 $a>0$。黎曼和默认 $b=N\Delta x$ 的等分，空间直线对称式默认相应 $v_i\ne0$，分量为零时应单列常坐标。
-- 初译逐式对照原页，尚未对全部公式进行独立符号验证或最终版式校验。

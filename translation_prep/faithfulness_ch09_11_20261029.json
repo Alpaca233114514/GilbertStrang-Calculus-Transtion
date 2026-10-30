@@ -1,0 +1,387 @@
+{
+  "date": "2026-10-29",
+  "scope": "Chapters 9–11",
+  "source": "mitres_18_001_f17_full_book.pdf",
+  "method": "承接旧子代理逐节全文逐段审查；新代理只读核实旧会话逐节读取、105个原页imageView、逐节编辑及全文完成汇报，并复查未完成尾项和重要差异。不是只按文件已修改推定完成。",
+  "handoff": {
+    "prior_thread": "01a185a4-fb7e-7520-8d4c-e01450d7d8b4",
+    "prior_status": "interrupted_during_final_diff_review_before_record_written",
+    "prior_visual_pages": [
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529
+    ],
+    "verified_evidence": "旧会话每页425–529均有imageView；14节均有译文/英文全文读取和逐节写入命令；先汇报9、10及11.1–11.3完成，后汇报14节全文/习题/图注全量核对完成。",
+    "current_extra_visual_pages": [
+      426,
+      434,
+      461,
+      468,
+      487,
+      501,
+      523
+    ],
+    "current_extra_visual_details": [
+      "PDF529第39题288dpi原页裁图实际查看，现有原题裁图保留，不猜写数字。",
+      "PDF487题30末项与题42平方位置已看原页，确认保留原式；式7原始取子式与符号矩阵完整存在裁图中，没有漏掉原式。"
+    ],
+    "current_action": "核实承接范围、关键原式和未收尾事项，生成逐节独立记录。"
+  },
+  "pdf_rebuilt": false,
+  "sections": [
+    {
+      "file": "translation_draft/57_ch09_sec01.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "425–428",
+      "printed_pages": "412–415",
+      "changes": [
+        "恢复例1原写y=1，撤去据图改为y=-1及译注。",
+        "图9.1、9.2恢复原图注，去除额外图解；习题32图片保留，删除补写图说。",
+        "移除全部7条译注，不把非零分母、负极径、退化和轨迹条件塞回正文。"
+      ],
+      "disputes": [
+        "PDF426例1原文y=1与图B=(1,-1)及tanθ=-1矛盾，忠实保留。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/58_ch09_sec02.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "429–433",
+      "printed_pages": "416–420",
+      "changes": [
+        "恢复图9.3红色原图注，不另写灰度说明；删除额外图解。",
+        "删除双曲线负极径绝对值译注及全部6条节末补充，保留原准线推导、天文与水星引文。"
+      ],
+      "disputes": [
+        "9A和准线推导未补负极径绝对值或e>0等条件；水星历史叙述不按当代资料改写。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/59_ch09_sec03.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "434–437",
+      "printed_pages": "421–424",
+      "changes": [
+        "例1恢复从θ到π积分原句；删除擅自改下限为0及译注。",
+        "图9.7原页无说明图注，恢复只有图号；贝壳面积原式保留，撤去译注。",
+        "习题7–12、14、15撤掉额外指定区域字样；移除全部7条节末补充。"
+      ],
+      "disputes": [
+        "PDF434从θ到π原句疑误，原式保留。",
+        "贝壳面积积分未写|cosθ|，未代作者修订；重复编号照录。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/60_ch09_sec04.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "438–443",
+      "printed_pages": "425–430",
+      "changes": [
+        "恢复-4平方根和1立方根原断言语气；删去非负极径及图9.8额外解释。",
+        "恢复作者“我不认为能找出来”，撤掉新增“轻易”；移除全部6条译注。"
+      ],
+      "disputes": [
+        "多项式根重数、除法非零和复解共轭条件原文未写，不补。",
+        "原框文9B重复编号保留。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/61_ch10_sec01.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "444–452",
+      "printed_pages": "431–439",
+      "changes": [
+        "含章引言全文；发散/振荡级数恢复作者其和为/应为语气，撤去形式上限定。",
+        "补回匹配各阶导数后作者“于是几何级数就与函数匹配”结论。",
+        "撤去主值角、图外长除法说明和全部8条节末译注。"
+      ],
+      "disputes": [
+        "原1/0=∞、振荡级数应有和1/2及导数匹配断言照录。",
+        "圆周率已知位数等历史现在时照录，未更新纪录。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/62_ch10_sec02.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "453–460",
+      "printed_pages": "440–447",
+      "changes": [
+        "恢复就会收敛、最重要的问题、决定和主要部分等原断言；恢复例2主语。",
+        "恢复调和级数比ln(n+1)发散略快及列表1+1+⋯。",
+        "极限比较恢复正极限L，撤去新增有限；黎曼猜想解释和全部7条译注移除。"
+      ],
+      "disputes": [
+        "黎曼猜想段省略解析延拓/非平凡零点，按原书保留。",
+        "极限比较及sin(7/n^p)例子的条件未由译者补全。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/63_ch10_sec03.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "461–464",
+      "printed_pages": "448–451",
+      "changes": [
+        "恢复原几何级数和1/3，不代改2/3。",
+        "10H和阅读填空恢复至少条件收敛原语气；证明严格不等号及递增/递减照原书。",
+        "题1–12撤掉新增或发散选项；图10.3删额外解释及全部7条译注。"
+      ],
+      "disputes": [
+        "PDF461几何级数首项1、公比-1/2却写和1/3，原错保留。",
+        "10H至少条件收敛及原题二选一虽有问题仍保留；例5Probably推测语气保留。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/64_ch10_sec04.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "465–470",
+      "printed_pages": "452–457",
+      "changes": [
+        "图10.5恢复原图仅图号，删除图外说明；图10.4删额外标记解释。",
+        "恢复-1的四次方根及任何复数e^ix原话，撤去数学化订正。",
+        "移除全部5条译注，作者监狱学生经历与原证明保留。"
+      ],
+      "disputes": [
+        "PDF468原写Any complex number is e^ix=…，保留不准确原话。",
+        "log(-1)和分数次幂未补分支，10L等式未补解析/余项条件。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/65_ch10_sec05.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "471–476",
+      "printed_pages": "458–463",
+      "changes": [
+        "恢复函数光滑时收敛最好；撤去通常限定。",
+        "图10.6保留原图注，去额外左右图解释；二项式p范围按原文。",
+        "恢复组合数p!/[n!(n-p)!]及包括f(0)=0原话；移除全部8条译注。"
+      ],
+      "disputes": [
+        "PDF474原组合数分母(n-p)!疑误，原式保留。",
+        "比值判别原省略绝对值、题32原1/sqrt(1+4x)符号问题保留。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/66_ch11_sec01.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "477–488",
+      "printed_pages": "464–475",
+      "changes": [
+        "含章引言全文；恢复作者心脏病等号并列与原第一人称，删医疗编者隔离说明。",
+        "恢复原三维k=(0,1,0)^T、题30(A·k²)及题42(|A|+|B|²)。",
+        "恢复“两个向量不相乘”原回答；删额外图解和全部7条译注。"
+      ],
+      "disputes": [
+        "PDF482原三维k坐标误排，图11.7则为正确坐标，分别保留。",
+        "PDF487题30末项及题42平方位置原错保留；题16差角/和角疑点不代改。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/67_ch11_sec02.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "489–498",
+      "printed_pages": "476–485",
+      "changes": [
+        "图11.11按原图注补回沿A投影，删额外词汇图解。",
+        "长度、分量、投影恢复原话，撤去有向/标量等译者改写；数学家会采用恢复肯定语气。",
+        "保留图A第三方版权署名及原作者心电图内容；移除全部7条译注。",
+        "PR2已验证顺风/侧风风速修正保留，未机械撤销。"
+      ],
+      "disputes": [
+        "原长度可为负、面积未加有向、线面角未加绝对值等按原话。",
+        "心电图是原书教学叙述，未扩充当代医疗判断。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/68_ch11_sec03.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "499–508",
+      "printed_pages": "486–495",
+      "changes": [
+        "恢复叉积仅三维、点积偏爱平行、夹角为零、只有一个非零分量等作者原话。",
+        "恢复旋转证明原带缺漏竖线的句子、九项展开a1b2首项。",
+        "删额外sqrt3/2计算结论、一般取绝对值与译者图解；移除全部7条译注。"
+      ],
+      "disputes": [
+        "PDF501旋转前后角度仍同写θ且竖线缺漏，按原式。",
+        "PDF501九项展开首项a1b2应疑为a1b1，但未纠正；面积/体积未补绝对值。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/69_ch11_sec04.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "509–519",
+      "printed_pages": "496–506",
+      "changes": [
+        "补回左边主语及原四个系数1,0.05,1,0.10。",
+        "恢复平行原语句、一列为另一列倍数；撤去线性相关/重合/竖直误差等译者改写。",
+        "题37撤去原缺失的=0补写；阅读填空撤掉相应维度和当且仅当。",
+        "删额外图内词汇解释及全部5条译注，保留道奇森原记号裁图。"
+      ],
+      "disputes": [
+        "11I行列式为零表述未补退化例外。",
+        "PDF519题37第一式缺=0，原样保留；正规方程等原文未补秩条件。"
+      ],
+      "pdf_rebuilt": false
+    },
+    {
+      "file": "translation_draft/70_ch11_sec05.zh-CN.md",
+      "status": "complete",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "pdf_pages": "520–529",
+      "printed_pages": "507–516",
+      "changes": [
+        "恢复我们突出显示原第一人称；图11.20–22删额外词汇图解。",
+        "恢复克拉默段A^-1u原式及阅读填空小写(c)原标记。",
+        "式7原取子式及符号矩阵完整保留在裁图中，去重排时额外复制的符号矩阵。",
+        "移除全部7条译注；题33作者主元换行注完整保留；题39原题裁图保留并补做高清源图查看。"
+      ],
+      "disputes": [
+        "PDF524克拉默段A^-1u疑为A^-1d，忠实保留。",
+        "PDF527原由D=0直接说无共同交点，未补相容性解释。",
+        "题31(b)总说明不完全适用、题34未写换行符号规则、小写(c)均照原书。"
+      ],
+      "pdf_rebuilt": false
+    }
+  ]
+}

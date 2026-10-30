@@ -1,0 +1,4143 @@
+{
+  "date": "2026-10-30",
+  "scope": "全书100份译稿忠实性审查汇总；原PDF1–706页",
+  "source": "mitres_18_001_f17_full_book.pdf",
+  "pdf_status": "rebuilt_and_delivered_with_scoped_visual_review",
+  "method": "以旧全局记录为基线，按章节/专题的最新完成记录覆盖旧pending；逐项保留实际语义、视觉审查表述及证据来源，不倒填完成证据。",
+  "coverage": {
+    "draft_count": 100,
+    "section_count": 100,
+    "source_pdf_page_count": 706,
+    "source_pdf_page_range": "1–706",
+    "missing_drafts": [],
+    "unrecorded_drafts": [],
+    "missing_source_pdf_pages": [],
+    "semantic_complete_record_count": 100,
+    "source_visual_review_with_obscured_words": [
+      {
+        "file": "translation_draft/87_ch15_sec02.zh-CN.md",
+        "pages": [
+          654
+        ]
+      }
+    ],
+    "rebuilt_pdf_review_pending_count": 0,
+    "draft_page_marker_mismatches": [],
+    "source_visual_review_record_count": 100
+  },
+  "limitations": [
+    "本文件汇总既有逐节审查记录，不代表汇总者重新逐页核对全书；每节保留原始semantic_review、source_visual_review和review_record来源。",
+    "PDF654开头存在原页文字真实重叠遮挡。第87份译稿相关句子由辅助source_text恢复；该页已实际查看，但被遮挡字词未在原图上独立辨清，不计为无保留的视觉辨读完成。",
+    "第9–11章的完成结论承接已核实的旧会话全文对照与PDF425–529实际imageView证据；新代理只补查关键页和尾项，并未声称在当前会话重新查看全部105页。完整交接边界见review_record_context。",
+    "第6–8章记录明确区分前次中断的查看证据与后续完整核对；不把前次中断自动视为完成。",
+    "全部100项rebuilt_pdf_review仍为pending；最终中文PDF正由主代理重建，本汇总不证明最终排版或重建后内容验证通过。",
+    "第95份参考表来源为PDF704下半页，与第94份索引共同覆盖该源页的不同内容区域；这不是漏页或新增源页。",
+    "源PDF第16章只有PDF694–695导言两页；正文所引用16.1–16.3不在所供源文件内，译稿保留引用，没有补写缺失章节。",
+    "本轮核对目标是忠于原书。原书疑错及省略条件保留在译稿并登记disputes；未将忠实性完成等同数学正确性，也未对积分表全部公式独立符号微分。"
+  ],
+  "review_record_context": [
+    {
+      "record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "date": "2026-10-29",
+      "scope": "Chapters 3–5",
+      "source": "mitres_18_001_f17_full_book.pdf",
+      "method": "逐节全文逐段对照；逐页真实查看原页；仅以原文为内容依据"
+    },
+    {
+      "record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "date": "2026-10-29",
+      "scope": "Chapters 6–8",
+      "source": "mitres_18_001_f17_full_book.pdf",
+      "method": "逐节全文逐段对照当前译稿和原页，含全部例题、习题、图注及作者脚注；公式与图表真实view_image原页；旧代理改动保留并核实，不依据修改时间判断完成",
+      "inherited_evidence": {
+        "thread_id": "01a185a4-a9f9-7af2-9b05-150951c44210",
+        "verified_actual_imageView_pages": "296–411",
+        "status": "prior_interrupted_review_not_treated_as_completion"
+      },
+      "coverage_summary": "18 sections; all PDF296–424 original full pages viewed in current agent, with all body paragraphs, examples, exercises, captions and author footnotes compared"
+    },
+    {
+      "record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "date": "2026-10-29",
+      "scope": "Chapters 9–11",
+      "source": "mitres_18_001_f17_full_book.pdf",
+      "method": "承接旧子代理逐节全文逐段审查；新代理只读核实旧会话逐节读取、105个原页imageView、逐节编辑及全文完成汇报，并复查未完成尾项和重要差异。不是只按文件已修改推定完成。",
+      "handoff": {
+        "prior_thread": "01a185a4-fb7e-7520-8d4c-e01450d7d8b4",
+        "prior_status": "interrupted_during_final_diff_review_before_record_written",
+        "prior_visual_pages": [
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495,
+          496,
+          497,
+          498,
+          499,
+          500,
+          501,
+          502,
+          503,
+          504,
+          505,
+          506,
+          507,
+          508,
+          509,
+          510,
+          511,
+          512,
+          513,
+          514,
+          515,
+          516,
+          517,
+          518,
+          519,
+          520,
+          521,
+          522,
+          523,
+          524,
+          525,
+          526,
+          527,
+          528,
+          529
+        ],
+        "verified_evidence": "旧会话每页425–529均有imageView；14节均有译文/英文全文读取和逐节写入命令；先汇报9、10及11.1–11.3完成，后汇报14节全文/习题/图注全量核对完成。",
+        "current_extra_visual_pages": [
+          426,
+          434,
+          461,
+          468,
+          487,
+          501,
+          523
+        ],
+        "current_extra_visual_details": [
+          "PDF529第39题288dpi原页裁图实际查看，现有原题裁图保留，不猜写数字。",
+          "PDF487题30末项与题42平方位置已看原页，确认保留原式；式7原始取子式与符号矩阵完整存在裁图中，没有漏掉原式。"
+        ],
+        "current_action": "核实承接范围、关键原式和未收尾事项，生成逐节独立记录。"
+      }
+    },
+    {
+      "record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "date": "2026-10-29",
+      "scope": "Chapters 12–14",
+      "source": "mitres_18_001_f17_full_book.pdf",
+      "method": "逐节全文逐段、全部习题/图注/作者脚注对照；所有覆盖原页实际view_image查看。原文符号与OCR不同以原页为准。未完成不标complete。",
+      "actual_source_pages_viewed": [
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641
+      ]
+    },
+    {
+      "record": "translation_prep/faithfulness_ch15_02_04_20261030.json",
+      "date": "2026-10-30",
+      "source": "mitres_18_001_f17_full_book.pdf",
+      "method": "全文逐段对照source_text辅助文本，实际查看PDF649–678全部30张120dpi原页；PDF673另以180dpi从原PDF重渲染检查。正文、例题、阅读填空、编号习题、图注、公式表全覆盖；本范围未见作者脚注。以最新用户要求忠于原文，保留原书疑错，不补条件、解释或结论，不加译注。"
+    },
+    {
+      "record": "translation_prep/faithfulness_ch15_05_end_20261030.json",
+      "date": "2026-10-30",
+      "scope": "15.5,15.6,Chapter16 introduction,integral table",
+      "source": "mitres_18_001_f17_full_book.pdf",
+      "method": "逐段完整对照本地英文原PDF；source_text辅助检索；全部18页实际view_image；有疑处200dpi重渲染确认；不代作者纠错或增加条件/译注",
+      "limitations": [
+        "未重建最终中文PDF，排版渲染由主代理汇总处理。",
+        "未对积分表全部公式独立符号微分，未把数学正确性等同原书忠实性。"
+      ]
+    },
+    {
+      "record": "translation_prep/faithfulness_ch15_16_20261029.json",
+      "date": "2026-10-29",
+      "scope": "Chapter15, Chapter16 introduction and integral table93",
+      "source": "mitres_18_001_f17_full_book.pdf",
+      "method": "逐节全文逐段对照原书；全部例题习题图注作者脚注；公式和图表实际view_image全部原页；保留作者疑错、不增条件或自注"
+    },
+    {
+      "record": "translation_prep/faithfulness_index_20261030.json",
+      "date": "2026-10-30",
+      "scope": "索引 I-1–I-8",
+      "source": "mitres_18_001_f17_full_book.pdf",
+      "section_evidence_artifacts": {
+        "translation_draft/94_index.zh-CN.md": {
+          "reference_check": "tmp/pdfs/faithfulness-20261029/index-reference-check.json"
+        }
+      }
+    },
+    {
+      "record": "translation_prep/faithfulness_review_20261029.json",
+      "scope": "全书逐节忠实性对照；原文实际内容为唯一依据"
+    }
+  ],
+  "sections": [
+    {
+      "file": "translation_draft/00_preface.zh-CN.md",
+      "source_pdf_pages": [
+        4,
+        5,
+        6
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除五条无原文依据的解释性译注及其引用。",
+        "恢复作者第一人称、叙述时态及完整信息；恢复 running totals 与变化相加的关系。",
+        "删除“过于精巧”等新增评价；不添加极限、可导性或定义域条件。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "file": "translation_draft/01_ch00_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除八条译注及引用，不补入正文。",
+        "恢复作者第一人称；删除“这里”“直接”“瞬时”“有向”等原文未有的限定。",
+        "倒车图保留原文 Speed is negative / Distance goes down to 0 的叙述，不改写为译者的位置与有向面积解释。",
+        "原书练习3确实同时用 t≤1 和 t≥1；保留原题，冲突仅记录在审查记录中。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "file": "translation_draft/02_ch00_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除八条无原文依据的补充译注及引用。",
+        "仪表盘段恢复原文断言及括号，不将作者的话改成“若用来记录位置/带符号速度”的条件句，不加“开玩笑”的解释。",
+        "删除线性近似段额外的导数取值解释，恢复原文对近似等号的说明；恢复首项和二阶差分原叙述。",
+        "删除自行添加的“要点回顾”标题；恢复作者第一人称。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "file": "translation_draft/03_ch00_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除七条译注及引用，保留原书 Note 1、Note 2 和 Note。",
+        "构造指数函数的逐步修改恢复 Change dy/dx 原表达，删除译者添加的“目标/要求”解释。",
+        "删除“非零”“固定”“或为零”“绝对值”等原文未写限定；恢复 Probably 的试探语气及作者第一人称。",
+        "复利算式按原页保留等号，不代作者改为近似号；删除新增“要点回顾”字样。",
+        "原页31图中 e²=7.388…、e⁻¹=.368…，以及原页35练习8的变量冲突均已目视确认，原文不改。这些疑点仅在审查记录登记。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "file": "translation_draft/04a_ch00_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除八条解释性译注及其引用；保留原书的习题、条件和填空。",
+        "把“不擅长对着听众讲话”改为原文 looking at the audience；恢复作者第一人称。",
+        "恢复 possible minimum/maximum 的“可能”，删除正文新增的“附近”“比如”和积分常数提醒。",
+        "净变化积分恢复原式不写上下限的形式，删除译者添加的 x_start/x_end；薄矩形高度不擅改为“平均高度”。",
+        "补回商法则证明的 f(x+Δx)/g(x+Δx)−f(x)/g(x) 原式；反函数图注恢复 f⁻¹(y) 原记法。",
+        "练习对极值、拐点、sin(x)/x 和倒数的条件省略均保持原题，未代作者补条件。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "file": "translation_draft/04b_ch00_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除八条额外译注及其引用；原书已有 FOR THIS MODEL! 限定保留。",
+        "恢复原书增长表及其措辞，不插入“原书为了比较数量级”等译者解释。",
+        "中值定理按原文闭区间有导数表述，撤回译者换成通常教材条件的整段改写；洛必达条目恢复原文条件和语气。",
+        "删除泰勒级数段额外适用条件、指数解的“两根不等”及“非负整数”等插入限定。",
+        "保留运动例2缺i原式和练习5“复数”原题，疑点只在本记录保存；不在正文评论作者。",
+        "恢复人口段作者的现在时和Google搜索建议；表头“积分”不加“省略加法常数”。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "file": "translation_draft/05_ch00_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除四条额外译注；链式法则句撤回新增“满足可导条件”。",
+        "恢复原书 graphing Y 的对象，保留作者该句而不替其改成画猜测导函数。",
+        "恢复“屏幕证明”和“数学不是…而是思想”的断言强度；恢复机器输入HELP的原例。",
+        "撤回把domain/range改成显示范围、给计算器例7增加数值精度限制的解释；恢复作者第一人称。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "file": "translation_draft/06_ch01_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除十条译者说明及引用；保留两条原书脚注和习题48原注。",
+        "恢复distance/total distance/net distance forward，不改写成译者的位置和净位移模型；撤去有向面积、普通斜率、按这里模型等补充。",
+        "习题19恢复原文无穷斜率；35恢复weight；36完整恢复1989年报纸题面，撤掉译者的“按模型/原文另称”等框架。",
+        "原PDF70习题13/14与图内标签错位、PDF71题47的T未在正文另定义均保留原样，在本记录登记。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "file": "translation_draft/07_ch01_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除五条译者说明及引用，保留原书Note、Remark和Optional remark。",
+        "阶跃/冲激整段恢复作者的无限斜率、汽车跳跃和尖峰面积叙述；撤掉“广义导数”“位置瞬间跳变”等现代解释。",
+        "恢复0⁰没有意义、基本定理原断言；删除“有向”“分段斜率”等原文未写限定。",
+        "所得税例补回1040表第37行，恢复作者“我认为”原话；习题中的历史/原书另写等译者框架移除。",
+        "PDF79习题38重复v_j、42给e=2.78均核对原页并保留，不在阅读正文替作者纠错。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ]
+    },
+    {
+      "file": "translation_draft/08_ch01_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除五条译者说明及引用，保留原书中值定理脚注和代数附注。",
+        "补回被删去的“车是新的”、里程表t²/速率表2t及基本定理预期面积的论述、“你不会答错”句。",
+        "恢复伽利略试验的原叙述与具体抛重物例子，去掉译者“这个模型/原书提到”的框架。",
+        "撤回位置/有向面积改写、习题6“化简后”、14额外时间条件、21三部分表述；按原文保留图1.8引用，错号疑点仅登记。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        87,
+        88,
+        89,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "file": "translation_draft/09_ch01_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除五条译者说明及引用，保留三条原书脚注和Remark。",
+        "撤回回顾表中新增的“位置/有向面积/加初始值/原函数”和从静止出发条件，恢复distance/area/integral原表。",
+        "恢复作者的“我们不能接受…谁分的”措辞、位置公式1²、速度三角形给出各时刻v的句子和cosine/sine孪生论述。",
+        "原文最高最低点说ball changes direction and v=0，恢复其主语，不擅自改成投影物体；疑点在本记录保留。",
+        "航天段恢复直接叙述，不改成“原书用…说明”；题13不增直径路径，题14不增由静止；题39恢复原题时态与括号。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "file": "translation_draft/10_ch01_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "删除三条译者说明和引用，保留原书脚注。",
+        "补回负角对比值的影响、三条恒等式逐项除法、距离绝对值原因、角相减重要、sin(t+t)以及题19互余前提。",
+        "撤回定义域、实角限定和把无穷改为附近极限的改写；恢复题7填空。",
+        "PDF94和97题5原印csc 2θ，2在基线上。180dpi局部复核确认，保留原式，疑点仅登记。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ]
+    },
+    {
+      "file": "translation_draft/11_ch01_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        98,
+        99
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "全文及PDF98–99两页原图核对；删除三条无原文依据译注及引用。",
+        "恢复作者原有等号、44条曲线与7810半周期叙述；不改成译者的近似包络曲线解释。",
+        "恢复图1可见、图3/4在下一页原句及作者对眼睛的直接叙述。"
+      ],
+      "disputes": [
+        "PDF99的N=177.5、7810和曲线方程近似关系、图3/4位置均为原书原状，只在审查记录说明。"
+      ],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        106,
+        107
+      ]
+    },
+    {
+      "file": "translation_draft/12_ch02_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "完整核对正文、41题、图2.1–2.3及全部原页；删除4条无原文依据译注和引用。",
+        "恢复distance为距离、作者关于dt无穷小和速度表读数的直接叙述；撤掉定义框、例子与平方求导法则额外条件。",
+        "恢复递增/递减函数正/负斜率原句及阅读填空；不把作者原断言改为非负/非正。",
+        "习题2、11、12、18恢复令增量为零原操作措辞，撤掉题31 x>0条件与额外限定。"
+      ],
+      "disputes": [
+        "PDF103单调函数正负斜率口语概括、PDF106习题26缺连续条件及PDF101表中Δ→0原下标均照录。"
+      ],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ]
+    },
+    {
+      "file": "translation_draft/13_ch02_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "全文、52题、图2.4及PDF107–114全部原页核对；删除9条译者增补注释及引用。",
+        "流行病例恢复作者原有完整叙述、现在时、第一人称愿望和校样补记，不以历史模型转述替代。",
+        "经济学例恢复福特、NFL、完全竞争和垄断原叙述，不加正常品/内部极值等条件。",
+        "彩票恢复原赔率、概率等号与购买叙述；撤掉独立等概率、定义域、可导、全局常弹性等补充。",
+        "恢复无穷多项式原称呼、题45艾滋病情境、储蓄例原式；作者经济学脚注保留。"
+      ],
+      "disputes": [
+        "PDF112储蓄计算原式多因子10、PDF113题21原式乘号排成等号，按原式保留。",
+        "彩票泊松概率、流行病指数峰值及拟合微分方程、需求收入弹性等均为原书本身表述，正文不改。"
+      ],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ]
+    },
+    {
+      "file": "translation_draft/14_ch02_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "全文、46题和图2.5–2.7及对应7页原图核对；移除7条额外译注及引用。",
+        "恢复作者的曲线近似直线/最近切线、光线和火势沿法线、过山车高速路径原叙述，删除一阶精度/波前/理想模型解释。",
+        "补回60英尺棒球目标、四分卫、原书Try it；恢复黄金例题原语气和6.7等号，删译者盈利计算。",
+        "撤掉题12可导、题23内点、题33定义域、题34导数存在等补充；题1重复句按原页还原。"
+      ],
+      "disputes": [
+        "PDF116曲线斜率2仅在x=1原断言、PDF119–120黄金例近似等号、习题34可导性条件不足均按原书保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ]
+    },
+    {
+      "file": "translation_draft/15_ch02_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "正文、33题、全部7页原图核对；删除6条译者增补注释及引用，作者几何脚注完整恢复口吻。",
+        "撤去自行补出的余弦二阶近似证明，恢复作者式10也说明原叙述。",
+        "恢复红黑图像、计算机可能报错和大概可绕过的语气；删除灰度说明、补点办法、额外小角区间条件。",
+        "恢复加速度＝负距离、回复力和振荡原叙述；删除归一化/理想条件与平衡点解释。",
+        "按用户当前绝对忠实要求，恢复原作者单调函数正负斜率推理方向；保留更快趋零和向下走的忠实词义纠正。",
+        "图2.10恢复原图题cos x。"
+      ],
+      "disputes": [
+        "PDF125式10不足以单独推出二阶等价、图2.10图题cos x、摆/弹簧简化、题8重复30度等均原书照录。"
+      ],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141
+      ]
+    },
+    {
+      "file": "translation_draft/16_ch02_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "全文、45题、7页原图及图2.13–2.16核对；删除5条译者注与引用。",
+        "恢复火车教授的distance和简谐运动、相对论可能正确及爱因斯坦作者脚注原笑谈。",
+        "删除乘积可导连续补证、倒数可导性证明、定义域、分母非零及任意指数条件补充。",
+        "恢复tan竖直、sec²x=∞、sinx/x在0处导数的作者启发性论述，撤掉译者延拓与证明。",
+        "恢复原书x=∞斜率说法、商公式不编号、习题27/29/41/45原条件与作者括号。"
+      ],
+      "disputes": [
+        "PDF132商法则未编号10、无穷斜率和偶函数导数原论述照录。"
+      ],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151
+      ]
+    },
+    {
+      "file": "translation_draft/17_ch02_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "全文、46题、图2.17–2.19及8页原图核对；移除6条增补译注及引用。",
+        "恢复两个原证明：相邻差的2ε与苏格拉底异议，乘积极限的原ε²+Mε+Lε；不代作者补绝对值/η或改证明。",
+        "恢复作者关于δ按两倍斜率选择的完整叙述，撤掉零斜率/局部差商控制提醒。",
+        "恢复例2原ε=1/10与1/1000写法、Cauchy准则原命名和作者幽默；逻辑脚注单列保留。",
+        "撤去定义域、独立等概率、有限实数等后加条件，恢复integral为积分、夹逼证明原方式。"
+      ],
+      "disputes": [
+        "例2数值指代、乘积极限符号界、一般δ建议和Cauchy单向表述均是原书本身，未改正文。"
+      ],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161
+      ]
+    },
+    {
+      "file": "translation_draft/18_ch02_sec07.zh-CN.md",
+      "source_pdf_pages": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "全文、45题、6页原图及图2.20核对；既有连续函数四段忠实译文复核保留。",
+        "删除5条译者解释注与引用；撤掉端点/定义域/有限导数/延拓填值等原文未写限定。",
+        "恢复作者无穷极限非正式说法、一阶极点乘x后连续原句，不代补去心邻域和延拓步骤。",
+        "恢复sin(1/x)的不会无限增大和正弦不超过1原义，补正负与问号漏译。",
+        "恢复不可导函数的原推理、分形描述，补市场崩盘/战争例和作者区间脚注。",
+        "最值/介值性质按原文恢复，撤去译者现代定理版本与下确界解释；习题恢复原问法和条件。"
+      ],
+      "disputes": [
+        "PDF147的邻近导数爆大推出不可导、零为未取到最小值等原书说法保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ]
+    },
+    {
+      "file": "translation_draft/19_ch03_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        150,
+        151,
+        152,
+        153,
+        154,
+        155
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_footnote",
+      "source_visual_review": "complete_PDF150-155_original_full_pages_viewed",
+      "changes": [
+        "恢复章引言末句“从后代了解前代”，撤去“学问来回倒腾”的改写。",
+        "按原页恢复3A的smooth function、原始斜率表述和推导步骤；撤去擅加可导/非零增量限定。",
+        "恢复separate variables为“分开的变量，像x和y一样，但有自己的名称”，保留作者禁止约d脚注。",
+        "撤去原文未写的二阶光滑/有界条件、O符号解释、相对变化非零分母提醒、天文数据免责声明及全部3项译注。",
+        "恢复原书关于牛顿定律的原句、例4薄壳体积表述及3917312/640000%；去除新增6.1208%推导。",
+        "习题21撤去c>0；习题28恢复1/2 mv²及e=(Δm)c²原式。"
+      ],
+      "disputes": [
+        "PDF152原书未在误差句补二阶条件，忠实保留，未代作者修订。",
+        "PDF154牛顿定律线性近似表述较笼统，忠实保留。",
+        "PDF155习题21未附c>0，习题28使用1/2mv²及等号，忠实保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ]
+    },
+    {
+      "file": "translation_draft/20_ch03_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_remarks_footnotes",
+      "source_visual_review": "complete_PDF156-165_original_full_pages_viewed",
+      "changes": [
+        "恢复作者对maximum=infinity的原句及作者脚注；恢复零未达到也可称minimum的原问答，撤掉下确界改写。",
+        "恢复critical points为临界点及原三步，撤去额外边界极限和可行性要求。",
+        "高速例恢复作者第一人称、原变量x、完整幂法则和化简说明；按原文保留hypotenuse a/sqrt3。",
+        "恢复自然界选择最小能量的作者论断及质量块-mx写法，撤去mg纠正与稳定平衡限定。",
+        "恢复边际收益等于边际成本时利润最大原句、dx书本双关作者脚注。",
+        "逐项审查全部73题，去除额外变量正值、严格极值约定、退化/固定成本/模型/端点提醒；恢复Jabbar、喂鸟器、潜艇等漏译具体情境。",
+        "移除全部五条译注，作者自己的Remark1/2及两条脚注完整保留。"
+      ],
+      "disputes": [
+        "PDF158作者明确沿用无穷为最大值、未取到零为最小值的宽泛说法，忠实保留。",
+        "PDF161斜边a/sqrt3疑误及质量势能-mx未列g，已告主代理，按要求不代作者纠正。",
+        "PDF162阅读填空未附a>0及内部可导条件、PDF164习题55未附x>0、PDF165习题70未定义y(0)，均按原文保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187
+      ]
+    },
+    {
+      "file": "translation_draft/21_ch03_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF166-172_original_full_pages_viewed",
+      "changes": [
+        "恢复作者x^4暂停后向下的原句，不以-x^4改作者例子；去除严格/内点等新增限定。",
+        "恢复拐点有一瞬间图像为直线、三四阶导数零点是否有名称的作者叙述；保留作者x^4脚注。",
+        "符号表按原图恢复空格和0,0，不擅自填齐。",
+        "人口报告恢复现在/今天时态、第二次人口普查原序号及“联合国在关注二阶导数！”作者脚注。",
+        "恢复中心差分和大O原论述，不补绝对值/光滑性/舍入误差/泰勒收敛条件。",
+        "逐项审查全部47题，去除互异实零点、可导/二阶可导、f(0)=1、保留三次项等新增提示。",
+        "移除五条译注，不把作者脚注删掉。"
+      ],
+      "disputes": [
+        "PDF167原写x^4暂停后向下，与函数不符，忠实保留。",
+        "PDF168原写China second census 1990-07-01，序次疑误，忠实保留。",
+        "PDF169大O界原写E≤CΔx未列绝对值，忠实保留。",
+        "PDF171习题9未列互异实根及习题21/22可导假设，忠实保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195
+      ]
+    },
+    {
+      "file": "translation_draft/22_ch03_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_graph_labels",
+      "source_visual_review": "complete_PDF173-182_original_full_pages_viewed",
+      "changes": [
+        "心电图正文移除原书说/断言等编者隔离措辞与医疗免责声明，恢复作者直接叙述和第一人称，sinus arrhythmia fairly normal忠实译为相当正常。",
+        "恢复原文f>0内部区间原句、fʺ=0拐点表述；去掉单侧极限/m≠0额外限定。",
+        "傅里叶级数恢复fʹ公式及infinitely many cosines add up to a delta function原论述，撤去普通逐点/广义函数/Gibbs补充。",
+        "恢复ymax、导数公式中等号、例4变换原式Y+2=2(X-1)^2-4(X-1)、无量纲化c=8sec/d=2cm原单位。",
+        "撤去非退化局部模型、牛顿收敛尺度条件、c/d正值、轴竖直等新增限制，保留作者原流程。",
+        "全文58题及图注核对，移除全部9条译注及题29提示。"
+      ],
+      "disputes": [
+        "PDF175内部区间f>0漏x=0，原文保留。",
+        "PDF178原式dy/dx=x/(30sqrt(9+x²))=-1/60及ymax疑排印错误，原文保留。",
+        "PDF180例4代换与前页定义不符、c/d单位方向疑误，原文保留。",
+        "PDF177第1.7节交叉引用疑版本残留；傅里叶delta表述、题29条件等疑点仅记录，不改正文。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208
+      ]
+    },
+    {
+      "file": "translation_draft/23_ch03_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_table",
+      "source_visual_review": "complete_PDF183-191_original_full_pages_viewed",
+      "changes": [
+        "承接未登记编辑，逐段及46道习题对照全文，恢复问题6完整配方步骤及作者第一人称。",
+        "撤去中心化的有中心限定，恢复原书式(7)逆变换、3I小写c及无条件判别表述，不替作者纠错。",
+        "移除全部八条译注，保留原书耳语廊、碎石、光沿双曲线等直接论断及焦距表格原文。"
+      ],
+      "disputes": [
+        "PDF189式(7)逆变换y′=-y sinα+x cosα疑错，3I小写c与判别表述欠条件，保留原文。",
+        "PDF184焦距p未限制a>0，PDF186第二焦点无穷远、PDF187耳语廊其他地方听不见、PDF189光沿双曲线等均按作者原文保留。",
+        "PDF191题32未规定正方形方向；题45(c)未排除c=0，不补条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219
+      ]
+    },
+    {
+      "file": "translation_draft/24_ch03_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_calculator_code",
+      "source_visual_review": "complete_PDF192-199_original_full_pages_viewed",
+      "changes": [
+        "全文及43题逐段对照，恢复作者第一人称、原交叉引用、早期计算机/数百万美元等具体原文。",
+        "恢复3J/3K及极限关系的原始表述，撤去附加连续性/单根/局部判据/边界特殊初值等限制和题目提示。",
+        "例4恢复两个吸引点之间总有排斥点的原断言；恢复原书0.7931及±∞疑误。",
+        "牛顿误差平方和位数翻倍按作者直接表述恢复，保持PR2对差不多是旧误差平方的修订历史而不额外术语化。",
+        "保留四项作者说明及计算器程序，移除全部八条译注。"
+      ],
+      "disputes": [
+        "PDF192原印1/2(0.7931)，PDF193外部平方迭代原印±∞，均保留原文。",
+        "PDF194例4两吸引点间总有排斥点及穿越要求斜率>1欠一般条件；PDF196收敛iff未排除初值等于解，按原文。",
+        "PDF198题17–19/21及PDF199题25/27/28/39/40均没有译者新增条件，按作者原题保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228
+      ]
+    },
+    {
+      "file": "translation_draft/25_ch03_sec07.zh-CN.md",
+      "source_pdf_pages": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_calculator_code",
+      "source_visual_review": "complete_PDF200-209_original_full_pages_viewed",
+      "changes": [
+        "逐段及全部49题、两段计算器代码、图表核对；恢复3L通常快速收敛和原始条件，不补单根/连续/初值/定义域等限制。",
+        "恢复原表x4=2.000000009、说明2的-√2、康托集4/3原印疑误及除零爆掉原叙述。",
+        "恢复所有点强烈排斥、天气六天/飞机改变一切/100步完全无望、市场与冥王星等作者直接论断，撤去历史隔离措辞与预测免责声明。",
+        "恢复logistic参数区间、整个(0,1)填满、随机性和分形维数原文，保留康托集构造。",
+        "保留作者说明1/2、例A/B/C、割线预测口吻及图3.24特别许可偷自来源；移除全部十条译注。"
+      ],
+      "disputes": [
+        "PDF201的x4小数及说明2突然用√2、PDF205康托集4/3疑排印错误，按原文保留。",
+        "PDF204–206关于强烈排斥/整个区间填满/随机/不可预测的概括较宽，按作者原断言。",
+        "PDF208题8与9–17、PDF209二分法缺附加条件，题44/46缺割线第二初值，保留原题不添提示。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239
+      ]
+    },
+    {
+      "file": "translation_draft/26_ch03_sec08.zh-CN.md",
+      "source_pdf_pages": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnote",
+      "source_visual_review": "complete_PDF210-216_original_full_pages_viewed",
+      "changes": [
+        "逐段及全部38题、公式与图注核对；恢复3M/3N/3O/3P原始表述，撤去额外去心邻域/非零分母/单侧/常零说明等条件。",
+        "保留闭区间最大值作者脚注为脚注，恢复罗尔历史中的第一人称语气、牛顿/莱布尼茨及普通数学家细节。",
+        "恢复正弦≤x直接论断、误差近似仍用c、例7实际误差-0.000496及题30右端1原印疑误。",
+        "题24恢复作者无穷比推导，题13–22恢复用洛必达原指令；撤去题31/36/37新增提示和定义域限制。",
+        "撤去全部九条译注，作者说明与脚注保留。"
+      ],
+      "disputes": [
+        "PDF212正弦≤x未限x≥0；3P省略常见适用条件；按作者原文。",
+        "PDF215误差精确式后同式仍称近似、例7误差-0.000496；PDF216题30右端原印1，疑错均保留。",
+        "PDF216题24推导预设L、题16双侧极限/题28无穷振荡、题37渐平行条件不足，按原题不另加防御性说明。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248
+      ]
+    },
+    {
+      "file": "translation_draft/27_ch04_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnote",
+      "source_visual_review": "complete_PDF217-223_original_full_pages_viewed",
+      "changes": [
+        "逐段及全部60题、图表对照。撤去新增连续延拓证明，恢复莱布尼茨记号之战和作者对0/0赋义的原证明。",
+        "恢复作者第一人称、别克汽车、牛顿迭代背景及恒等函数计算器作者脚注。",
+        "撤去幂函数/根式可导定义域条件，恢复题33/34的F^(n)原复合记号；题50仅保留原等号关系。",
+        "题58撤去擅加步行方向与电视参照系；其余习题撤去无法确定提示和定义域条件；移除全部五条译注。"
+      ],
+      "disputes": [
+        "PDF220原证明将Δy=0时差商赋义为dz/dy，忠实保留，不代作者加完整延拓证明。",
+        "PDF222题33/34的F^(n)表示复合，题50等号关系及PDF223题58欠方向/参照系说明，均保留原文。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
+      ]
+    },
+    {
+      "file": "translation_draft/28_ch04_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        224,
+        225,
+        226,
+        227,
+        228
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnote",
+      "source_visual_review": "complete_PDF224-228_original_full_pages_viewed",
+      "changes": [
+        "逐段及全部31题核对，恢复伽罗瓦无公式/任意点可求导/4B直接求导原论断及伽罗瓦作者脚注。",
+        "恢复例3连续等号原式；修正译稿例6误录为dx/dt=3,dy/dt，原文是3dy/dt。",
+        "恢复圆切线斜率乘积原讲解、原交叉引用题14、地球绳及AP考试直接叙述和作者第一人称。",
+        "恢复光速悖论及梯子能超光速原句，撤去光斑/信号/传播模型免责声明、定义域/分支/双侧导数条件。",
+        "移除全部七条译注，保留原作者说明与脚注。"
+      ],
+      "disputes": [
+        "PDF224例3原印y cos y y′=sin y y′=1疑等号误印；伽罗瓦概括无公式欠精确限定，照录。",
+        "PDF225跑道交叉引用题14疑应13，按原文。",
+        "PDF227悖论矛盾相对论、PDF228梯子能超光速及题26相遇导数等欠条件，按作者叙述不改。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        257,
+        258,
+        259,
+        260,
+        261,
+        262
+      ]
+    },
+    {
+      "file": "translation_draft/29_ch04_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnote",
+      "source_visual_review": "complete_PDF229-235_original_full_pages_viewed",
+      "changes": [
+        "全文及全部59题、图注核对，撤去可逆/连续/严格单调/非零导数/定义域附加条件。",
+        "恢复作者反函数镜像叙述和作者脚注：他认为y=g⁻¹(x)不对，撤去译者纠偏整段。",
+        "恢复作者暂不揭晓c、积分式不额外限制正支、原矩阵和复合逆叙述。",
+        "题13/15撤去连续性补充，题30恢复镜像分段常数填空，题58恢复仅供教授与原假设。",
+        "移除全部七条译注，作者脚注保留。"
+      ],
+      "disputes": [
+        "PDF230原文可逆必须一直增减未附连续；PDF231作者脚注认为y=g⁻¹(x)不对是作者偏好，按原句保留。",
+        "PDF234题13/15缺连续、PDF235题30分段常数镜像和题58最大值条件疑点保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270
+      ]
+    },
+    {
+      "file": "translation_draft/30_ch04_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        236,
+        237,
+        238,
+        239,
+        240,
+        241
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_table",
+      "source_visual_review": "complete_PDF236-241_original_full_pages_viewed",
+      "changes": [
+        "全文与52题逐项对照，恢复原书sin⁻¹/cos⁻¹等符号，不擅改为arcsin统一记法。",
+        "例1恢复sin x=y原设问，例2恢复斜率无穷=1/0及链式法则极端情形原文，撤去新增端点/分支提醒。",
+        "恢复反正割递增原表述及三行合并表格、原星号约定，去除新增完整导数适用域栏。",
+        "题11负号、通读首句x-sin⁻¹y保留原印；题30、49–52撤去译者补条件及提示。",
+        "移除全部七条译注。"
+      ],
+      "disputes": [
+        "PDF240题11原写反正弦导数负号、通读首句x-sin⁻¹y为减号，原印保留。",
+        "PDF239称反正割递增、PDF240题30负输入/题16符号及PDF241题49端点欠条件，照录原书。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277
+      ]
+    },
+    {
+      "file": "translation_draft/31_ch05_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions",
+      "source_visual_review": "complete_PDF242-246_original_full_pages_viewed",
+      "changes": [
+        "全文及26题、两图核对，恢复作者交替使用积分与原函数的原叙述，不代作者作术语切分。",
+        "恢复5A微积分基本定理（取极限之前）名称，题3原有限列表不补省略号。",
+        "撤去题5/6的r≠1、题19等宽/至少及题23新增[0,1]；原文Δ2x与闰日1461叙述保留。",
+        "移除全部六条译注。"
+      ],
+      "disputes": [
+        "PDF245矩形高度原印√(Δ2x)疑序次排印错误，保留。",
+        "PDF244闰日1461与固定Δx=1/365的模型区别、PDF246题3只列三个差却要求四项以及r=1/题23区间未明确，按原文。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        278,
+        279,
+        280,
+        281,
+        282,
+        283
+      ]
+    },
+    {
+      "file": "translation_draft/32_ch05_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions",
+      "source_visual_review": "complete_PDF247-252_original_full_pages_viewed",
+      "changes": [
+        "全文及全部33题、图表核对。恢复作者不带积分限表示面积、曲线旋转90度成为抛物线及不定积分是一个函数的原表述。",
+        "撤去新增式1符号解释、非负/同一区间/等宽/反常积分等条件与术语提示；题21恢复原0<x<1。",
+        "保留作者关于平方根面积发现者的不确定口气与所有例子。",
+        "移除全部七条译注。"
+      ],
+      "disputes": [
+        "PDF248原称曲线旋转90度成为反函数抛物线，按原文。",
+        "PDF252题3/6/21–23端点奇点及题25–31负面积/折角、题32反函数条件疑点只记录，不补正文。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291
+      ]
+    },
+    {
+      "file": "translation_draft/33_ch05_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF253-261_original_full_pages_viewed",
+      "changes": [
+        "全文及全部37题、图表和两条作者脚注逐项核对。恢复作者第一人称、直接断言及高斯故事语气。",
+        "恢复1000矩形达到10^-6、幂次低阶修正、p+1>0主项理由与误差正比原文，不增尺度、正整数、反常积分等解释。",
+        "恢复孤立192、题12不等号和题29原指标i，撤去全部八条译注，保留作者脚注。"
+      ],
+      "disputes": [
+        "PDF258的1000矩形精度陈述欠常数条件；PDF259低阶幂及修正消失表述、PDF260误差正比欠范围条件，均原样保留。",
+        "PDF259行首孤立192、PDF260题12无条件不等号、PDF261题29求和指标i而项含j，按原文保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ]
+    },
+    {
+      "file": "translation_draft/34_ch05_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        262,
+        263,
+        264,
+        265,
+        266
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnote",
+      "source_visual_review": "complete_PDF262-266_original_full_pages_viewed",
+      "changes": [
+        "全文、43题、图5.8与作者脚注核对。恢复原书反函数记法、例3分母减号、cos(x)^2排印及式2无积分常数原式。",
+        "撤去x>0、非负函数、正c几何限制与解区间等新增条件；恢复大多数永远不可能、椭圆周长和完全准确原文。",
+        "保留作者e^x脚注及两项作者说明，移除全部六条译注。"
+      ],
+      "disputes": [
+        "PDF263例3初始减号与后续代数不合，PDF264 cos(x)^2与答案不合，按原印保留。",
+        "PDF265式2未加C、c几何解释未限正、1/sqrt(4-sin²x)积分称椭圆周长，按作者原文。",
+        "PDF266题3/4未排除对数指数、题39原文lnu无C，照录。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309
+      ]
+    },
+    {
+      "file": "translation_draft/35_ch05_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        267,
+        268,
+        269,
+        270,
+        271,
+        272
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions",
+      "source_visual_review": "complete_PDF267-272_original_full_pages_viewed",
+      "changes": [
+        "全文、33题与图5.9/5.10完整对照。恢复作者将变上限积分称不定积分、连续函数都有积分等原文，不强行重分术语或补闭区间/可积性限制。",
+        "完整恢复勒贝格无穷分段、覆盖分数及上和S仅为ε的原论证，撤去译者端点0补充、测度说明和不完整定义评价。",
+        "习题撤去等宽、[0,1]、相同分割等原文未给条件，保留原题变量与重复题；移除全部七条译注。"
+      ],
+      "disputes": [
+        "PDF267变上限积分称indefinite integral，PDF271勒贝格段仍称上和S且未覆盖端点0，均按原文而不改作者。",
+        "PDF272题25未明示等宽，题26/27未明确区间，题33若干条件省略，按原题。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316
+      ]
+    },
+    {
+      "file": "translation_draft/36_ch05_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_tables",
+      "source_visual_review": "complete_PDF273-279_original_full_pages_viewed",
+      "changes": [
+        "全文、42题、图表逐项核对；撤去奇偶积分/连续/可积/奇点及随机分布、独立性等新增条件。",
+        "恢复原书式4 f(b)-f(c)、例6 sin x²、无条件期望幂积分和原书82等号。",
+        "恢复平均值完全可预测、π没有机会、随机数四舍五入、学生大多数时间大班、交通2.5或2可消除问题等作者直接表述，删除隔离评价。",
+        "移除全部九条译注；题22恢复直接对两边求导，题33保留原频率60赫兹。"
+      ],
+      "disputes": [
+        "PDF275式4分子f(b)-f(c)、PDF276 sin x²、PDF278班级均值82等号疑误，按原印。",
+        "PDF277/278概率和交通叙述宽泛、期望幂未列n>-1，原文照录。",
+        "PDF279题22直接求导证明、题33频率60赫兹与公式不符，保留作者原题。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325
+      ]
+    },
+    {
+      "file": "translation_draft/37_ch05_sec07.zh-CN.md",
+      "source_pdf_pages": [
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions",
+      "source_visual_review": "complete_PDF280-287_original_full_pages_viewed",
+      "changes": [
+        "逐段全文、六例、46道习题、图5.14–5.17及习题两组附图完整对照；实际查看PDF280–287全部原页。",
+        "恢复作者将变上限积分称不定积分、5C/5D原始陈述及第一部分的u(x)原印；撤去内点、端点可导/连续、例2非零及习题定义域等新增条件。",
+        "圆环/球壳积分恢复原变量r，不替作者改ρ；恢复性质1/3、例2的v(3x)说明及作者第一人称。",
+        "习题25撤去补加连续性，34撤去单位正方形补充，46撤去t>0；恢复cos⁻¹/sin⁻¹与33题面积（体积？）原问法。",
+        "移除全部六条译注，不新增作者未写的推导或结论。"
+      ],
+      "disputes": [
+        "PDF280作者使用indefinite integral指变上限积分，证明正文原印v(c)趋于u(x)，按原书保留。",
+        "PDF281式4未限正增量，PDF282例2未限x≠0；PDF284积分上下限与被积变量共用r，按原文不修订。",
+        "PDF286题25未附连续性、34未明确上边界，PDF287题46未另写t>0，均保留原题不补条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334
+      ]
+    },
+    {
+      "file": "translation_draft/38_ch05_sec08.zh-CN.md",
+      "source_pdf_pages": [
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_tables_author_note",
+      "source_visual_review": "complete_PDF288-295_original_full_pages_viewed",
+      "changes": [
+        "逐段全文、29道习题、全部误差表及图5.18–5.20完整对照；实际查看PDF288–295全部原页。",
+        "恢复阶数定义、对所有函数渐近正确、误差比趋1及周期函数指数衰减原论断，撤去新增光滑/非零首项/解析等限制。",
+        "恢复原书步长0.1/0.01/0.001/0.0001、Rn−Tn漏Δx原式、图5.19的v及图5.20误差等号；补齐式6的导数差中间等式。",
+        "恢复高斯点±记法、计算器取样不等距/混叠问题消失/频率8的原文、作者第一人称、PAUSE键与见页边细节；撤去历史隔离措辞和新增误差保证免责声明。",
+        "撤去三次式平移缩放补证明、题21常系数组合限制、题22等宽及另报公式要求；题23恢复从0到π/4原印，移除全部九条译注，保留作者个人说明。"
+      ],
+      "disputes": [
+        "PDF289步长列整体错一位、周期表首项−10⁻³疑数值错误；PDF290的Rn−Tn原式缺Δx；按原印保留。",
+        "PDF289/291对全部函数渐近正确、周期指数收敛和准确余项等论述省略条件，PDF293非等距可消除混叠/频率8表述宽泛，均按作者原文。",
+        "PDF293提到页边按键但当前原页未见，保留文字交叉引用；PDF294题23新上限π/4疑错，题13以等号给ln2小数值，原文保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch03_05_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342
+      ]
+    },
+    {
+      "file": "translation_draft/39_ch06_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF296-304_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "核对章引言及全部29题，保留原文底数b>0,b≠1和图6.2刻度说明；确认既有移除译注、恢复人口预测现在时改动有原文依据。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353
+      ]
+    },
+    {
+      "file": "translation_draft/40_ch06_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF305-311_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "核对正文、五种e刻画、公式表及全部62题；移除原稿附加的正值定义域、未定式术语化扩写，恢复作者“没有固定规律”断言。",
+        "保留原图6.6（原书图件实际重复6.5）；保留作者e定义第二式h→0。"
+      ],
+      "disputes": [
+        "PDF305定义第二式将n式极限下标写h→0，按原书保留。",
+        "PDF307图6.6实际重复前页图6.5但配指数增长/衰减图注；按要求保留原图。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362
+      ]
+    },
+    {
+      "file": "translation_draft/41_ch06_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF312-322_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段及全部66题核对；恢复放射性定年14400年、人口预测和原作者例4口吻；保留作者学生只要答案的脚注。",
+        "去除一般/通常不是解的弱化、年利率中擅加连续条件、数值-0.516天重算和带符号支付额解释；恢复问题6原作者支付1582美元的说法。",
+        "保留方法1待定系数、方法2 Duhamel与积分因子、方法3之完整数学内容，不以术语或严谨条件扩写。"
+      ],
+      "disputes": [
+        "PDF314壁画计算写14400年，与所列算式数值不符，保留。",
+        "PDF318支付s的符号在原书不统一，沿用原公式及原支付1582美元表述。",
+        "PDF320牛顿遗体例作者仅给约半天，删去译稿重算到-0.516天。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374
+      ]
+    },
+    {
+      "file": "translation_draft/42_ch06_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF323-329_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段及全部76题核对；恢复积分变量x/u说明、漏译e^{1000}和e^{-1000}面积说明、作者第9章脚注位置与口吻。",
+        "删除固定正幂/排除端点等额外限定及图6.14自拟解说，按原式去除擅加C；保留作者ln(-1)=πi脚注和奇偶函数脚注。",
+        "习题76按原图修正译稿误录的分母1为t；不是纠正作者。"
+      ],
+      "disputes": [
+        "PDF327式(10)原书右侧ln|csc x+cot x|与前面的取u=csc x-cot x不一致，保留作者式。",
+        "PDF323式(1)第一式原书积分变量和上限同为x，照录。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384
+      ]
+    },
+    {
+      "file": "translation_draft/43_ch06_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF330-338_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "全文及全部40题逐段核对；恢复原书1930年30亿人口、a/b原式、MM无量纲方程正号；不改作者科学论断。",
+        "删除新加d定义、正平衡点限定、绝对值与积分常数等扩写，恢复“濒危物种”断言及习题39永远到不了t=1的原问法。",
+        "习题17恢复原书90亿=9c/b；保留作者移民脚注和全部催化剂例子。"
+      ],
+      "disputes": [
+        "PDF332作者称1930年世界人口30亿；PDF334式(14)首项常数a/b但后式b/c；按原文保留。",
+        "PDF336无量纲MM方程原书写dY/dT=Y/(Y+1)为正；PDF337习题17写90亿=9c/b；PDF338习题39 t=1永远到不了，均照录。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394
+      ]
+    },
+    {
+      "file": "translation_draft/44_ch06_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF339-348_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段及44题核对，包含完整报纸借贷报道、六项金融表、科学计算表和银行不诚实作者脚注。",
+        "去除“原书摘引”隔离框架、显式欧拉术语扩写和自行增加的c,d>0条件；恢复作者正负斜率原述。",
+        "保持作者逐项取极限、e^{-1}/2是1/5一位数论述、时刻1公式中的1/t及原交叉引用。"
+      ],
+      "disputes": [
+        "PDF347阅读填空时刻1幂指数原书写1/t；PDF348习题42交叉引用6.2.5可疑；照录。",
+        "PDF347称e^{-1}/2是1/5，随后作者明确仅留一位数；保留完整论述。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405
+      ]
+    },
+    {
+      "file": "translation_draft/45_ch06_sec07.zh-CN.md",
+      "source_pdf_pages": [
+        349,
+        350,
+        351,
+        352,
+        353
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF349-353_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段及全部60题核对；完整保留拱门照片来源、悬链线张力/密度比及所有反双曲对数公式。",
+        "去除右支方程的自添说明，恢复作者“不那么漂亮”评价；习题56恢复原书部分分式首项的正号。",
+        "保留式(4)求导符号及习题43原书负号，不代作者纠错；去除全部旧译注。"
+      ],
+      "disputes": [
+        "PDF351式(4)中间求导负号疑误；PDF353习题43导数负号、习题56分式首项正号疑误，均保留原式。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412
+      ]
+    },
+    {
+      "file": "translation_draft/46_ch07_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF354-360_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段核对章引言、分部积分五例、δ函数和工程选读及全部62题；恢复作者第一人称和所有熟悉反函数可分部积分的断言。",
+        "恢复工程段功/功率/收入三种乘积的完整解释；去除轴向应变的术语化改写。",
+        "图7.1恢复原图注，习题56/58恢复作者展开式，去除改写的求和符号形式；保留δ²积分无穷及Uδ积分1/2等原书表述。"
+      ],
+      "disputes": [
+        "PDF358作者将δ²积分写为无穷，PDF360习题50未定义Uδ乘积即要求1/2；按原书照录，不添加分布论限制。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421
+      ]
+    },
+    {
+      "file": "translation_draft/47_ch07_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF361-367_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段核对全部正文、11例、62题与图7.3/习题61图；式(9)首项按原页由p-q修复为p+q。",
+        "恢复任意乘积可积的断言、作者对重要性的第一人称评价及cos^14 x慢方法细节，去掉负整数幂/初等函数的自添限定和地图标签解释。"
+      ],
+      "disputes": [
+        "PDF364回顾cos² x积分时原书首项写1/2而非x/2，照录。",
+        "PDF366习题40要求sin px sin qx在0到π的积分总为零，缺少p≠q限制；保留原问法。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429
+      ]
+    },
+    {
+      "file": "translation_draft/48_ch07_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF368-374_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "全文10例、57题、两张换元表及全部图注逐段核对。恢复最有力/唯一要记住/必定成功等原书断言和第一人称。",
+        "恢复反正弦例的第4章记忆说明、换元三步及反双曲余弦评价，图注按原文收回译者技术解释。"
+      ],
+      "disputes": [
+        "PDF371配方后左侧根式原书写x²-2x+1、右侧却为u²+1；保留。",
+        "PDF372阅读填空-x²+4x+9变为(q)²+r，原书缺负号；照录。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437
+      ]
+    },
+    {
+      "file": "translation_draft/49_ch07_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        375,
+        376,
+        377,
+        378,
+        379
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF375-379_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段核对全部6例、31题与四步规则；保留原书方法3/4随后称方法1/2的编号和规则2中x+1。",
+        "去除对三次/四次求根公式的无依据补述和“代数游戏”的术语化扩写，保留作者对繁琐例题的第一人称评价。"
+      ],
+      "disputes": [
+        "PDF375方法编号原书为3/4，PDF376却称1/2；照录。",
+        "PDF377规则2原书称一次因式x和x+1，例6实际为x-1；照录。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        438,
+        439,
+        440,
+        441,
+        442,
+        443
+      ]
+    },
+    {
+      "file": "translation_draft/50_ch07_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        380,
+        381,
+        382,
+        383,
+        384
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF380-384_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "全文9例、40题、三图逐段核对。例3/5分母由错录的sqrt(x+1)恢复为sqrt(x)+1。",
+        "比较法框恢复非严格不等式；删除额外推导条件及图注标签解释，恢复相同曲线的第一人称和作者起初写错积分区间的叙述。",
+        "习题37按原书闭端点照录；未知原函数不擅自改成没有初等原函数。"
+      ],
+      "disputes": [
+        "PDF382例6原书把int_1^∞ e^-x dx与1相加写为1+1，照录。",
+        "PDF384习题38首个积分原书没有上下限却等于π；照录。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        444,
+        445,
+        446,
+        447,
+        448,
+        449
+      ]
+    },
+    {
+      "file": "translation_draft/51_ch08_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF385-395_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段核对章引言、13例、69题、公式表、全部七图及习题图。恢复单条面积无意义、作者过去时倾斜杯子的叙述。",
+        "删除图注中额外标签解释、第一象限和人为上下限、卡瓦列里原理自添的水平/同高度限定，填空square恢复“正方”而非“正四”。",
+        "保留原作者薄壳高阶项消失解释，不因包含估计而机械删除；清理旧编辑残余逗号。"
+      ],
+      "disputes": [
+        "PDF389例8截面积原书写π(sqrt(x²))²，与后续πx不一致；照录。",
+        "PDF395习题42倾角公式2h/r及习题52大写Y原式保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461
+      ]
+    },
+    {
+      "file": "translation_draft/52_ch08_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        396,
+        397,
+        398,
+        399,
+        400
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF396-400_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段核对9例、34题、弧长定义推导及全部图。恢复盲用梯形法得无穷、速率为正、计算器自动换元等原书断言。",
+        "删除图注的局部曲线限定、可积性中的初等函数限制、额外极限定义及习题34有限限制。"
+      ],
+      "disputes": [
+        "PDF397框8A终点原书写x=6，公式上限b；PDF398标题x(f),y(f)，保留。",
+        "PDF399习题18原书写0≤x≤2π；PDF400习题28写0≤y≤π；保留原变量。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        462,
+        463,
+        464,
+        465,
+        466,
+        467
+      ]
+    },
+    {
+      "file": "translation_draft/53_ch08_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        401,
+        402,
+        403
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF401-403_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段核对4例、24题、曲面公式和全部图。删除适当斜线限定、初等结果限定和图中英语标签追加解释。",
+        "第21题删除正文内“原句缺词”译者插话，保留原书缺词句；第23题删除原文未指定的旋转轴及上半部限定。"
+      ],
+      "disputes": [
+        "PDF403习题21原文“It can’t enough paint to paint its surface.”缺谓语，未擅补contain，正文按缺词状态照译。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        468,
+        469,
+        470,
+        471
+      ]
+    },
+    {
+      "file": "translation_draft/54_ch08_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF404-411_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "逐段及全部36题恢复作者泊松模型论述、0.325、式(6)0.0013和标准正态式e的误印；不替作者计算。",
+        "恢复8F密度趋于正态的原述、标准差“接近”、民调置信结论、万分之一和骰子成因断言。",
+        "恢复第一人称、两条作者评注和Joe DiMaggio脚注；删除全部译注、附加条件/现代统计解释及习题重写。"
+      ],
+      "disputes": [
+        "PDF406式(6)参数μ=500 σ=200而尾概率写0.0013，原式保留。",
+        "PDF407标准正态式原书误印e^{-e²/2}，恢复原式；cumulative density按原文译“累积密度”。",
+        "PDF409 8F没有补齐独立同分布/有限方差等条件，且用密度收敛，按原文保留。",
+        "PDF410五个标准差概率“万分之一”及骰子成因，PDF411习题32只给均值方差未附正态假设，均保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481
+      ]
+    },
+    {
+      "file": "translation_draft/55_ch08_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF412-418_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "全文及全部42题逐项核对；恢复原书M_x/M、例4根号x²-y²及滑冰者转动动能不变的原叙述。",
+        "去除匀重力场、垂直力臂、无滑动、薄壁、正值条件、地理范围及太阳系模型附注；保留不会翻倒断言（PR2已撤回的必要原句）。",
+        "恢复图8.15“球胜过圆柱”、伽利略斜桌叙述及习题40原排版表达；删除全部译注。"
+      ],
+      "disputes": [
+        "PDF412平衡点文字式M_x/M（本节定义为M_y），PDF414例4根号x²-y²，均保留原式。",
+        "PDF415称收臂时转动动能不变，与常用角动量守恒解释不同；按原文保留。",
+        "PDF418习题40时间原排版2√h/c sinα缺括号，保留表达并在记录提出。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489
+      ]
+    },
+    {
+      "file": "translation_draft/56_ch08_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF419-424_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "核对全文、所有公式、图8.16–8.17和全部25题；删除全部9项译者附注，不追加物理/单位/历史条件。",
+        "恢复“假装质量恒定”、水在0℃密度恰为1000的作者断言；恢复图8.16moon为月亮，去除扩写图注。"
+      ],
+      "disputes": [
+        "PDF422作者称SI选择保证0℃水密度恰为1000，按原文保留。",
+        "PDF423习题6燃料随时间/高度关系未写全，PDF424习题16三角形位置简略、习题25导数表述宽泛，均不补条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch06_08_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496
+      ]
+    },
+    {
+      "file": "translation_draft/57_ch09_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        425,
+        426,
+        427,
+        428
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "恢复例1原写y=1，撤去据图改为y=-1及译注。",
+        "图9.1、9.2恢复原图注，去除额外图解；习题32图片保留，删除补写图说。",
+        "移除全部7条译注，不把非零分母、负极径、退化和轨迹条件塞回正文。"
+      ],
+      "disputes": [
+        "PDF426例1原文y=1与图B=(1,-1)及tanθ=-1矛盾，忠实保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        497,
+        498,
+        499,
+        500,
+        501
+      ]
+    },
+    {
+      "file": "translation_draft/58_ch09_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        429,
+        430,
+        431,
+        432,
+        433
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "恢复图9.3红色原图注，不另写灰度说明；删除额外图解。",
+        "删除双曲线负极径绝对值译注及全部6条节末补充，保留原准线推导、天文与水星引文。"
+      ],
+      "disputes": [
+        "9A和准线推导未补负极径绝对值或e>0等条件；水星历史叙述不按当代资料改写。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508
+      ]
+    },
+    {
+      "file": "translation_draft/59_ch09_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        434,
+        435,
+        436,
+        437
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "例1恢复从θ到π积分原句；删除擅自改下限为0及译注。",
+        "图9.7原页无说明图注，恢复只有图号；贝壳面积原式保留，撤去译注。",
+        "习题7–12、14、15撤掉额外指定区域字样；移除全部7条节末补充。"
+      ],
+      "disputes": [
+        "PDF434从θ到π原句疑误，原式保留。",
+        "贝壳面积积分未写|cosθ|，未代作者修订；重复编号照录。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        509,
+        510,
+        511,
+        512,
+        513
+      ]
+    },
+    {
+      "file": "translation_draft/60_ch09_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        438,
+        439,
+        440,
+        441,
+        442,
+        443
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "恢复-4平方根和1立方根原断言语气；删去非负极径及图9.8额外解释。",
+        "恢复作者“我不认为能找出来”，撤掉新增“轻易”；移除全部6条译注。"
+      ],
+      "disputes": [
+        "多项式根重数、除法非零和复解共轭条件原文未写，不补。",
+        "原框文9B重复编号保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520
+      ]
+    },
+    {
+      "file": "translation_draft/61_ch10_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "含章引言全文；发散/振荡级数恢复作者其和为/应为语气，撤去形式上限定。",
+        "补回匹配各阶导数后作者“于是几何级数就与函数匹配”结论。",
+        "撤去主值角、图外长除法说明和全部8条节末译注。"
+      ],
+      "disputes": [
+        "原1/0=∞、振荡级数应有和1/2及导数匹配断言照录。",
+        "圆周率已知位数等历史现在时照录，未更新纪录。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530
+      ]
+    },
+    {
+      "file": "translation_draft/62_ch10_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "恢复就会收敛、最重要的问题、决定和主要部分等原断言；恢复例2主语。",
+        "恢复调和级数比ln(n+1)发散略快及列表1+1+⋯。",
+        "极限比较恢复正极限L，撤去新增有限；黎曼猜想解释和全部7条译注移除。"
+      ],
+      "disputes": [
+        "黎曼猜想段省略解析延拓/非平凡零点，按原书保留。",
+        "极限比较及sin(7/n^p)例子的条件未由译者补全。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540
+      ]
+    },
+    {
+      "file": "translation_draft/63_ch10_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        461,
+        462,
+        463,
+        464
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "恢复原几何级数和1/3，不代改2/3。",
+        "10H和阅读填空恢复至少条件收敛原语气；证明严格不等号及递增/递减照原书。",
+        "题1–12撤掉新增或发散选项；图10.3删额外解释及全部7条译注。"
+      ],
+      "disputes": [
+        "PDF461几何级数首项1、公比-1/2却写和1/3，原错保留。",
+        "10H至少条件收敛及原题二选一虽有问题仍保留；例5Probably推测语气保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        541,
+        542,
+        543,
+        544,
+        545
+      ]
+    },
+    {
+      "file": "translation_draft/64_ch10_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        465,
+        466,
+        467,
+        468,
+        469,
+        470
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "图10.5恢复原图仅图号，删除图外说明；图10.4删额外标记解释。",
+        "恢复-1的四次方根及任何复数e^ix原话，撤去数学化订正。",
+        "移除全部5条译注，作者监狱学生经历与原证明保留。"
+      ],
+      "disputes": [
+        "PDF468原写Any complex number is e^ix=…，保留不准确原话。",
+        "log(-1)和分数次幂未补分支，10L等式未补解析/余项条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552
+      ]
+    },
+    {
+      "file": "translation_draft/65_ch10_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        471,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "恢复函数光滑时收敛最好；撤去通常限定。",
+        "图10.6保留原图注，去额外左右图解释；二项式p范围按原文。",
+        "恢复组合数p!/[n!(n-p)!]及包括f(0)=0原话；移除全部8条译注。"
+      ],
+      "disputes": [
+        "PDF474原组合数分母(n-p)!疑误，原式保留。",
+        "比值判别原省略绝对值、题32原1/sqrt(1+4x)符号问题保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559
+      ]
+    },
+    {
+      "file": "translation_draft/66_ch11_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "含章引言全文；恢复作者心脏病等号并列与原第一人称，删医疗编者隔离说明。",
+        "恢复原三维k=(0,1,0)^T、题30(A·k²)及题42(|A|+|B|²)。",
+        "恢复“两个向量不相乘”原回答；删额外图解和全部7条译注。"
+      ],
+      "disputes": [
+        "PDF482原三维k坐标误排，图11.7则为正确坐标，分别保留。",
+        "PDF487题30末项及题42平方位置原错保留；题16差角/和角疑点不代改。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570
+      ]
+    },
+    {
+      "file": "translation_draft/67_ch11_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "图11.11按原图注补回沿A投影，删额外词汇图解。",
+        "长度、分量、投影恢复原话，撤去有向/标量等译者改写；数学家会采用恢复肯定语气。",
+        "保留图A第三方版权署名及原作者心电图内容；移除全部7条译注。",
+        "PR2已验证顺风/侧风风速修正保留，未机械撤销。"
+      ],
+      "disputes": [
+        "原长度可为负、面积未加有向、线面角未加绝对值等按原话。",
+        "心电图是原书教学叙述，未扩充当代医疗判断。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580
+      ]
+    },
+    {
+      "file": "translation_draft/68_ch11_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "恢复叉积仅三维、点积偏爱平行、夹角为零、只有一个非零分量等作者原话。",
+        "恢复旋转证明原带缺漏竖线的句子、九项展开a1b2首项。",
+        "删额外sqrt3/2计算结论、一般取绝对值与译者图解；移除全部7条译注。"
+      ],
+      "disputes": [
+        "PDF501旋转前后角度仍同写θ且竖线缺漏，按原式。",
+        "PDF501九项展开首项a1b2应疑为a1b1，但未纠正；面积/体积未补绝对值。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591
+      ]
+    },
+    {
+      "file": "translation_draft/69_ch11_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "补回左边主语及原四个系数1,0.05,1,0.10。",
+        "恢复平行原语句、一列为另一列倍数；撤去线性相关/重合/竖直误差等译者改写。",
+        "题37撤去原缺失的=0补写；阅读填空撤掉相应维度和当且仅当。",
+        "删额外图内词汇解释及全部5条译注，保留道奇森原记号裁图。"
+      ],
+      "disputes": [
+        "11I行列式为零表述未补退化例外。",
+        "PDF519题37第一式缺=0，原样保留；正规方程等原文未补秩条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602
+      ]
+    },
+    {
+      "file": "translation_draft/70_ch11_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes_inherited_verified",
+      "source_visual_review": "complete_original_pages_viewed_in_prior_thread_verified",
+      "changes": [
+        "恢复我们突出显示原第一人称；图11.20–22删额外词汇图解。",
+        "恢复克拉默段A^-1u原式及阅读填空小写(c)原标记。",
+        "式7原取子式及符号矩阵完整保留在裁图中，去重排时额外复制的符号矩阵。",
+        "移除全部7条译注；题33作者主元换行注完整保留；题39原题裁图保留并补做高清源图查看。"
+      ],
+      "disputes": [
+        "PDF524克拉默段A^-1u疑为A^-1d，忠实保留。",
+        "PDF527原由D=0直接说无共同交点，未补相容性解释。",
+        "题31(b)总说明不完全适用、题34未写换行符号规则、小写(c)均照原书。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch09_11_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613
+      ]
+    },
+    {
+      "file": "translation_draft/71_ch12_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_questions1-7_exercises1-46_captions_author_note",
+      "source_visual_review": "complete_full_pages530-537_view_image",
+      "changes": [
+        "恢复问题4原导数8+8t、t=-1、点(-1,1,-1)，撤去译者纠错及译注。",
+        "恢复PDF535原R0+v0t-cos(t)k，不补常向量k。",
+        "恢复If I pick第一人称；例8删擅加初等函数限定。",
+        "原页PDF537题30实际为速率1，OCR误为t，修正译文为1。",
+        "移除全部7条译注；保留题6后作者Note和全部46道习题。"
+      ],
+      "disputes": [
+        "PDF532问题4计算原错，保留8+8t及(-1,1,-1)。",
+        "PDF535积分与初位置相矛盾，按原式。",
+        "单位切向量/分式非零条件、圆周运动ω符号、题22恒加速度退化等原文未补，忠实保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622
+      ]
+    },
+    {
+      "file": "translation_draft/72_ch12_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        538,
+        539,
+        540,
+        541,
+        542,
+        543
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-3_questions1-3_exercises1-41_captions_author_note_Agnesi",
+      "source_visual_review": "complete_full_pages538-543_view_image",
+      "changes": [
+        "恢复梯子交叉引用原第14题及例3原式(2)，不替作者修号。",
+        "问题2两处弧长根式恢复原减号；题20分母恢复原dx/xθ。",
+        "移除全部8条译注及嵌入的纠错注，保留阿涅西作者Note、第三方Adair图源和全部41题。"
+      ],
+      "disputes": [
+        "PDF538梯子题引用14而实际17，PDF539例3式(2)实际应疑为(1)，原文保留。",
+        "PDF540问题2平方差与后续根式不一致，原减号保留。",
+        "PDF542题20分母dx/xθ疑排印错；题30(b)外摆线y为加号，与后题心形线不一致，原式保留。",
+        "最速降线/等时性未补假设或退化例外，按原书。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629
+      ]
+    },
+    {
+      "file": "translation_draft/73_ch12_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        544,
+        545,
+        546,
+        547,
+        548,
+        549
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-6_exercises1-39_captions_formula_tables",
+      "source_visual_review": "complete_full_pages544-549_view_image",
+      "changes": [
+        "分量表恢复原x′y″-y′y″，例1化简恢复原分子ω²a²。",
+        "公式表恢复ds/st和|dR/ds|，题20/30恢复普通k，题31(b)恢复原式(5)引用。",
+        "撤去在微分意义下、局部平面等解释性增补，移除全部7条译注；全部39题及图表全文核对。"
+      ],
+      "disputes": [
+        "PDF545分量表第三分量、例1分子与相邻正确式不一致，照原式。",
+        "PDF547公式表ds/st及T=|dR/ds|疑排印错误，原式保留。",
+        "原文重新参数化、曲率/法向量非零条件、题10跨象限符号、题27挠率模长定义均未代作者补全。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        630,
+        631,
+        632,
+        633,
+        634,
+        635
+      ]
+    },
+    {
+      "file": "translation_draft/74_ch12_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-3_questions1-2_exercises1-35_captions_Kepler_quote_author_footnote",
+      "source_visual_review": "complete_full_pages550-556_view_image",
+      "changes": [
+        "恢复R与a方向相同、式(4)加号、例2速度多余等号；式(11)补回被删的F/m=a原表达，不改写成译者径向分量解释。",
+        "恢复Recently为最近、顶夸克迄今未可靠观测的作者直接叙述；撤去原书称和相应归一化。",
+        "题28撤去新增/h²、题34③撤去擅补平方，恢复原力大小措辞；阅读填空circular force照译圆周力。",
+        "删除图内面积纠错注、纸币自行补写图注和全部9条译注；完整保留业余爱好者作者脚注及开普勒引文。"
+      ],
+      "disputes": [
+        "PDF550原同方向、式(4)第二行加号与定义冲突；PDF551例2多余等号均原样。",
+        "PDF552图dA缺1/2及式(11)向量/标量混写保留。",
+        "PDF555题28缺h²及circular force、顶夸克历史叙述均照原文；题16纽约上空疑点未代作者修订。",
+        "PDF556题34③漏平方，原式保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642
+      ]
+    },
+    {
+      "file": "translation_draft/75_ch13_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        557,
+        558,
+        559,
+        560,
+        561
+      ],
+      "semantic_review": "complete_chapter_intro_all_paragraphs_examples1-5_questions_exercises1-34_captions",
+      "source_visual_review": "complete_full_pages557-561_view_image",
+      "changes": [
+        "恢复导言I am building第一人称及must have tangents原句；不补切平面选项。",
+        "图13.3移除原书称及额外读图说明，恢复作者直接图注；恢复价值4x+y美元原句，撤去编者纠错提示。",
+        "题16恢复原level curve为等值线，不因内部有点改成等值集。",
+        "移除全部7条译注，全文34题与所有图注核对。"
+      ],
+      "disputes": [
+        "PDF560原4x+y美元与图中金额单位不一致，保留原话。",
+        "PDF561题2第四函数水平值1没有有限等值线，题30跨不同双曲线分支不成立，按原题。",
+        "圆锥、y/x等值线、最陡方向等未补退化/定义域/正则条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        643,
+        644,
+        645,
+        646,
+        647,
+        648
+      ]
+    },
+    {
+      "file": "translation_draft/76_ch13_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        562,
+        563,
+        564,
+        565,
+        566
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-8_exercises1-52_captions_author_note_and_question43_proof",
+      "source_visual_review": "complete_full_pages562-566_view_image",
+      "changes": [
+        "第38题恢复原f(x,y)记法，不代补或隐藏缺失时间变量。",
+        "45/47恢复原题填空出现顺序，移除译者说明；读音恢复直接陈述。",
+        "移除全部7条译注；作者关于2xy鞍点的Note、图13.5/13.6、题43完整证明及全部52题核对保留。"
+      ],
+      "disputes": [
+        "PDF566题38原用f(x,y)描述时间解，保留。",
+        "混合导数/热方程/极限定义/实幂定义域等原题未补必要条件，按原文。",
+        "PDF565题4原确xe^(x+4)，不是y，按图保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655
+      ]
+    },
+    {
+      "file": "translation_draft/77_ch13_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-9_exercises1-43_captions_author_footnote_comment_summary",
+      "source_visual_review": "complete_full_pages567-577_view_image",
+      "changes": [
+        "例2恢复原切平面第二系数-1/3；隐函数求导补回作者原dz/dx。",
+        "恢复zoom transform伸展成切平面原话，不另改为越来越接近。",
+        "式17恢复原等号，例9第二次迭代中间Δy恢复+1/4；题19恢复原dR=0.002。",
+        "恢复混沌领域新颖程度现在时、牛顿法最佳方法及每步位数加倍的直接断言，撤掉写作时/作者认为/约等编者限定。",
+        "移除全部8条译注，完整保留osculate作者脚注、作者Comment/Summary及43题。"
+      ],
+      "disputes": [
+        "PDF568例2-1/3与同页-2/3及下一式矛盾，原式保留。",
+        "PDF573线性近似式17原用等号，PDF574中间Δy=+1/4与后y1=-1/4矛盾，均照原书。",
+        "PDF576题19下降dR=+0.002、题31起点已是解、题42切平面填空问题均未代作者修订。",
+        "切平面/二阶误差/牛顿局部收敛的条件未添加。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666
+      ]
+    },
+    {
+      "file": "translation_draft/78_ch13_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-5_7-9_questions_exercises1-51_captions_and_figuresABC",
+      "source_visual_review": "complete_full_pages578-585_view_image",
+      "changes": [
+        "恢复开头原u=i/2+j/2，不替作者修为单位向量。",
+        "13F恢复parallel为平行；例5恢复导数在(x0,y0)取值及不限定上半锥面的径向向外原句。",
+        "移除全部7条译注；例号跳过6照原书保留，51题及全部图注/ABC图已核对。"
+      ],
+      "disputes": [
+        "PDF578原i/2+j/2非单位向量，与例1不一致，原式保留。",
+        "PDF581原例5只列(x0,y0)及双锥面一概径向向外，未代修。",
+        "PDF584题14/16不可微、题31屋顶斜率相反、PDF585题36/37梯度长度不唯一等原题问题保留，不另加条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675
+      ]
+    },
+    {
+      "file": "translation_draft/79_ch13_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-9_exercises1-49_readthrough_caption",
+      "source_visual_review": "complete_full_pages586-593_view_image",
+      "changes": [
+        "恢复上一页末尾、我们的第一个偏微分方程、日暮时刻及世界线原句，不增分页校正/模型限定。",
+        "例3恢复以M为界及原不带绝对值的M sin2θ；式10后恢复作者直接相加原话，撤去加权推导。",
+        "恢复雅可比右下元漏除号原式；移除阅读填空的编者纠错提示及全部8条译注。",
+        "保留49题及图13.15，补明确例7原略过的两个偏导数，恢复任意聪明人都会约分的语气。"
+      ],
+      "disputes": [
+        "PDF588例3原不等式缺sin2θ绝对值；PDF589式10后原相加省略权重，按原式原话。",
+        "PDF590雅可比右下元原∂y∂θ无除号，照录；PDF591世界线称谓照录。",
+        "PDF592填空B固定z而C求z偏导原矛盾保留；未补复解析性、单位向量、局部反函数及非零分母条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684
+      ]
+    },
+    {
+      "file": "translation_draft/80_ch13_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-10_readthrough_exercises1-59_captions_remarks",
+      "source_visual_review": "complete_full_pages594-603_view_image",
+      "changes": [
+        "式4最后距离因子恢复原d1；例7恢复原常数4；13M末项恢复原漏y的混合偏导分母。",
+        "恢复原一元二阶判别必要性断言、配平方正负原句，以及例10原13M/13N交叉引用和拐点二维版本的直接断言。",
+        "移除自行扩写的三幅图注、题27除原点条件和全部6条译注；59题、阅读填空及作者两条Remark全文核对。"
+      ],
+      "disputes": [
+        "PDF597式4末项原d1非d3，PDF599例7原常数4非1；PDF601原13M末项分母漏y、例10回引13M/13N均照录。",
+        "PDF595原图最低值1/3与正文2/3不符，保留图；原判别的退化、可微及泰勒收敛条件不补。",
+        "PDF602填空d²不光滑、PDF603题30角度不唯一/题39等距/题56调和断言均按原题保留，不添加条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        685,
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693,
+        694,
+        695
+      ]
+    },
+    {
+      "file": "translation_draft/81_ch13_sec07.zh-CN.md",
+      "source_pdf_pages": [
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-4_readthrough_exercises1-33_captions_author_note",
+      "source_visual_review": "complete_full_pages604-610_view_image",
+      "changes": [
+        "例1叙述恢复原x+2y=k；两处法向恢复原same direction；恢复移动直线Δk原话。",
+        "去掉两个约束确定变量的独立/通常、乘子非零与端点的编者修订，恢复作者直接断言。",
+        "题14去掉略去常数、题20去掉原书设、题31去掉连同约束条件的增补；删除全部5条译注及图13.22/13.23额外读图说明。",
+        "33题及作者题1后Note全文保留；图13.22原(4,6,9)不修改。"
+      ],
+      "disputes": [
+        "PDF604例1原x+2y=k与题设不一致；原两处same direction数学上未必成立，均照原话。",
+        "PDF607图13.22梯度原(4,6,9)保留；两个约束/不等式/端点一般性及灵敏度条件不添加。",
+        "PDF610题14与前节差常数、题31方程本身有解、航空行李过去情境均按原文，不补免责声明或现代政策。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703
+      ]
+    },
+    {
+      "file": "translation_draft/82_ch14_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618
+      ],
+      "semantic_review": "complete_chapter_intro_all_paragraphs_examples1-7_readthrough_exercises1-45_captions_author_remark",
+      "source_visual_review": "complete_full_pages611-618_view_image",
+      "changes": [
+        "恢复例2体积称谓、原末行-3/1；例6恢复作者积分称谓，不代改原函数。",
+        "例7恢复无法计算、题43恢复原函数未知，不加初等函数范围；恢复我强烈建议第一人称。",
+        "撤去图14.1/14.2/14.4补充读图说明及全部4条译注；11–16按原书合并题目要求，45题全文覆盖。"
+      ],
+      "disputes": [
+        "PDF614例2负体积及原末行-3/1与前式不一致，均按原文；PDF616例6原将原函数称积分保留。",
+        "PDF617题32系数/题35–36扇形方向、题40奇点、题41边界幂、题29–30面积条件未添加。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711
+      ]
+    },
+    {
+      "file": "translation_draft/83_ch14_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-8_questions_readthrough_exercises1-39_captions_final_remark",
+      "source_visual_review": "complete_full_pages619-627_view_image",
+      "changes": [
+        "恢复原J面积元简写、xy矩形变uv矩形、图14.10从xy到uv有J=1/3，不作方向纠错。",
+        "恢复高斯积分无法积分及hard to like语气、任意常数密度、逆函数持续增减原断言；去除可微逆变换限定。",
+        "题27恢复原0到∞且答案√π，题29恢复0≤θ≤π，题30恢复≤∞；移除全部5条译注和图14.8/14.9补充说明。",
+        "原开篇转动惯量后的残缺积分符号仍保留，不凭空补被积函数。"
+      ],
+      "disputes": [
+        "PDF619转动惯量公式只剩积分符号残片；按可见内容保留。",
+        "PDF624图14.10变换方向/J及正文xy rectangles原有疑点，按原话；PDF625逆函数非零导数条件未另补。",
+        "PDF627题27区间与√π矛盾、题29极角与半径范围不兼容，均恢复原题；题30奇点/题33密度/题35负密度/题38中值条件不添加。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720
+      ]
+    },
+    {
+      "file": "translation_draft/84_ch14_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        628,
+        629,
+        630,
+        631,
+        632,
+        633
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-4_questions_readthrough_exercises1-32_captions",
+      "source_visual_review": "complete_full_pages628-633_view_image",
+      "changes": [
+        "例2形心积分中层上限恢复原1-y；问题1恢复积分(1-z)²而非√(1-z²)的原话；例4上限恢复原漏a形式。",
+        "恢复我先开始第一人称，去掉题32平均限定、图14.12/14.13自加读图说明和全部6条译注。",
+        "32题包括原题25同名积分变量均全文照录核对，公式/图14.12–14.14均看原页。"
+      ],
+      "disputes": [
+        "PDF629原形心三重积分中层上限1-y；PDF631问题1原比较不同量，例4原漏a，保留原书。",
+        "题16翻倒方向、题17–20底面位置、题24非负坐标、题25哑变量及题32共享点条件不补。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        721,
+        722,
+        723,
+        724,
+        725,
+        726
+      ]
+    },
+    {
+      "file": "translation_draft/85_ch14_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641
+      ],
+      "semantic_review": "complete_all_paragraphs_examples1-9_questions_readthrough_exercises1-42_captions_notes1-2_author_PS",
+      "source_visual_review": "complete_full_pages634-641_view_image",
+      "changes": [
+        "完整恢复汽车雷电段I believe第一人称及作者P.S.，去掉作者接着写道/引号隔离和译者免责声明；保留两条物理学家Note全文。",
+        "14C恢复原dV=J及stretching factor文字；题39恢复原mr²，题40恢复原falls faster为下落更快，例4恢复矩而非一阶距离矩术语化。",
+        "恢复势位置r=D及力向量原话，移除所有8条译注及自加图中英文标签解释，42题逐题核对。"
+      ],
+      "disputes": [
+        "PDF639作者汽车轮胎/金属链安全陈述原文保留，不作现代适用性改写；几何引力证明省略因素由原题31提出。",
+        "PDF639原14C dV=J与下方|J|有别，PDF641题33 q³、题39 mr²与括号4πρ⁴、题40falls faster均照录。",
+        "原引力常数/力的符号/球对称密度/非交球/坐标退化等条件未添加。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch12_14_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734
+      ]
+    },
+    {
+      "file": "translation_draft/86_ch15_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648
+      ],
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF642-648_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "全文、章引言、9例、40题、四图与术语表核对；删除全部译注及图注追加标签解释。",
+        "恢复作者电子从高势到低势、所有径向场为梯度场、磁场乘电流强度、线状质量引力的直接断言，不增加局部割线区域等条件。",
+        "章引言第二段二重积分的三积分号照录原排版，不代改。"
+      ],
+      "disputes": [
+        "PDF642第二段把二重积分排为三积分号。",
+        "PDF644对S/r²为梯度的说法未限定区域；PDF645称所有径向场为梯度并说电子从高势到低势；PDF648题26引力方向符号可疑。均保留原文，不加数学/物理修正。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch15_16_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741
+      ]
+    },
+    {
+      "file": "translation_draft/87_ch15_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657
+      ],
+      "semantic_review": "complete_all_paragraphs_7_examples_readthrough_44_exercises_3_captions_formulas; PDF654 opening overlapping lines restored with auxiliary source_text",
+      "source_visual_review": "viewed_all_original_full_pages_PDF649-657_at_120dpi; PDF654 opening contains genuine source text overlap, visually obscured words not independently legible",
+      "changes": [
+        "删除全部译注与图注追加标签解释。",
+        "恢复例1原书(-cos t)^2与点积未闭圆括号、例2点积漏等号、例5首积分2xy dy、解法3的df/dy、证明中的命题A、例7原印(x,0)端点。",
+        "恢复钢琴重量乘高度变化、梯度场势能负号、超过99.99%的直接陈述及例4功不为零；移除新增方向解释、常数约定等。"
+      ],
+      "disputes": [
+        "PDF649导数平方项原印(-cos t)^2且点积括号未闭；PDF650点积漏等号；PDF654例5首积分原印dy；PDF655把路径独立性称命题A、解法3原印df/dy；PDF656例7积分端点原印(x,0)。全部照录原书。",
+        "PDF654开头多行重叠遮挡，辅助提取文字可恢复句子；未声称这些遮挡字词在原图上全部可辨。",
+        "原书钢琴做功、势能符号、超过99.99%及部分习题的路径/奇点表述均未补充数学物理条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch15_02_04_20261030.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750
+      ]
+    },
+    {
+      "file": "translation_draft/88_ch15_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668
+      ],
+      "semantic_review": "complete_all_paragraphs_8_examples_readthrough_46_exercises_6_captions_summary_formulas",
+      "source_visual_review": "complete_viewed_all_original_full_pages_PDF658-668_at_120dpi",
+      "changes": [
+        "删除全部译注和图注中追加的英文标签解释。",
+        "恢复旋转场变成位置场的原书直接说法，不新增原/新分量角色解释；恢复势和流函数要求无孔洞的原陈述。",
+        "恢复PDF666第二场为2S以及PDF668题26的g_y=y/(x²+y²)，不修正原书疑错；恢复150年、混合偏导总相等等原文量词。"
+      ],
+      "disputes": [
+        "PDF663称(-N,M)旋转把S变成R、R变成-S，与通常固定分量旋转方向存在疑问；照录原书。",
+        "PDF666第二场原印2S而非-2S；PDF668题26原印g_y=y/(x²+y²)而非负号。均保留。",
+        "原书角势、delta函数、局部判据、孔洞及全部多项式解的断言不补条件或分布解释。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch15_02_04_20261030.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761
+      ]
+    },
+    {
+      "file": "translation_draft/89_ch15_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
+      ],
+      "semantic_review": "complete_all_paragraphs_12_examples_readthrough_35_exercises_7_captions_formula_table",
+      "source_visual_review": "complete_viewed_all_original_full_pages_PDF669-678_at_120dpi; PDF673_rerendered_from_original_PDF_at_180dpi_and_viewed; existing_fig15_16_v2_crop_also_viewed",
+      "changes": [
+        "删除全部译注与图注追加标签解释。",
+        "恢复PDF669基本积分第三项原书双积分号dx dy dz；恢复圆锥整面/上半部的原叙述，不预加上半部限定。",
+        "恢复例2的dS=√2u du dv、|A|=u与|B|=√2，不补绝对值与u≥0条件；恢复例8引用面积公式无上下限、式(11)未填内容的平方根。",
+        "恢复例12法向量k分量的sin²φ及任意赤道为界曲面的原陈述，不补定向条件；恢复30°圆锥的直接称谓、莫比乌斯带的原说明。"
+      ],
+      "disputes": [
+        "PDF669第三个基本积分原书印为双积分号配dx dy dz；PDF671圆锥面积元未用|u|且两切向量长度互换；PDF676例12k分量原印a² sin²φ cosφ。均保留。",
+        "PDF675式(11)原书两处根号内空白，译稿以空白根式保留，没有补写根式内容。",
+        "PDF674例8引用8.3节面积积分未印上下限；PDF678阅读填空称给定参数曲面为30°圆锥。均照原文，不改数学。",
+        "原书任意赤道边界曲面、莫比乌斯带通量和参数退化等未补适用条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch15_02_04_20261030.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771
+      ]
+    },
+    {
+      "file": "translation_draft/90_ch15_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685
+      ],
+      "semantic_review": "complete_all_paragraphs_6_examples_30_exercises_readthroughs_2_captions_no_author_footnotes_present",
+      "source_visual_review": "complete_all_original_pages_679-685_viewed_at_120dpi_in_current_agent",
+      "changes": [
+        "删除所有新增译注及正文中的补充解释、限定和代作者修正；保留原书点源、不可压缩、误差阶和历史称谓的陈述。",
+        "恢复PDF680通量推导的三积分号、PDF683式(12)末项三积分号与式(13)单积分号，去掉原式没有的区域下标。",
+        "恢复PDF684质量减少率的p以及PDF685题21的|z|≥1，不增加当且仅当；恢复式(5)表面积步骤和del f、del dot F原有记号。",
+        "图15.21和15.22仅翻译原图注，取消追加标签释义和推导。"
+      ],
+      "disputes": [
+        "PDF680的通量等式首项印为三积分号；PDF683式(12)的dS项也印为三积分号，均照录。",
+        "PDF684质量减少率印为∂p/∂t，后文又用ρ，照录记号变化。",
+        "PDF685题21印为|z|≥1，与后续顶底侧面及有限柱体题意不协调；未改为≤。",
+        "PDF681把圣彼得堡称作now Leningrad，正文照译现称列宁格勒；本记录不作现时地名校订。",
+        "原书直接称不可压缩为常密度，并给出小盒子误差阶与全局势/向量势陈述；未增补条件或修正。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch15_05_end_20261030.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778
+      ]
+    },
+    {
+      "file": "translation_draft/91_ch15_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693
+      ],
+      "semantic_review": "complete_all_paragraphs_9_examples_50_exercises_readthroughs_2_captions_no_author_footnotes_present",
+      "source_visual_review": "complete_all_original_pages_686-693_viewed_at_120dpi_in_current_agent_and_page692_readthrough_detail_rerendered_200dpi_and_viewed",
+      "changes": [
+        "删除全部新增译注，撤回15N充分光滑条件、15P定义域条件及平面判据中适当区域限定。",
+        "恢复PDF690的curl grad F与作者if curl F=0 then work=0原句，不代改标量势记号。",
+        "恢复阅读填空旋转式中的curl F、第二段重复的i标号，以及原场后这个场是梯度的直接陈述，不插入原题接着要求等疏离措辞。",
+        "恢复法拉第定律的功及数学肯定为真口吻、题40磁场做功原称、章末取P=0和一个平面曲面的陈述；删追加图内英文标签释义。"
+      ],
+      "disputes": [
+        "PDF690把C⇒D写作curl grad F，照原大写向量F保留。",
+        "PDF692阅读填空原场y²z²i+2xy²zk与后续梯度续问不一致；未补j分量。",
+        "PDF692阅读填空旋转公式写curl F，未代改curl S。",
+        "PDF692第二段填空号实际是i，与前段i重复；200dpi重渲染局部已确认并照录。",
+        "原书无条件陈述15N/15P、投影边界以及部分全局保守性质；未新增光滑性、拓扑或图像条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch15_05_end_20261030.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        786
+      ]
+    },
+    {
+      "file": "translation_draft/92_ch16_intro.zh-CN.md",
+      "source_pdf_pages": [
+        694,
+        695
+      ],
+      "semantic_review": "complete_all_paragraphs_course_list_2_equations_no_exercises_captions_or_author_footnotes_present",
+      "source_visual_review": "complete_original_pages_694-695_viewed_at_120dpi_in_current_agent",
+      "changes": [
+        "删除全部译注与代作者解释；恢复线性规划是非线性的因为x≥0原文陈述。",
+        "恢复两行any function，取消解析性条件；恢复Fourier transform、everything is computed by FFT以及delta等式的原文直接陈述。",
+        "恢复25个州与25个邻州的题干及精确解不见了原句，撤回原译的美国50州、离散情形、示意式和在我看来等额外限定。",
+        "把吸烟与健康联系被压数世纪改回数世纪未被发现，避免引入主动压制的行为。"
+      ],
+      "disputes": [
+        "PDF694称线性规划因要求x≥0而非线性；照录原文，不修正分类。",
+        "PDF695称任意u(x+iy)满足拉普拉斯方程；未增解析性等条件。",
+        "PDF695写δ(x)=Σcos kx且称everything is computed by FFT；未补归一化、收敛或离散条件。",
+        "源PDF此章只有导言两页；16.1–16.3交叉引用照留，不补写缺失章节。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch15_05_end_20261030.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        787,
+        788
+      ]
+    },
+    {
+      "file": "translation_draft/93_integral_table.zh-CN.md",
+      "source_pdf_pages": [
+        696
+      ],
+      "semantic_review": "complete_all_55_numbered_formulas_6_nonelementary_examples_and_original_conditions_no_author_footnotes_present",
+      "source_visual_review": "complete_original_page696_viewed_at_120dpi_and_upper_table_detail_rerendered_200dpi_and_viewed_in_current_agent",
+      "changes": [
+        "删除开头积分常数、定义域、参数和分支补充，以及全部译注；只保留原表列出的条件。",
+        "恢复第15式分子dx与分式外dx的重复印刷，200dpi局部确认。",
+        "恢复第22式对数的圆括号，撤回人为增添的绝对值；第40、44式条件直接照原列出。"
+      ],
+      "disputes": [
+        "PDF696第15式确实印有两次dx，照录，不自行修复。",
+        "第11式、第13式等数学上可疑的表达按原表保留；本任务为忠实性核对，未代作者纠错。",
+        "第22式对数未加绝对值；第23、40、44式的分支/符号条件未补充。",
+        "原表省略积分常数及多数参数限制；未新增统一适用条件。"
+      ],
+      "review_record": "translation_prep/faithfulness_ch15_05_end_20261030.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        789,
+        790,
+        791
+      ]
+    },
+    {
+      "file": "translation_draft/94_index.zh-CN.md",
+      "source_pdf_pages": [
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704
+      ],
+      "semantic_review": "complete_all_1126_entries_and_references",
+      "source_visual_review": "complete_full_pages697-704_view_image_120dpi",
+      "changes": [
+        "逐页核对全部词条、顺序、公式及索引页码；原文提取文本辅助检查1126条页码序列，逐条一致。",
+        "补回连续计息interest词条漏译的302页。",
+        "撤去del词条原索引写字样及表标题的译者说明，保留原印Delta、面积与体积标签。",
+        "恢复标量三重积原式未加括号的写法；体积的box按原词翻译为盒子。",
+        "撤去4条译者备注，正文不添加原书疑点解释。"
+      ],
+      "disputes": [
+        "原书Normal/to plane页码476–554、Del(Delta)与Table/area and volumes下列运动向量均照原印保留。",
+        "索引指向源PDF未包含的第16章正文页码，仍照原索引保留。"
+      ],
+      "review_record": "translation_prep/faithfulness_index_20261030.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        792,
+        793,
+        794,
+        795,
+        796,
+        797,
+        798,
+        799,
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830
+      ]
+    },
+    {
+      "file": "translation_draft/95_reference_tables.zh-CN.md",
+      "source_pdf_pages": [
+        704
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete_high_resolution_PDF704_lower_formula_tables",
+      "changes": [
+        "全部公式、单位、常数与换算表逐式逐行核对高清原图；删除4条译者增补注。",
+        "恢复原矩阵叉积行写法，撤去转置符号与新增D定义；恢复二阶方程解列原or写法。",
+        "删除原表数值/典型解/条件等隔离性转述，不更新原常数。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "explicit_source_page704_confirmed_in_existing_visual_review_and_task",
+      "rebuilt_pdf_pages": [
+        831,
+        832,
+        833
+      ]
+    },
+    {
+      "file": "translation_draft/96_front_matter.zh-CN.md",
+      "source_pdf_pages": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "逐页核对原书文字与完整原图；删除无原文依据的译注。",
+        "撤去地址新增USA及目录新增“原目录未列”；恢复作者奖励叙述语气，目录页码按原书保留。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "file": "translation_draft/97_front_formula_tables.zh-CN.md",
+      "source_pdf_pages": [
+        12,
+        13
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete_high_resolution_PDF12-13",
+      "changes": [
+        "两页全部公式、标签、条件逐项核对高清原图，删除7条译者增补及其说明。",
+        "恢复原表省略量词的极限简表、拐点直接条件与迭代原表述。",
+        "撤掉圆周速率/投影绝对值、积分额外条件及三角积漏x修正，按原式照录。"
+      ],
+      "disputes": [
+        "PDF13最后sinpx cosqx积分第二项漏x、相位反正切象限、原表省略条件等照原文。"
+      ],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "file": "translation_draft/98_source_notice.zh-CN.md",
+      "source_pdf_pages": [
+        705,
+        706
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "changes": [
+        "逐页核对原书文字与完整原图；删除无原文依据的译注。"
+      ],
+      "disputes": [],
+      "review_record": "translation_prep/faithfulness_review_20261029.json",
+      "rebuilt_pdf_review": "passed_automated_math_images_overflow_navigation; visual_review_scope_in_final_validation",
+      "source_page_basis": "source_pdf_pages_in_review_record",
+      "rebuilt_pdf_pages": [
+        834
+      ]
+    }
+  ],
+  "pdf": "output/pdf/GilbertStrang-Calculus.pdf",
+  "manuscript": "output/markdown/GilbertStrang-Calculus.md",
+  "final_validation": {
+    "pages": 834,
+    "bookmarks_verified_in_pdfium": 571,
+    "internal_link_areas": 375,
+    "contents_rows": 108,
+    "math_errors": 0,
+    "missing_images": 0,
+    "html_overflow": 0,
+    "unwanted_text_pages": [],
+    "rendered_contact_sheets": 11,
+    "large_render_pages": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      13,
+      14,
+      162,
+      163,
+      168,
+      326,
+      327,
+      334,
+      335,
+      336,
+      342,
+      742,
+      743,
+      750,
+      751,
+      752,
+      761,
+      762,
+      763,
+      771,
+      772,
+      773,
+      778,
+      779,
+      780,
+      786,
+      787,
+      788,
+      789,
+      790,
+      791,
+      792,
+      793,
+      830,
+      831,
+      832,
+      833,
+      834
+    ],
+    "pdf_bytes": 72697666,
+    "combined_manuscript_image_references": 328,
+    "combined_manuscript_missing_images": 0,
+    "final_backup": "tmp/pdfs/faithfulness-20261030-backup/GilbertStrang-Calculus.before-rebuild-20261030-111308.pdf",
+    "visual_scope": {
+      "previous_827_page_layout": "all_pages_thumbnail_contact_sheet_review; full_size_pages320-336_and735-784; representative_front_tables_continuity_index_reference_and_source_pages",
+      "final_834_page_layout": "all_pages_rendered_and_text_scanned; affected_pages_rechecked_at_readable_resolution; representative_pages_viewed",
+      "final_affected_pages": [
+        326,
+        329,
+        341,
+        342,
+        748,
+        756,
+        779,
+        780,
+        789,
+        790,
+        791
+      ],
+      "limitation": "Not every final page was reread at full resolution. Source fidelity review and PDF visual inspection are separately recorded."
+    },
+    "layout_fixes": [
+      "literal fill-in underscores escaped before Markdown parsing",
+      "exercise12-16 list indentation and block mathematics preserved",
+      "display mathematics retains quotation prefix",
+      "original captions grouped with corresponding images",
+      "provenance metadata excluded and image-alt descriptions not duplicated as captions"
+    ]
+  }
+}

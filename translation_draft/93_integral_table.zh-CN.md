@@ -1,6 +1,6 @@
 # 积分表
 
-> 来源：原书 PDF 第 696 页，无印刷页码。状态：中文初译，未独立复审。以下保留原表 1–55 的编号。各不定积分右端均省略任意常数 $C$；使用时应在被积函数有定义的区间上补入。参数分母须非零，根式与反函数须在适当实数分支中解释，详见末尾译注。
+> 来源：原书 PDF 第 696 页，无印刷页码。状态：已逐式对照英文并查看原页；未进行最终排版校验。以下保留原表 1–55 的编号。
 
 <!-- PDF 696 / 印刷页 无 -->
 
@@ -20,14 +20,14 @@
 12. $\displaystyle\int x^2\sqrt u\,dx=\frac{2(15a^2x^2-12abx+8b^2)}{105a^3}u^{3/2}$。
 13. $\displaystyle\int\frac{\sqrt u}{x}\,dx=2\sqrt u+b\int\frac{dx}{x\sqrt u}$。
 14. $\displaystyle\int\frac{x\,dx}{\sqrt u}=\frac{2(ax-2b)}{3a^2}\sqrt u$。
-15. $\displaystyle\int\frac{x^2\,dx}{\sqrt u}=\frac{2(3a^2x^2-4abx+8b^2)}{15a^3}\sqrt u$。
+15. $\displaystyle\int\frac{x^2\,dx}{\sqrt u}\,dx=\frac{2(3a^2x^2-4abx+8b^2)}{15a^3}\sqrt u$。
 16. $\displaystyle\int\frac{dx}{x\sqrt u}=\frac1{\sqrt b}\ln\left|\frac{\sqrt u-\sqrt b}{\sqrt u+\sqrt b}\right|$（$b>0$）；或 $\displaystyle\frac2{\sqrt{-b}}\tan^{-1}\frac{\sqrt u}{\sqrt{-b}}$（$b<0$）。
 17. $\displaystyle\int\frac{\sqrt u}{x^2}\,dx=-\frac{\sqrt u}{x}+\frac a2\int\frac{dx}{x\sqrt u}$。
 18. $\displaystyle\int\frac{dx}{(ax+b)(cx+d)}=\frac1{bc-ad}\ln\left|\frac{cx+d}{ax+b}\right|$。
 19. $\displaystyle\int\frac{x\,dx}{(ax+b)(cx+d)}=\frac1{bc-ad}\left(\frac ba\ln|ax+b|-\frac dc\ln|cx+d|\right)$。
 20. $\displaystyle\int\sqrt{x^2\pm a^2}\,dx=\frac x2\sqrt{x^2\pm a^2}\pm\frac{a^2}{2}\ln\left|x+\sqrt{x^2\pm a^2}\right|$。
 21. $\displaystyle\int\frac{dx}{\sqrt{x^2\pm a^2}}=\ln\left|x+\sqrt{x^2\pm a^2}\right|$。
-22. $\displaystyle\int\frac{\sqrt{x^2+a^2}}x\,dx=\sqrt{x^2+a^2}-a\ln\left|\frac{a+\sqrt{x^2+a^2}}x\right|$。
+22. $\displaystyle\int\frac{\sqrt{x^2+a^2}}x\,dx=\sqrt{x^2+a^2}-a\ln\left(\frac{a+\sqrt{x^2+a^2}}x\right)$。
 23. $\displaystyle\int\frac{\sqrt{x^2-a^2}}x\,dx=\sqrt{x^2-a^2}-a\sec^{-1}\frac xa$。
 24. $\displaystyle\int\frac{x^2\,dx}{\sqrt{x^2\pm a^2}}=\frac x2\sqrt{x^2\pm a^2}\mp\frac{a^2}{2}\ln\left|x+\sqrt{x^2\pm a^2}\right|$。
 25. $\displaystyle\int\frac{\sqrt{x^2\pm a^2}}{x^2}\,dx=-\frac{\sqrt{x^2\pm a^2}}x+\ln\left|x+\sqrt{x^2\pm a^2}\right|$。
@@ -45,11 +45,11 @@
 37. $\displaystyle\int\frac{dx}{x\sqrt{a^2-x^2}}=-\frac1a\ln\left|\frac{a+\sqrt{a^2-x^2}}x\right|$。
 38. $\displaystyle\int\frac{x^2\,dx}{\sqrt{a^2-x^2}}=-\frac x2\sqrt{a^2-x^2}+\frac{a^2}{2}\sin^{-1}\frac xa$。
 39. $\displaystyle\int(a^2-x^2)^{3/2}\,dx=\frac x8(5a^2-2x^2)\sqrt{a^2-x^2}+\frac{3a^4}{8}\sin^{-1}\frac xa$。
-40. $\displaystyle\int\frac{dx}{b+c\sin ax}=\frac{-2}{a\sqrt{b^2-c^2}}\tan^{-1}\left[\sqrt{\frac{b-c}{b+c}}\tan\left(\frac\pi4-\frac{ax}2\right)\right]$，原表条件为 $b^2>c^2$。
+40. $\displaystyle\int\frac{dx}{b+c\sin ax}=\frac{-2}{a\sqrt{b^2-c^2}}\tan^{-1}\left[\sqrt{\frac{b-c}{b+c}}\tan\left(\frac\pi4-\frac{ax}2\right)\right]$，$b^2>c^2$。
 41. $\displaystyle\int\frac{dx}{1+\sin ax}=-\frac1a\tan\left(\frac\pi4-\frac{ax}2\right)$。
 42. $\displaystyle\int\frac{dx}{b+c\sin ax}=-\frac1{a\sqrt{c^2-b^2}}\ln\left|\frac{c+b\sin ax+\sqrt{c^2-b^2}\cos ax}{b+c\sin ax}\right|$，$b^2<c^2$。
 43. $\displaystyle\int\frac{dx}{1-\sin ax}=\frac1a\tan\left(\frac\pi4+\frac{ax}2\right)$。
-44. $\displaystyle\int\frac{dx}{b+c\cos ax}=\frac2{a\sqrt{b^2-c^2}}\tan^{-1}\left[\sqrt{\frac{b-c}{b+c}}\tan\frac{ax}2\right]$，原表条件为 $b^2>c^2$。
+44. $\displaystyle\int\frac{dx}{b+c\cos ax}=\frac2{a\sqrt{b^2-c^2}}\tan^{-1}\left[\sqrt{\frac{b-c}{b+c}}\tan\frac{ax}2\right]$，$b^2>c^2$。
 45. $\displaystyle\int\frac{dx}{1+\cos ax}=\frac1a\tan\frac{ax}2$。
 46. $\displaystyle\int\frac{dx}{b+c\cos ax}=\frac1{a\sqrt{c^2-b^2}}\ln\left|\frac{c+b\cos ax+\sqrt{c^2-b^2}\sin ax}{b+c\cos ax}\right|$，$b^2<c^2$。
 47. $\displaystyle\int\frac{dx}{1-\cos ax}=-\frac1a\cot\frac{ax}2$。
@@ -68,11 +68,3 @@ $$
 \int e^{x^2}\,dx,\quad\int e^x\ln x\,dx,\quad\int\frac{dx}{\ln x},\quad
 \int\frac{e^x}{x}\,dx,\quad\int\frac{\sin x}{x}\,dx,\quad\int\frac{\sin^{-1}x}{x}\,dx.
 $$
-
-## 译注与待复审事项
-
-- 原表省略积分常数与多数定义域条件。本译稿统一在开头说明，不能将表中表达式理解为跨越奇点或反函数分支的同一个原函数。
-- 第1式 $n\ne-1$，第2式一般式 $n\ne-1,-2$；第49、51式 $n\ne-1$；各式分母中的参数必须非零。根式含 $a^2$ 而反函数含 $a$ 的常用公式通常默认 $a>0$。
-- 第22式原表对数未加绝对值，已补绝对值以适用于 $a>0,x\ne0$。第23式按原式保留，采用本书反正割导数约定时需 $x>a>0$；负半轴不能不改分支直接使用。
-- 第40、44式原表只写 $b^2>c^2$，但所列正平方根形式还需 $b>0$（即 $b>|c|$）；$b<0$ 时须另处理符号。保留原公式与原条件，并在此明确限制。
-- 同一公式中的 $\pm$ 与 $\mp$ 必须成对选取。以上逐式对照原页，但尚未对全部原函数作独立符号微分复审。

@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-30",
+  "scope": "15.5,15.6,Chapter16 introduction,integral table",
+  "source": "mitres_18_001_f17_full_book.pdf",
+  "method": "逐段完整对照本地英文原PDF；source_text辅助检索；全部18页实际view_image；有疑处200dpi重渲染确认；不代作者纠错或增加条件/译注",
+  "sections": [
+    {
+      "file": "translation_draft/90_ch15_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685
+      ],
+      "semantic_review": "complete_all_paragraphs_6_examples_30_exercises_readthroughs_2_captions_no_author_footnotes_present",
+      "source_visual_review": "complete_all_original_pages_679-685_viewed_at_120dpi_in_current_agent",
+      "changes": [
+        "删除所有新增译注及正文中的补充解释、限定和代作者修正；保留原书点源、不可压缩、误差阶和历史称谓的陈述。",
+        "恢复PDF680通量推导的三积分号、PDF683式(12)末项三积分号与式(13)单积分号，去掉原式没有的区域下标。",
+        "恢复PDF684质量减少率的p以及PDF685题21的|z|≥1，不增加当且仅当；恢复式(5)表面积步骤和del f、del dot F原有记号。",
+        "图15.21和15.22仅翻译原图注，取消追加标签释义和推导。"
+      ],
+      "disputes": [
+        "PDF680的通量等式首项印为三积分号；PDF683式(12)的dS项也印为三积分号，均照录。",
+        "PDF684质量减少率印为∂p/∂t，后文又用ρ，照录记号变化。",
+        "PDF685题21印为|z|≥1，与后续顶底侧面及有限柱体题意不协调；未改为≤。",
+        "PDF681把圣彼得堡称作now Leningrad，正文照译现称列宁格勒；本记录不作现时地名校订。",
+        "原书直接称不可压缩为常密度，并给出小盒子误差阶与全局势/向量势陈述；未增补条件或修正。"
+      ]
+    },
+    {
+      "file": "translation_draft/91_ch15_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693
+      ],
+      "semantic_review": "complete_all_paragraphs_9_examples_50_exercises_readthroughs_2_captions_no_author_footnotes_present",
+      "source_visual_review": "complete_all_original_pages_686-693_viewed_at_120dpi_in_current_agent_and_page692_readthrough_detail_rerendered_200dpi_and_viewed",
+      "changes": [
+        "删除全部新增译注，撤回15N充分光滑条件、15P定义域条件及平面判据中适当区域限定。",
+        "恢复PDF690的curl grad F与作者if curl F=0 then work=0原句，不代改标量势记号。",
+        "恢复阅读填空旋转式中的curl F、第二段重复的i标号，以及原场后这个场是梯度的直接陈述，不插入原题接着要求等疏离措辞。",
+        "恢复法拉第定律的功及数学肯定为真口吻、题40磁场做功原称、章末取P=0和一个平面曲面的陈述；删追加图内英文标签释义。"
+      ],
+      "disputes": [
+        "PDF690把C⇒D写作curl grad F，照原大写向量F保留。",
+        "PDF692阅读填空原场y²z²i+2xy²zk与后续梯度续问不一致；未补j分量。",
+        "PDF692阅读填空旋转公式写curl F，未代改curl S。",
+        "PDF692第二段填空号实际是i，与前段i重复；200dpi重渲染局部已确认并照录。",
+        "原书无条件陈述15N/15P、投影边界以及部分全局保守性质；未新增光滑性、拓扑或图像条件。"
+      ]
+    },
+    {
+      "file": "translation_draft/92_ch16_intro.zh-CN.md",
+      "source_pdf_pages": [
+        694,
+        695
+      ],
+      "semantic_review": "complete_all_paragraphs_course_list_2_equations_no_exercises_captions_or_author_footnotes_present",
+      "source_visual_review": "complete_original_pages_694-695_viewed_at_120dpi_in_current_agent",
+      "changes": [
+        "删除全部译注与代作者解释；恢复线性规划是非线性的因为x≥0原文陈述。",
+        "恢复两行any function，取消解析性条件；恢复Fourier transform、everything is computed by FFT以及delta等式的原文直接陈述。",
+        "恢复25个州与25个邻州的题干及精确解不见了原句，撤回原译的美国50州、离散情形、示意式和在我看来等额外限定。",
+        "把吸烟与健康联系被压数世纪改回数世纪未被发现，避免引入主动压制的行为。"
+      ],
+      "disputes": [
+        "PDF694称线性规划因要求x≥0而非线性；照录原文，不修正分类。",
+        "PDF695称任意u(x+iy)满足拉普拉斯方程；未增解析性等条件。",
+        "PDF695写δ(x)=Σcos kx且称everything is computed by FFT；未补归一化、收敛或离散条件。",
+        "源PDF此章只有导言两页；16.1–16.3交叉引用照留，不补写缺失章节。"
+      ]
+    },
+    {
+      "file": "translation_draft/93_integral_table.zh-CN.md",
+      "source_pdf_pages": [
+        696
+      ],
+      "semantic_review": "complete_all_55_numbered_formulas_6_nonelementary_examples_and_original_conditions_no_author_footnotes_present",
+      "source_visual_review": "complete_original_page696_viewed_at_120dpi_and_upper_table_detail_rerendered_200dpi_and_viewed_in_current_agent",
+      "changes": [
+        "删除开头积分常数、定义域、参数和分支补充，以及全部译注；只保留原表列出的条件。",
+        "恢复第15式分子dx与分式外dx的重复印刷，200dpi局部确认。",
+        "恢复第22式对数的圆括号，撤回人为增添的绝对值；第40、44式条件直接照原列出。"
+      ],
+      "disputes": [
+        "PDF696第15式确实印有两次dx，照录，不自行修复。",
+        "第11式、第13式等数学上可疑的表达按原表保留；本任务为忠实性核对，未代作者纠错。",
+        "第22式对数未加绝对值；第23、40、44式的分支/符号条件未补充。",
+        "原表省略积分常数及多数参数限制；未新增统一适用条件。"
+      ]
+    }
+  ],
+  "status": "complete",
+  "pdf_rebuilt": false,
+  "limitations": [
+    "未重建最终中文PDF，排版渲染由主代理汇总处理。",
+    "未对积分表全部公式独立符号微分，未把数学正确性等同原书忠实性。"
+  ]
+}

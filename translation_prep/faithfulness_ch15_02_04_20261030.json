@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-30",
+  "source": "mitres_18_001_f17_full_book.pdf",
+  "method": "全文逐段对照source_text辅助文本，实际查看PDF649–678全部30张120dpi原页；PDF673另以180dpi从原PDF重渲染检查。正文、例题、阅读填空、编号习题、图注、公式表全覆盖；本范围未见作者脚注。以最新用户要求忠于原文，保留原书疑错，不补条件、解释或结论，不加译注。",
+  "sections": [
+    {
+      "file": "translation_draft/87_ch15_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657
+      ],
+      "semantic_review": "complete_all_paragraphs_7_examples_readthrough_44_exercises_3_captions_formulas; PDF654 opening overlapping lines restored with auxiliary source_text",
+      "source_visual_review": "viewed_all_original_full_pages_PDF649-657_at_120dpi; PDF654 opening contains genuine source text overlap, visually obscured words not independently legible",
+      "changes": [
+        "删除全部译注与图注追加标签解释。",
+        "恢复例1原书(-cos t)^2与点积未闭圆括号、例2点积漏等号、例5首积分2xy dy、解法3的df/dy、证明中的命题A、例7原印(x,0)端点。",
+        "恢复钢琴重量乘高度变化、梯度场势能负号、超过99.99%的直接陈述及例4功不为零；移除新增方向解释、常数约定等。"
+      ],
+      "disputes": [
+        "PDF649导数平方项原印(-cos t)^2且点积括号未闭；PDF650点积漏等号；PDF654例5首积分原印dy；PDF655把路径独立性称命题A、解法3原印df/dy；PDF656例7积分端点原印(x,0)。全部照录原书。",
+        "PDF654开头多行重叠遮挡，辅助提取文字可恢复句子；未声称这些遮挡字词在原图上全部可辨。",
+        "原书钢琴做功、势能符号、超过99.99%及部分习题的路径/奇点表述均未补充数学物理条件。"
+      ]
+    },
+    {
+      "file": "translation_draft/88_ch15_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668
+      ],
+      "semantic_review": "complete_all_paragraphs_8_examples_readthrough_46_exercises_6_captions_summary_formulas",
+      "source_visual_review": "complete_viewed_all_original_full_pages_PDF658-668_at_120dpi",
+      "changes": [
+        "删除全部译注和图注中追加的英文标签解释。",
+        "恢复旋转场变成位置场的原书直接说法，不新增原/新分量角色解释；恢复势和流函数要求无孔洞的原陈述。",
+        "恢复PDF666第二场为2S以及PDF668题26的g_y=y/(x²+y²)，不修正原书疑错；恢复150年、混合偏导总相等等原文量词。"
+      ],
+      "disputes": [
+        "PDF663称(-N,M)旋转把S变成R、R变成-S，与通常固定分量旋转方向存在疑问；照录原书。",
+        "PDF666第二场原印2S而非-2S；PDF668题26原印g_y=y/(x²+y²)而非负号。均保留。",
+        "原书角势、delta函数、局部判据、孔洞及全部多项式解的断言不补条件或分布解释。"
+      ]
+    },
+    {
+      "file": "translation_draft/89_ch15_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
+      ],
+      "semantic_review": "complete_all_paragraphs_12_examples_readthrough_35_exercises_7_captions_formula_table",
+      "source_visual_review": "complete_viewed_all_original_full_pages_PDF669-678_at_120dpi; PDF673_rerendered_from_original_PDF_at_180dpi_and_viewed; existing_fig15_16_v2_crop_also_viewed",
+      "changes": [
+        "删除全部译注与图注追加标签解释。",
+        "恢复PDF669基本积分第三项原书双积分号dx dy dz；恢复圆锥整面/上半部的原叙述，不预加上半部限定。",
+        "恢复例2的dS=√2u du dv、|A|=u与|B|=√2，不补绝对值与u≥0条件；恢复例8引用面积公式无上下限、式(11)未填内容的平方根。",
+        "恢复例12法向量k分量的sin²φ及任意赤道为界曲面的原陈述，不补定向条件；恢复30°圆锥的直接称谓、莫比乌斯带的原说明。"
+      ],
+      "disputes": [
+        "PDF669第三个基本积分原书印为双积分号配dx dy dz；PDF671圆锥面积元未用|u|且两切向量长度互换；PDF676例12k分量原印a² sin²φ cosφ。均保留。",
+        "PDF675式(11)原书两处根号内空白，译稿以空白根式保留，没有补写根式内容。",
+        "PDF674例8引用8.3节面积积分未印上下限；PDF678阅读填空称给定参数曲面为30°圆锥。均照原文，不改数学。",
+        "原书任意赤道边界曲面、莫比乌斯带通量和参数退化等未补适用条件。"
+      ]
+    }
+  ],
+  "pdf_rebuilt": false,
+  "final_layout_verified": false
+}

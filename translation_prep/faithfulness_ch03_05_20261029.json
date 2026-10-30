@@ -1,0 +1,397 @@
+{
+  "date": "2026-10-29",
+  "scope": "Chapters 3–5",
+  "source": "mitres_18_001_f17_full_book.pdf",
+  "method": "逐节全文逐段对照；逐页真实查看原页；仅以原文为内容依据",
+  "sections": [
+    {
+      "file": "translation_draft/19_ch03_sec01.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_footnote",
+      "source_visual_review": "complete_PDF150-155_original_full_pages_viewed",
+      "changes": [
+        "恢复章引言末句“从后代了解前代”，撤去“学问来回倒腾”的改写。",
+        "按原页恢复3A的smooth function、原始斜率表述和推导步骤；撤去擅加可导/非零增量限定。",
+        "恢复separate variables为“分开的变量，像x和y一样，但有自己的名称”，保留作者禁止约d脚注。",
+        "撤去原文未写的二阶光滑/有界条件、O符号解释、相对变化非零分母提醒、天文数据免责声明及全部3项译注。",
+        "恢复原书关于牛顿定律的原句、例4薄壳体积表述及3917312/640000%；去除新增6.1208%推导。",
+        "习题21撤去c>0；习题28恢复1/2 mv²及e=(Δm)c²原式。"
+      ],
+      "disputes": [
+        "PDF152原书未在误差句补二阶条件，忠实保留，未代作者修订。",
+        "PDF154牛顿定律线性近似表述较笼统，忠实保留。",
+        "PDF155习题21未附c>0，习题28使用1/2mv²及等号，忠实保留。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "150–155",
+      "printed_pages": "137–142"
+    },
+    {
+      "file": "translation_draft/20_ch03_sec02.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_remarks_footnotes",
+      "source_visual_review": "complete_PDF156-165_original_full_pages_viewed",
+      "changes": [
+        "恢复作者对maximum=infinity的原句及作者脚注；恢复零未达到也可称minimum的原问答，撤掉下确界改写。",
+        "恢复critical points为临界点及原三步，撤去额外边界极限和可行性要求。",
+        "高速例恢复作者第一人称、原变量x、完整幂法则和化简说明；按原文保留hypotenuse a/sqrt3。",
+        "恢复自然界选择最小能量的作者论断及质量块-mx写法，撤去mg纠正与稳定平衡限定。",
+        "恢复边际收益等于边际成本时利润最大原句、dx书本双关作者脚注。",
+        "逐项审查全部73题，去除额外变量正值、严格极值约定、退化/固定成本/模型/端点提醒；恢复Jabbar、喂鸟器、潜艇等漏译具体情境。",
+        "移除全部五条译注，作者自己的Remark1/2及两条脚注完整保留。"
+      ],
+      "disputes": [
+        "PDF158作者明确沿用无穷为最大值、未取到零为最小值的宽泛说法，忠实保留。",
+        "PDF161斜边a/sqrt3疑误及质量势能-mx未列g，已告主代理，按要求不代作者纠正。",
+        "PDF162阅读填空未附a>0及内部可导条件、PDF164习题55未附x>0、PDF165习题70未定义y(0)，均按原文保留。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "156–165",
+      "printed_pages": "143–152"
+    },
+    {
+      "file": "translation_draft/21_ch03_sec03.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF166-172_original_full_pages_viewed",
+      "changes": [
+        "恢复作者x^4暂停后向下的原句，不以-x^4改作者例子；去除严格/内点等新增限定。",
+        "恢复拐点有一瞬间图像为直线、三四阶导数零点是否有名称的作者叙述；保留作者x^4脚注。",
+        "符号表按原图恢复空格和0,0，不擅自填齐。",
+        "人口报告恢复现在/今天时态、第二次人口普查原序号及“联合国在关注二阶导数！”作者脚注。",
+        "恢复中心差分和大O原论述，不补绝对值/光滑性/舍入误差/泰勒收敛条件。",
+        "逐项审查全部47题，去除互异实零点、可导/二阶可导、f(0)=1、保留三次项等新增提示。",
+        "移除五条译注，不把作者脚注删掉。"
+      ],
+      "disputes": [
+        "PDF167原写x^4暂停后向下，与函数不符，忠实保留。",
+        "PDF168原写China second census 1990-07-01，序次疑误，忠实保留。",
+        "PDF169大O界原写E≤CΔx未列绝对值，忠实保留。",
+        "PDF171习题9未列互异实根及习题21/22可导假设，忠实保留。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "166–172",
+      "printed_pages": "153–159"
+    },
+    {
+      "file": "translation_draft/22_ch03_sec04.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_graph_labels",
+      "source_visual_review": "complete_PDF173-182_original_full_pages_viewed",
+      "changes": [
+        "心电图正文移除原书说/断言等编者隔离措辞与医疗免责声明，恢复作者直接叙述和第一人称，sinus arrhythmia fairly normal忠实译为相当正常。",
+        "恢复原文f>0内部区间原句、fʺ=0拐点表述；去掉单侧极限/m≠0额外限定。",
+        "傅里叶级数恢复fʹ公式及infinitely many cosines add up to a delta function原论述，撤去普通逐点/广义函数/Gibbs补充。",
+        "恢复ymax、导数公式中等号、例4变换原式Y+2=2(X-1)^2-4(X-1)、无量纲化c=8sec/d=2cm原单位。",
+        "撤去非退化局部模型、牛顿收敛尺度条件、c/d正值、轴竖直等新增限制，保留作者原流程。",
+        "全文58题及图注核对，移除全部9条译注及题29提示。"
+      ],
+      "disputes": [
+        "PDF175内部区间f>0漏x=0，原文保留。",
+        "PDF178原式dy/dx=x/(30sqrt(9+x²))=-1/60及ymax疑排印错误，原文保留。",
+        "PDF180例4代换与前页定义不符、c/d单位方向疑误，原文保留。",
+        "PDF177第1.7节交叉引用疑版本残留；傅里叶delta表述、题29条件等疑点仅记录，不改正文。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "173–182",
+      "printed_pages": "160–169"
+    },
+    {
+      "file": "translation_draft/23_ch03_sec05.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_table",
+      "source_visual_review": "complete_PDF183-191_original_full_pages_viewed",
+      "changes": [
+        "承接未登记编辑，逐段及46道习题对照全文，恢复问题6完整配方步骤及作者第一人称。",
+        "撤去中心化的有中心限定，恢复原书式(7)逆变换、3I小写c及无条件判别表述，不替作者纠错。",
+        "移除全部八条译注，保留原书耳语廊、碎石、光沿双曲线等直接论断及焦距表格原文。"
+      ],
+      "disputes": [
+        "PDF189式(7)逆变换y′=-y sinα+x cosα疑错，3I小写c与判别表述欠条件，保留原文。",
+        "PDF184焦距p未限制a>0，PDF186第二焦点无穷远、PDF187耳语廊其他地方听不见、PDF189光沿双曲线等均按作者原文保留。",
+        "PDF191题32未规定正方形方向；题45(c)未排除c=0，不补条件。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "183–191",
+      "printed_pages": "170–178"
+    },
+    {
+      "file": "translation_draft/24_ch03_sec06.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_calculator_code",
+      "source_visual_review": "complete_PDF192-199_original_full_pages_viewed",
+      "changes": [
+        "全文及43题逐段对照，恢复作者第一人称、原交叉引用、早期计算机/数百万美元等具体原文。",
+        "恢复3J/3K及极限关系的原始表述，撤去附加连续性/单根/局部判据/边界特殊初值等限制和题目提示。",
+        "例4恢复两个吸引点之间总有排斥点的原断言；恢复原书0.7931及±∞疑误。",
+        "牛顿误差平方和位数翻倍按作者直接表述恢复，保持PR2对差不多是旧误差平方的修订历史而不额外术语化。",
+        "保留四项作者说明及计算器程序，移除全部八条译注。"
+      ],
+      "disputes": [
+        "PDF192原印1/2(0.7931)，PDF193外部平方迭代原印±∞，均保留原文。",
+        "PDF194例4两吸引点间总有排斥点及穿越要求斜率>1欠一般条件；PDF196收敛iff未排除初值等于解，按原文。",
+        "PDF198题17–19/21及PDF199题25/27/28/39/40均没有译者新增条件，按作者原题保留。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "192–199",
+      "printed_pages": "179–186"
+    },
+    {
+      "file": "translation_draft/25_ch03_sec07.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_calculator_code",
+      "source_visual_review": "complete_PDF200-209_original_full_pages_viewed",
+      "changes": [
+        "逐段及全部49题、两段计算器代码、图表核对；恢复3L通常快速收敛和原始条件，不补单根/连续/初值/定义域等限制。",
+        "恢复原表x4=2.000000009、说明2的-√2、康托集4/3原印疑误及除零爆掉原叙述。",
+        "恢复所有点强烈排斥、天气六天/飞机改变一切/100步完全无望、市场与冥王星等作者直接论断，撤去历史隔离措辞与预测免责声明。",
+        "恢复logistic参数区间、整个(0,1)填满、随机性和分形维数原文，保留康托集构造。",
+        "保留作者说明1/2、例A/B/C、割线预测口吻及图3.24特别许可偷自来源；移除全部十条译注。"
+      ],
+      "disputes": [
+        "PDF201的x4小数及说明2突然用√2、PDF205康托集4/3疑排印错误，按原文保留。",
+        "PDF204–206关于强烈排斥/整个区间填满/随机/不可预测的概括较宽，按作者原断言。",
+        "PDF208题8与9–17、PDF209二分法缺附加条件，题44/46缺割线第二初值，保留原题不添提示。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "200–209",
+      "printed_pages": "187–196"
+    },
+    {
+      "file": "translation_draft/26_ch03_sec08.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnote",
+      "source_visual_review": "complete_PDF210-216_original_full_pages_viewed",
+      "changes": [
+        "逐段及全部38题、公式与图注核对；恢复3M/3N/3O/3P原始表述，撤去额外去心邻域/非零分母/单侧/常零说明等条件。",
+        "保留闭区间最大值作者脚注为脚注，恢复罗尔历史中的第一人称语气、牛顿/莱布尼茨及普通数学家细节。",
+        "恢复正弦≤x直接论断、误差近似仍用c、例7实际误差-0.000496及题30右端1原印疑误。",
+        "题24恢复作者无穷比推导，题13–22恢复用洛必达原指令；撤去题31/36/37新增提示和定义域限制。",
+        "撤去全部九条译注，作者说明与脚注保留。"
+      ],
+      "disputes": [
+        "PDF212正弦≤x未限x≥0；3P省略常见适用条件；按作者原文。",
+        "PDF215误差精确式后同式仍称近似、例7误差-0.000496；PDF216题30右端原印1，疑错均保留。",
+        "PDF216题24推导预设L、题16双侧极限/题28无穷振荡、题37渐平行条件不足，按原题不另加防御性说明。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "210–216",
+      "printed_pages": "197–203"
+    },
+    {
+      "file": "translation_draft/27_ch04_sec01.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnote",
+      "source_visual_review": "complete_PDF217-223_original_full_pages_viewed",
+      "changes": [
+        "逐段及全部60题、图表对照。撤去新增连续延拓证明，恢复莱布尼茨记号之战和作者对0/0赋义的原证明。",
+        "恢复作者第一人称、别克汽车、牛顿迭代背景及恒等函数计算器作者脚注。",
+        "撤去幂函数/根式可导定义域条件，恢复题33/34的F^(n)原复合记号；题50仅保留原等号关系。",
+        "题58撤去擅加步行方向与电视参照系；其余习题撤去无法确定提示和定义域条件；移除全部五条译注。"
+      ],
+      "disputes": [
+        "PDF220原证明将Δy=0时差商赋义为dz/dy，忠实保留，不代作者加完整延拓证明。",
+        "PDF222题33/34的F^(n)表示复合，题50等号关系及PDF223题58欠方向/参照系说明，均保留原文。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "217–223",
+      "printed_pages": "204–210"
+    },
+    {
+      "file": "translation_draft/28_ch04_sec02.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnote",
+      "source_visual_review": "complete_PDF224-228_original_full_pages_viewed",
+      "changes": [
+        "逐段及全部31题核对，恢复伽罗瓦无公式/任意点可求导/4B直接求导原论断及伽罗瓦作者脚注。",
+        "恢复例3连续等号原式；修正译稿例6误录为dx/dt=3,dy/dt，原文是3dy/dt。",
+        "恢复圆切线斜率乘积原讲解、原交叉引用题14、地球绳及AP考试直接叙述和作者第一人称。",
+        "恢复光速悖论及梯子能超光速原句，撤去光斑/信号/传播模型免责声明、定义域/分支/双侧导数条件。",
+        "移除全部七条译注，保留原作者说明与脚注。"
+      ],
+      "disputes": [
+        "PDF224例3原印y cos y y′=sin y y′=1疑等号误印；伽罗瓦概括无公式欠精确限定，照录。",
+        "PDF225跑道交叉引用题14疑应13，按原文。",
+        "PDF227悖论矛盾相对论、PDF228梯子能超光速及题26相遇导数等欠条件，按作者叙述不改。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "224–228",
+      "printed_pages": "211–215"
+    },
+    {
+      "file": "translation_draft/29_ch04_sec03.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnote",
+      "source_visual_review": "complete_PDF229-235_original_full_pages_viewed",
+      "changes": [
+        "全文及全部59题、图注核对，撤去可逆/连续/严格单调/非零导数/定义域附加条件。",
+        "恢复作者反函数镜像叙述和作者脚注：他认为y=g⁻¹(x)不对，撤去译者纠偏整段。",
+        "恢复作者暂不揭晓c、积分式不额外限制正支、原矩阵和复合逆叙述。",
+        "题13/15撤去连续性补充，题30恢复镜像分段常数填空，题58恢复仅供教授与原假设。",
+        "移除全部七条译注，作者脚注保留。"
+      ],
+      "disputes": [
+        "PDF230原文可逆必须一直增减未附连续；PDF231作者脚注认为y=g⁻¹(x)不对是作者偏好，按原句保留。",
+        "PDF234题13/15缺连续、PDF235题30分段常数镜像和题58最大值条件疑点保留。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "229–235",
+      "printed_pages": "216–222"
+    },
+    {
+      "file": "translation_draft/30_ch04_sec04.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_table",
+      "source_visual_review": "complete_PDF236-241_original_full_pages_viewed",
+      "changes": [
+        "全文与52题逐项对照，恢复原书sin⁻¹/cos⁻¹等符号，不擅改为arcsin统一记法。",
+        "例1恢复sin x=y原设问，例2恢复斜率无穷=1/0及链式法则极端情形原文，撤去新增端点/分支提醒。",
+        "恢复反正割递增原表述及三行合并表格、原星号约定，去除新增完整导数适用域栏。",
+        "题11负号、通读首句x-sin⁻¹y保留原印；题30、49–52撤去译者补条件及提示。",
+        "移除全部七条译注。"
+      ],
+      "disputes": [
+        "PDF240题11原写反正弦导数负号、通读首句x-sin⁻¹y为减号，原印保留。",
+        "PDF239称反正割递增、PDF240题30负输入/题16符号及PDF241题49端点欠条件，照录原书。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "236–241",
+      "printed_pages": "223–228"
+    },
+    {
+      "file": "translation_draft/31_ch05_sec01.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions",
+      "source_visual_review": "complete_PDF242-246_original_full_pages_viewed",
+      "changes": [
+        "全文及26题、两图核对，恢复作者交替使用积分与原函数的原叙述，不代作者作术语切分。",
+        "恢复5A微积分基本定理（取极限之前）名称，题3原有限列表不补省略号。",
+        "撤去题5/6的r≠1、题19等宽/至少及题23新增[0,1]；原文Δ2x与闰日1461叙述保留。",
+        "移除全部六条译注。"
+      ],
+      "disputes": [
+        "PDF245矩形高度原印√(Δ2x)疑序次排印错误，保留。",
+        "PDF244闰日1461与固定Δx=1/365的模型区别、PDF246题3只列三个差却要求四项以及r=1/题23区间未明确，按原文。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "242–246",
+      "printed_pages": "229–233"
+    },
+    {
+      "file": "translation_draft/32_ch05_sec02.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions",
+      "source_visual_review": "complete_PDF247-252_original_full_pages_viewed",
+      "changes": [
+        "全文及全部33题、图表核对。恢复作者不带积分限表示面积、曲线旋转90度成为抛物线及不定积分是一个函数的原表述。",
+        "撤去新增式1符号解释、非负/同一区间/等宽/反常积分等条件与术语提示；题21恢复原0<x<1。",
+        "保留作者关于平方根面积发现者的不确定口气与所有例子。",
+        "移除全部七条译注。"
+      ],
+      "disputes": [
+        "PDF248原称曲线旋转90度成为反函数抛物线，按原文。",
+        "PDF252题3/6/21–23端点奇点及题25–31负面积/折角、题32反函数条件疑点只记录，不补正文。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "247–252",
+      "printed_pages": "234–239"
+    },
+    {
+      "file": "translation_draft/33_ch05_sec03.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF253-261_original_full_pages_viewed",
+      "changes": [
+        "全文及全部37题、图表和两条作者脚注逐项核对。恢复作者第一人称、直接断言及高斯故事语气。",
+        "恢复1000矩形达到10^-6、幂次低阶修正、p+1>0主项理由与误差正比原文，不增尺度、正整数、反常积分等解释。",
+        "恢复孤立192、题12不等号和题29原指标i，撤去全部八条译注，保留作者脚注。"
+      ],
+      "disputes": [
+        "PDF258的1000矩形精度陈述欠常数条件；PDF259低阶幂及修正消失表述、PDF260误差正比欠范围条件，均原样保留。",
+        "PDF259行首孤立192、PDF260题12无条件不等号、PDF261题29求和指标i而项含j，按原文保留。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "253–261",
+      "printed_pages": "240–248"
+    },
+    {
+      "file": "translation_draft/34_ch05_sec04.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnote",
+      "source_visual_review": "complete_PDF262-266_original_full_pages_viewed",
+      "changes": [
+        "全文、43题、图5.8与作者脚注核对。恢复原书反函数记法、例3分母减号、cos(x)^2排印及式2无积分常数原式。",
+        "撤去x>0、非负函数、正c几何限制与解区间等新增条件；恢复大多数永远不可能、椭圆周长和完全准确原文。",
+        "保留作者e^x脚注及两项作者说明，移除全部六条译注。"
+      ],
+      "disputes": [
+        "PDF263例3初始减号与后续代数不合，PDF264 cos(x)^2与答案不合，按原印保留。",
+        "PDF265式2未加C、c几何解释未限正、1/sqrt(4-sin²x)积分称椭圆周长，按作者原文。",
+        "PDF266题3/4未排除对数指数、题39原文lnu无C，照录。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "262–266",
+      "printed_pages": "249–253"
+    },
+    {
+      "file": "translation_draft/35_ch05_sec05.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions",
+      "source_visual_review": "complete_PDF267-272_original_full_pages_viewed",
+      "changes": [
+        "全文、33题与图5.9/5.10完整对照。恢复作者将变上限积分称不定积分、连续函数都有积分等原文，不强行重分术语或补闭区间/可积性限制。",
+        "完整恢复勒贝格无穷分段、覆盖分数及上和S仅为ε的原论证，撤去译者端点0补充、测度说明和不完整定义评价。",
+        "习题撤去等宽、[0,1]、相同分割等原文未给条件，保留原题变量与重复题；移除全部七条译注。"
+      ],
+      "disputes": [
+        "PDF267变上限积分称indefinite integral，PDF271勒贝格段仍称上和S且未覆盖端点0，均按原文而不改作者。",
+        "PDF272题25未明示等宽，题26/27未明确区间，题33若干条件省略，按原题。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "267–272",
+      "printed_pages": "254–259"
+    },
+    {
+      "file": "translation_draft/36_ch05_sec06.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_tables",
+      "source_visual_review": "complete_PDF273-279_original_full_pages_viewed",
+      "changes": [
+        "全文、42题、图表逐项核对；撤去奇偶积分/连续/可积/奇点及随机分布、独立性等新增条件。",
+        "恢复原书式4 f(b)-f(c)、例6 sin x²、无条件期望幂积分和原书82等号。",
+        "恢复平均值完全可预测、π没有机会、随机数四舍五入、学生大多数时间大班、交通2.5或2可消除问题等作者直接表述，删除隔离评价。",
+        "移除全部九条译注；题22恢复直接对两边求导，题33保留原频率60赫兹。"
+      ],
+      "disputes": [
+        "PDF275式4分子f(b)-f(c)、PDF276 sin x²、PDF278班级均值82等号疑误，按原印。",
+        "PDF277/278概率和交通叙述宽泛、期望幂未列n>-1，原文照录。",
+        "PDF279题22直接求导证明、题33频率60赫兹与公式不符，保留作者原题。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "273–279",
+      "printed_pages": "260–266"
+    },
+    {
+      "file": "translation_draft/37_ch05_sec07.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions",
+      "source_visual_review": "complete_PDF280-287_original_full_pages_viewed",
+      "changes": [
+        "逐段全文、六例、46道习题、图5.14–5.17及习题两组附图完整对照；实际查看PDF280–287全部原页。",
+        "恢复作者将变上限积分称不定积分、5C/5D原始陈述及第一部分的u(x)原印；撤去内点、端点可导/连续、例2非零及习题定义域等新增条件。",
+        "圆环/球壳积分恢复原变量r，不替作者改ρ；恢复性质1/3、例2的v(3x)说明及作者第一人称。",
+        "习题25撤去补加连续性，34撤去单位正方形补充，46撤去t>0；恢复cos⁻¹/sin⁻¹与33题面积（体积？）原问法。",
+        "移除全部六条译注，不新增作者未写的推导或结论。"
+      ],
+      "disputes": [
+        "PDF280作者使用indefinite integral指变上限积分，证明正文原印v(c)趋于u(x)，按原书保留。",
+        "PDF281式4未限正增量，PDF282例2未限x≠0；PDF284积分上下限与被积变量共用r，按原文不修订。",
+        "PDF286题25未附连续性、34未明确上边界，PDF287题46未另写t>0，均保留原题不补条件。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "280–287",
+      "printed_pages": "267–274"
+    },
+    {
+      "file": "translation_draft/38_ch05_sec08.zh-CN.md",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_tables_author_note",
+      "source_visual_review": "complete_PDF288-295_original_full_pages_viewed",
+      "changes": [
+        "逐段全文、29道习题、全部误差表及图5.18–5.20完整对照；实际查看PDF288–295全部原页。",
+        "恢复阶数定义、对所有函数渐近正确、误差比趋1及周期函数指数衰减原论断，撤去新增光滑/非零首项/解析等限制。",
+        "恢复原书步长0.1/0.01/0.001/0.0001、Rn−Tn漏Δx原式、图5.19的v及图5.20误差等号；补齐式6的导数差中间等式。",
+        "恢复高斯点±记法、计算器取样不等距/混叠问题消失/频率8的原文、作者第一人称、PAUSE键与见页边细节；撤去历史隔离措辞和新增误差保证免责声明。",
+        "撤去三次式平移缩放补证明、题21常系数组合限制、题22等宽及另报公式要求；题23恢复从0到π/4原印，移除全部九条译注，保留作者个人说明。"
+      ],
+      "disputes": [
+        "PDF289步长列整体错一位、周期表首项−10⁻³疑数值错误；PDF290的Rn−Tn原式缺Δx；按原印保留。",
+        "PDF289/291对全部函数渐近正确、周期指数收敛和准确余项等论述省略条件，PDF293非等距可消除混叠/频率8表述宽泛，均按作者原文。",
+        "PDF293提到页边按键但当前原页未见，保留文字交叉引用；PDF294题23新上限π/4疑错，题13以等号给ln2小数值，原文保留。"
+      ],
+      "pdf_rebuilt": false,
+      "pdf_pages": "288–295",
+      "printed_pages": "275–282"
+    }
+  ]
+}

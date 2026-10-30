@@ -1,0 +1,1765 @@
+{
+  "scope": "全书逐节忠实性对照；原文实际内容为唯一依据",
+  "backup": "tmp/pdfs/faithfulness-20261029/before",
+  "pdf_status": "旧版，尚未重建",
+  "sections": [
+    {
+      "file": "translation_draft/00_preface.zh-CN.md",
+      "source_pdf_pages": [
+        4,
+        5,
+        6
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除五条无原文依据的解释性译注及其引用。",
+        "恢复作者第一人称、叙述时态及完整信息；恢复 running totals 与变化相加的关系。",
+        "删除“过于精巧”等新增评价；不添加极限、可导性或定义域条件。"
+      ]
+    },
+    {
+      "file": "translation_draft/01_ch00_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除八条译注及引用，不补入正文。",
+        "恢复作者第一人称；删除“这里”“直接”“瞬时”“有向”等原文未有的限定。",
+        "倒车图保留原文 Speed is negative / Distance goes down to 0 的叙述，不改写为译者的位置与有向面积解释。",
+        "原书练习3确实同时用 t≤1 和 t≥1；保留原题，冲突仅记录在审查记录中。"
+      ]
+    },
+    {
+      "file": "translation_draft/02_ch00_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除八条无原文依据的补充译注及引用。",
+        "仪表盘段恢复原文断言及括号，不将作者的话改成“若用来记录位置/带符号速度”的条件句，不加“开玩笑”的解释。",
+        "删除线性近似段额外的导数取值解释，恢复原文对近似等号的说明；恢复首项和二阶差分原叙述。",
+        "删除自行添加的“要点回顾”标题；恢复作者第一人称。"
+      ]
+    },
+    {
+      "file": "translation_draft/03_ch00_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除七条译注及引用，保留原书 Note 1、Note 2 和 Note。",
+        "构造指数函数的逐步修改恢复 Change dy/dx 原表达，删除译者添加的“目标/要求”解释。",
+        "删除“非零”“固定”“或为零”“绝对值”等原文未写限定；恢复 Probably 的试探语气及作者第一人称。",
+        "复利算式按原页保留等号，不代作者改为近似号；删除新增“要点回顾”字样。",
+        "原页31图中 e²=7.388…、e⁻¹=.368…，以及原页35练习8的变量冲突均已目视确认，原文不改。这些疑点仅在审查记录登记。"
+      ]
+    },
+    {
+      "file": "translation_draft/04a_ch00_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除八条解释性译注及其引用；保留原书的习题、条件和填空。",
+        "把“不擅长对着听众讲话”改为原文 looking at the audience；恢复作者第一人称。",
+        "恢复 possible minimum/maximum 的“可能”，删除正文新增的“附近”“比如”和积分常数提醒。",
+        "净变化积分恢复原式不写上下限的形式，删除译者添加的 x_start/x_end；薄矩形高度不擅改为“平均高度”。",
+        "补回商法则证明的 f(x+Δx)/g(x+Δx)−f(x)/g(x) 原式；反函数图注恢复 f⁻¹(y) 原记法。",
+        "练习对极值、拐点、sin(x)/x 和倒数的条件省略均保持原题，未代作者补条件。"
+      ]
+    },
+    {
+      "file": "translation_draft/04b_ch00_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除八条额外译注及其引用；原书已有 FOR THIS MODEL! 限定保留。",
+        "恢复原书增长表及其措辞，不插入“原书为了比较数量级”等译者解释。",
+        "中值定理按原文闭区间有导数表述，撤回译者换成通常教材条件的整段改写；洛必达条目恢复原文条件和语气。",
+        "删除泰勒级数段额外适用条件、指数解的“两根不等”及“非负整数”等插入限定。",
+        "保留运动例2缺i原式和练习5“复数”原题，疑点只在本记录保存；不在正文评论作者。",
+        "恢复人口段作者的现在时和Google搜索建议；表头“积分”不加“省略加法常数”。"
+      ]
+    },
+    {
+      "file": "translation_draft/05_ch00_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除四条额外译注；链式法则句撤回新增“满足可导条件”。",
+        "恢复原书 graphing Y 的对象，保留作者该句而不替其改成画猜测导函数。",
+        "恢复“屏幕证明”和“数学不是…而是思想”的断言强度；恢复机器输入HELP的原例。",
+        "撤回把domain/range改成显示范围、给计算器例7增加数值精度限制的解释；恢复作者第一人称。"
+      ]
+    },
+    {
+      "file": "translation_draft/06_ch01_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除十条译者说明及引用；保留两条原书脚注和习题48原注。",
+        "恢复distance/total distance/net distance forward，不改写成译者的位置和净位移模型；撤去有向面积、普通斜率、按这里模型等补充。",
+        "习题19恢复原文无穷斜率；35恢复weight；36完整恢复1989年报纸题面，撤掉译者的“按模型/原文另称”等框架。",
+        "原PDF70习题13/14与图内标签错位、PDF71题47的T未在正文另定义均保留原样，在本记录登记。"
+      ]
+    },
+    {
+      "file": "translation_draft/07_ch01_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除五条译者说明及引用，保留原书Note、Remark和Optional remark。",
+        "阶跃/冲激整段恢复作者的无限斜率、汽车跳跃和尖峰面积叙述；撤掉“广义导数”“位置瞬间跳变”等现代解释。",
+        "恢复0⁰没有意义、基本定理原断言；删除“有向”“分段斜率”等原文未写限定。",
+        "所得税例补回1040表第37行，恢复作者“我认为”原话；习题中的历史/原书另写等译者框架移除。",
+        "PDF79习题38重复v_j、42给e=2.78均核对原页并保留，不在阅读正文替作者纠错。"
+      ]
+    },
+    {
+      "file": "translation_draft/08_ch01_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除五条译者说明及引用，保留原书中值定理脚注和代数附注。",
+        "补回被删去的“车是新的”、里程表t²/速率表2t及基本定理预期面积的论述、“你不会答错”句。",
+        "恢复伽利略试验的原叙述与具体抛重物例子，去掉译者“这个模型/原书提到”的框架。",
+        "撤回位置/有向面积改写、习题6“化简后”、14额外时间条件、21三部分表述；按原文保留图1.8引用，错号疑点仅登记。"
+      ]
+    },
+    {
+      "file": "translation_draft/09_ch01_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除五条译者说明及引用，保留三条原书脚注和Remark。",
+        "撤回回顾表中新增的“位置/有向面积/加初始值/原函数”和从静止出发条件，恢复distance/area/integral原表。",
+        "恢复作者的“我们不能接受…谁分的”措辞、位置公式1²、速度三角形给出各时刻v的句子和cosine/sine孪生论述。",
+        "原文最高最低点说ball changes direction and v=0，恢复其主语，不擅自改成投影物体；疑点在本记录保留。",
+        "航天段恢复直接叙述，不改成“原书用…说明”；题13不增直径路径，题14不增由静止；题39恢复原题时态与括号。"
+      ]
+    },
+    {
+      "file": "translation_draft/10_ch01_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "删除三条译者说明和引用，保留原书脚注。",
+        "补回负角对比值的影响、三条恒等式逐项除法、距离绝对值原因、角相减重要、sin(t+t)以及题19互余前提。",
+        "撤回定义域、实角限定和把无穷改为附近极限的改写；恢复题7填空。",
+        "PDF94和97题5原印csc 2θ，2在基线上。180dpi局部复核确认，保留原式，疑点仅登记。"
+      ]
+    },
+    {
+      "file": "translation_draft/11_ch01_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        98,
+        99
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "全文及PDF98–99两页原图核对；删除三条无原文依据译注及引用。",
+        "恢复作者原有等号、44条曲线与7810半周期叙述；不改成译者的近似包络曲线解释。",
+        "恢复图1可见、图3/4在下一页原句及作者对眼睛的直接叙述。"
+      ],
+      "disputes": [
+        "PDF99的N=177.5、7810和曲线方程近似关系、图3/4位置均为原书原状，只在审查记录说明。"
+      ]
+    },
+    {
+      "file": "translation_draft/12_ch02_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "完整核对正文、41题、图2.1–2.3及全部原页；删除4条无原文依据译注和引用。",
+        "恢复distance为距离、作者关于dt无穷小和速度表读数的直接叙述；撤掉定义框、例子与平方求导法则额外条件。",
+        "恢复递增/递减函数正/负斜率原句及阅读填空；不把作者原断言改为非负/非正。",
+        "习题2、11、12、18恢复令增量为零原操作措辞，撤掉题31 x>0条件与额外限定。"
+      ],
+      "disputes": [
+        "PDF103单调函数正负斜率口语概括、PDF106习题26缺连续条件及PDF101表中Δ→0原下标均照录。"
+      ]
+    },
+    {
+      "file": "translation_draft/13_ch02_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "全文、52题、图2.4及PDF107–114全部原页核对；删除9条译者增补注释及引用。",
+        "流行病例恢复作者原有完整叙述、现在时、第一人称愿望和校样补记，不以历史模型转述替代。",
+        "经济学例恢复福特、NFL、完全竞争和垄断原叙述，不加正常品/内部极值等条件。",
+        "彩票恢复原赔率、概率等号与购买叙述；撤掉独立等概率、定义域、可导、全局常弹性等补充。",
+        "恢复无穷多项式原称呼、题45艾滋病情境、储蓄例原式；作者经济学脚注保留。"
+      ],
+      "disputes": [
+        "PDF112储蓄计算原式多因子10、PDF113题21原式乘号排成等号，按原式保留。",
+        "彩票泊松概率、流行病指数峰值及拟合微分方程、需求收入弹性等均为原书本身表述，正文不改。"
+      ]
+    },
+    {
+      "file": "translation_draft/14_ch02_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "全文、46题和图2.5–2.7及对应7页原图核对；移除7条额外译注及引用。",
+        "恢复作者的曲线近似直线/最近切线、光线和火势沿法线、过山车高速路径原叙述，删除一阶精度/波前/理想模型解释。",
+        "补回60英尺棒球目标、四分卫、原书Try it；恢复黄金例题原语气和6.7等号，删译者盈利计算。",
+        "撤掉题12可导、题23内点、题33定义域、题34导数存在等补充；题1重复句按原页还原。"
+      ],
+      "disputes": [
+        "PDF116曲线斜率2仅在x=1原断言、PDF119–120黄金例近似等号、习题34可导性条件不足均按原书保留。"
+      ]
+    },
+    {
+      "file": "translation_draft/15_ch02_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "正文、33题、全部7页原图核对；删除6条译者增补注释及引用，作者几何脚注完整恢复口吻。",
+        "撤去自行补出的余弦二阶近似证明，恢复作者式10也说明原叙述。",
+        "恢复红黑图像、计算机可能报错和大概可绕过的语气；删除灰度说明、补点办法、额外小角区间条件。",
+        "恢复加速度＝负距离、回复力和振荡原叙述；删除归一化/理想条件与平衡点解释。",
+        "按用户当前绝对忠实要求，恢复原作者单调函数正负斜率推理方向；保留更快趋零和向下走的忠实词义纠正。",
+        "图2.10恢复原图题cos x。"
+      ],
+      "disputes": [
+        "PDF125式10不足以单独推出二阶等价、图2.10图题cos x、摆/弹簧简化、题8重复30度等均原书照录。"
+      ]
+    },
+    {
+      "file": "translation_draft/16_ch02_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "全文、45题、7页原图及图2.13–2.16核对；删除5条译者注与引用。",
+        "恢复火车教授的distance和简谐运动、相对论可能正确及爱因斯坦作者脚注原笑谈。",
+        "删除乘积可导连续补证、倒数可导性证明、定义域、分母非零及任意指数条件补充。",
+        "恢复tan竖直、sec²x=∞、sinx/x在0处导数的作者启发性论述，撤掉译者延拓与证明。",
+        "恢复原书x=∞斜率说法、商公式不编号、习题27/29/41/45原条件与作者括号。"
+      ],
+      "disputes": [
+        "PDF132商法则未编号10、无穷斜率和偶函数导数原论述照录。"
+      ]
+    },
+    {
+      "file": "translation_draft/17_ch02_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "全文、46题、图2.17–2.19及8页原图核对；移除6条增补译注及引用。",
+        "恢复两个原证明：相邻差的2ε与苏格拉底异议，乘积极限的原ε²+Mε+Lε；不代作者补绝对值/η或改证明。",
+        "恢复作者关于δ按两倍斜率选择的完整叙述，撤掉零斜率/局部差商控制提醒。",
+        "恢复例2原ε=1/10与1/1000写法、Cauchy准则原命名和作者幽默；逻辑脚注单列保留。",
+        "撤去定义域、独立等概率、有限实数等后加条件，恢复integral为积分、夹逼证明原方式。"
+      ],
+      "disputes": [
+        "例2数值指代、乘积极限符号界、一般δ建议和Cauchy单向表述均是原书本身，未改正文。"
+      ]
+    },
+    {
+      "file": "translation_draft/18_ch02_sec07.zh-CN.md",
+      "source_pdf_pages": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "全文、45题、6页原图及图2.20核对；既有连续函数四段忠实译文复核保留。",
+        "删除5条译者解释注与引用；撤掉端点/定义域/有限导数/延拓填值等原文未写限定。",
+        "恢复作者无穷极限非正式说法、一阶极点乘x后连续原句，不代补去心邻域和延拓步骤。",
+        "恢复sin(1/x)的不会无限增大和正弦不超过1原义，补正负与问号漏译。",
+        "恢复不可导函数的原推理、分形描述，补市场崩盘/战争例和作者区间脚注。",
+        "最值/介值性质按原文恢复，撤去译者现代定理版本与下确界解释；习题恢复原问法和条件。"
+      ],
+      "disputes": [
+        "PDF147的邻近导数爆大推出不可导、零为未取到最小值等原书说法保留。"
+      ]
+    },
+    {
+      "file": "translation_draft/19_ch03_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        150,
+        151,
+        152,
+        153,
+        154,
+        155
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/20_ch03_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/21_ch03_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/22_ch03_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/23_ch03_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/24_ch03_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/25_ch03_sec07.zh-CN.md",
+      "source_pdf_pages": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/26_ch03_sec08.zh-CN.md",
+      "source_pdf_pages": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/27_ch04_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/28_ch04_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        224,
+        225,
+        226,
+        227,
+        228
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/29_ch04_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/30_ch04_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        236,
+        237,
+        238,
+        239,
+        240,
+        241
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/31_ch05_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        242,
+        243,
+        244,
+        245,
+        246
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/32_ch05_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/33_ch05_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/34_ch05_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        262,
+        263,
+        264,
+        265,
+        266
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/35_ch05_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        267,
+        268,
+        269,
+        270,
+        271,
+        272
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/36_ch05_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/37_ch05_sec07.zh-CN.md",
+      "source_pdf_pages": [
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/38_ch05_sec08.zh-CN.md",
+      "source_pdf_pages": [
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/39_ch06_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/40_ch06_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/41_ch06_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/42_ch06_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/43_ch06_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/44_ch06_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/45_ch06_sec07.zh-CN.md",
+      "source_pdf_pages": [
+        349,
+        350,
+        351,
+        352,
+        353
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/46_ch07_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/47_ch07_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/48_ch07_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/49_ch07_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        375,
+        376,
+        377,
+        378,
+        379
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/50_ch07_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        380,
+        381,
+        382,
+        383,
+        384
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/51_ch08_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/52_ch08_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        396,
+        397,
+        398,
+        399,
+        400
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/53_ch08_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        401,
+        402,
+        403
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/54_ch08_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/55_ch08_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/56_ch08_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        419,
+        420,
+        421,
+        422,
+        423,
+        424
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/57_ch09_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        425,
+        426,
+        427,
+        428
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/58_ch09_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        429,
+        430,
+        431,
+        432,
+        433
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/59_ch09_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        434,
+        435,
+        436,
+        437
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/60_ch09_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        438,
+        439,
+        440,
+        441,
+        442,
+        443
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/61_ch10_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/62_ch10_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/63_ch10_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        461,
+        462,
+        463,
+        464
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/64_ch10_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        465,
+        466,
+        467,
+        468,
+        469,
+        470
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/65_ch10_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        471,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/66_ch11_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/67_ch11_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/68_ch11_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/69_ch11_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/70_ch11_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/71_ch12_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/72_ch12_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        538,
+        539,
+        540,
+        541,
+        542,
+        543
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/73_ch12_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        544,
+        545,
+        546,
+        547,
+        548,
+        549
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/74_ch12_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/75_ch13_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        557,
+        558,
+        559,
+        560,
+        561
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/76_ch13_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        562,
+        563,
+        564,
+        565,
+        566
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/77_ch13_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/78_ch13_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/79_ch13_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/80_ch13_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/81_ch13_sec07.zh-CN.md",
+      "source_pdf_pages": [
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/82_ch14_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/83_ch14_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/84_ch14_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        628,
+        629,
+        630,
+        631,
+        632,
+        633
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/85_ch14_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/86_ch15_sec01.zh-CN.md",
+      "source_pdf_pages": [
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/87_ch15_sec02.zh-CN.md",
+      "source_pdf_pages": [
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/88_ch15_sec03.zh-CN.md",
+      "source_pdf_pages": [
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/89_ch15_sec04.zh-CN.md",
+      "source_pdf_pages": [
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/90_ch15_sec05.zh-CN.md",
+      "source_pdf_pages": [
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/91_ch15_sec06.zh-CN.md",
+      "source_pdf_pages": [
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/92_ch16_intro.zh-CN.md",
+      "source_pdf_pages": [
+        694,
+        695
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/93_integral_table.zh-CN.md",
+      "source_pdf_pages": [
+        696
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/94_index.zh-CN.md",
+      "source_pdf_pages": [
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704
+      ],
+      "semantic_review": "pending",
+      "source_visual_review": "pending",
+      "rebuilt_pdf_review": "pending",
+      "changes": []
+    },
+    {
+      "file": "translation_draft/95_reference_tables.zh-CN.md",
+      "source_pdf_pages": [],
+      "semantic_review": "complete",
+      "source_visual_review": "complete_high_resolution_PDF704_lower_formula_tables",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "全部公式、单位、常数与换算表逐式逐行核对高清原图；删除4条译者增补注。",
+        "恢复原矩阵叉积行写法，撤去转置符号与新增D定义；恢复二阶方程解列原or写法。",
+        "删除原表数值/典型解/条件等隔离性转述，不更新原常数。"
+      ]
+    },
+    {
+      "file": "translation_draft/96_front_matter.zh-CN.md",
+      "source_pdf_pages": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "逐页核对原书文字与完整原图；删除无原文依据的译注。",
+        "撤去地址新增USA及目录新增“原目录未列”；恢复作者奖励叙述语气，目录页码按原书保留。"
+      ]
+    },
+    {
+      "file": "translation_draft/97_front_formula_tables.zh-CN.md",
+      "source_pdf_pages": [
+        12,
+        13
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete_high_resolution_PDF12-13",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "两页全部公式、标签、条件逐项核对高清原图，删除7条译者增补及其说明。",
+        "恢复原表省略量词的极限简表、拐点直接条件与迭代原表述。",
+        "撤掉圆周速率/投影绝对值、积分额外条件及三角积漏x修正，按原式照录。"
+      ],
+      "disputes": [
+        "PDF13最后sinpx cosqx积分第二项漏x、相位反正切象限、原表省略条件等照原文。"
+      ]
+    },
+    {
+      "file": "translation_draft/98_source_notice.zh-CN.md",
+      "source_pdf_pages": [
+        705,
+        706
+      ],
+      "semantic_review": "complete",
+      "source_visual_review": "complete",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "逐页核对原书文字与完整原图；删除无原文依据的译注。"
+      ]
+    }
+  ]
+}

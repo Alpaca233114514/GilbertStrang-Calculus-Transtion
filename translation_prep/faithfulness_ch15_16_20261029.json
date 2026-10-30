@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "scope": "Chapter15, Chapter16 introduction and integral table93",
+  "source": "mitres_18_001_f17_full_book.pdf",
+  "method": "逐节全文逐段对照原书；全部例题习题图注作者脚注；公式和图表实际view_image全部原页；保留作者疑错、不增条件或自注",
+  "sections": [
+    {
+      "file": "translation_draft/86_ch15_sec01.zh-CN.md",
+      "pdf_pages": "642–648",
+      "printed_pages": "629–635",
+      "semantic_review": "complete_all_paragraphs_examples_exercises_captions_author_footnotes",
+      "source_visual_review": "complete_PDF642-648_original_full_pages_viewed_in_current_agent",
+      "changes": [
+        "全文、章引言、9例、40题、四图与术语表核对；删除全部译注及图注追加标签解释。",
+        "恢复作者电子从高势到低势、所有径向场为梯度场、磁场乘电流强度、线状质量引力的直接断言，不增加局部割线区域等条件。",
+        "章引言第二段二重积分的三积分号照录原排版，不代改。"
+      ],
+      "disputes": [
+        "PDF642第二段把二重积分排为三积分号。",
+        "PDF644对S/r²为梯度的说法未限定区域；PDF645称所有径向场为梯度并说电子从高势到低势；PDF648题26引力方向符号可疑。均保留原文，不加数学/物理修正。"
+      ]
+    }
+  ],
+  "status": "in_progress",
+  "pdf_rebuilt": false
+}

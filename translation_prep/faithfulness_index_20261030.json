@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "scope": "索引 I-1–I-8",
+  "source": "mitres_18_001_f17_full_book.pdf",
+  "sections": [
+    {
+      "file": "translation_draft/94_index.zh-CN.md",
+      "source_pdf_pages": [697, 698, 699, 700, 701, 702, 703, 704],
+      "semantic_review": "complete_all_1126_entries_and_references",
+      "source_visual_review": "complete_full_pages697-704_view_image_120dpi",
+      "rebuilt_pdf_review": "pending",
+      "changes": [
+        "逐页核对全部词条、顺序、公式及索引页码；原文提取文本辅助检查1126条页码序列，逐条一致。",
+        "补回连续计息interest词条漏译的302页。",
+        "撤去del词条原索引写字样及表标题的译者说明，保留原印Delta、面积与体积标签。",
+        "恢复标量三重积原式未加括号的写法；体积的box按原词翻译为盒子。",
+        "撤去4条译者备注，正文不添加原书疑点解释。"
+      ],
+      "disputes": [
+        "原书Normal/to plane页码476–554、Del(Delta)与Table/area and volumes下列运动向量均照原印保留。",
+        "索引指向源PDF未包含的第16章正文页码，仍照原索引保留。"
+      ],
+      "reference_check": "tmp/pdfs/faithfulness-20261029/index-reference-check.json"
+    }
+  ]
+}
