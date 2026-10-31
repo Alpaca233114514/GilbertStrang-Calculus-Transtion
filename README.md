@@ -1,50 +1,52 @@
-# Gilbert Strang《微积分》中文翻译
+# Gilbert Strang's Calculus: Chinese Translation
 
-Gilbert Strang 著 *Calculus*（第三版）的简体中文译稿，基于 MIT OpenCourseWare 提供的英文 PDF，面向微积分学习与自学。
+English | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
 
-## 开始阅读
+A Simplified Chinese translation of Gilbert Strang's *Calculus* (third edition), based on the English PDF provided by MIT OpenCourseWare and intended for calculus study and self-study.
 
-- **[中文阅读版 PDF](output/pdf/微积分_中文完整阅读版.pdf)**：879 页，含章节书签。
-- [分节 Markdown 译稿](translation_draft/)：便于逐节阅读、对照与修订。
-- [合并 Markdown 译稿](deliveries/微积分中文初译-完整PDF-20261025-140448/微积分中文初译_全稿.md)。
-- [英文原书 PDF](mitres_18_001_f17_full_book.pdf) · [MIT OCW 教材页面](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/pages/open-textbook/)。
+## Start reading
 
-建议下载 PDF 后使用支持书签的阅读器打开。
+- **[Chinese reading PDF](output/pdf/微积分_中文完整阅读版.pdf)**: 879 pages, with chapter bookmarks.
+- [Markdown translation by section](translation_draft/): for reading, comparison, and revision.
+- [Combined Markdown translation](deliveries/微积分中文初译-完整PDF-20261025-140448/微积分中文初译_全稿.md).
+- [Original English PDF](mitres_18_001_f17_full_book.pdf) · [MIT OCW textbook page](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/pages/open-textbook/).
 
-## 内容与版本
+Download the PDF and open it in a reader that supports bookmarks.
 
-内容涵盖导数、积分及其应用、极坐标与复数、无穷级数、向量与矩阵、曲线运动、偏导数、多重积分和向量微积分，并包含序言、目录、公式表与索引。
+## Content and status
 
-当前译稿覆盖本仓库英文源文件的全部 706 页。源文件第 16 章仅含导言，未包含正文提及的第 16.1–16.3 节；译稿遵循该文件的实际内容。
+The book covers derivatives, integrals and their applications, polar coordinates and complex numbers, infinite series, vectors and matrices, motion along curves, partial derivatives, multiple integrals, and vector calculus. It also includes the preface, contents, formula sheets, and index.
 
-本译稿由 AI 辅助翻译与排版，保留原书习题、公式和插图，并对部分原文排印问题添加译注。初译已经完成，尚未完成逐节独立复审；欢迎提交具体勘误。中文 PDF 的页码与英文原书不同。
+The translation covers all 706 pages of the English source file in this repository. Chapter 16 of that file contains only an introduction; sections 16.1–16.3, mentioned in the text, are absent. The translation follows the source file as provided.
 
-## 文件组织
+The translation and typesetting were assisted by AI. Exercises, formulas, and illustrations are retained, and translator's notes have been added for some typographical issues in the original. The first translation is complete, but an independent section-by-section review has not yet been completed. Specific corrections are welcome. Page numbers in the Chinese PDF differ from those in the English book.
 
-| 路径 | 内容 |
+## Repository contents
+
+| Path | Contents |
 | --- | --- |
-| `output/pdf/` | 中文阅读版 PDF |
-| `translation_draft/` | 分节译稿、插图及复审记录 |
-| `translation_prep/` | 原文提取、术语表、问题记录和处理工具 |
-| `deliveries/` | 汇总译稿与交付快照 |
-| `archives/` | 阶段归档 |
-| `tmp/` | 排版中间文件、依赖和检查图片 |
-| `mitres_18_001_f17_full_book.pdf` | 本次翻译使用的英文原书 |
+| `output/pdf/` | Chinese reading PDF |
+| `translation_draft/` | Translations by section, illustrations, and review notes |
+| `translation_prep/` | Extracted source text, glossary, issue records, and processing tools |
+| `deliveries/` | Combined translations and delivery snapshots |
+| `archives/` | Intermediate archives |
+| `tmp/` | Typesetting intermediates, dependencies, and check images |
+| `mitres_18_001_f17_full_book.pdf` | English source used for this translation |
 
-## 参与纠错
+## Contributing corrections
 
-可以通过 Issue 或 Pull Request 提交修订。请附上章节、原书页码或译稿文件名，以及问题原文和建议改法；涉及公式时，最好同时给出英文原书中的对应公式。贡献的译文修订遵循下述相同许可。
+Please submit an issue or pull request with the chapter, original page number or translation filename, the text in question, and your suggested correction. For formulas, please also include the corresponding formula from the English original when possible. Translation contributions are subject to the same license described below.
 
-## 来源与许可证
+## Source and license
 
-原著：**Gilbert Strang, Calculus, Third Edition**，Wellesley-Cambridge Press；数字资源由 [MIT OpenCourseWare](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/) 提供。原作及插图的权利归其各自权利人所有。
+Original work: **Gilbert Strang, Calculus, Third Edition**, Wellesley-Cambridge Press; digital materials provided by [MIT OpenCourseWare](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/). Rights to the original work and illustrations belong to their respective holders.
 
-依据 [MIT OCW 使用条款](https://ocw.mit.edu/pages/privacy-and-terms-of-use/)，除另有标注的材料外，本仓库教材内容及中文翻译改编采用 **[Creative Commons 署名—非商业性使用—相同方式共享 4.0 国际许可（CC BY-NC-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)**。
+Under the [MIT OCW terms of use](https://ocw.mit.edu/pages/privacy-and-terms-of-use/), except where otherwise noted, the textbook content and Chinese translation in this repository are shared under the **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)**.
 
-你可以在遵守许可的情况下复制、分享和改编这些内容：保留作者、来源与许可信息，注明所作改动，不用于商业目的，并以相同许可分享改编作品。本项目所作改动包括中文翻译、重新排版、公式转写和必要的译注。
+You may copy, share, and adapt the content in accordance with the license: retain author, source, and license information, indicate changes, use it noncommercially, and share adaptations under the same license. This project adds a Chinese translation, new typesetting, formula transcription, and necessary translator's notes.
 
-单独标注权利或许可的第三方图片、商标及软件依赖遵循各自条款。本项目是非官方翻译，不代表作者、出版社或 MIT 的认可。详细适用范围见 [LICENSE.md](LICENSE.md)。
+Third-party images, trademarks, and software dependencies with separately stated rights or licenses are subject to their own terms. This is an unofficial translation and is not endorsed by the author, publisher, or MIT. See [LICENSE.md](LICENSE.md) for the applicable scope.
 
-推荐署名方式：
+Suggested attribution:
 
-> Gilbert Strang《Calculus》第三版，原作由 MIT OpenCourseWare 提供；中文翻译与排版来自 [GilbertStrang-Calculus-Transtion](https://github.com/Alpaca233114514/GilbertStrang-Calculus-Transtion)。除另有标注外，依据 CC BY-NC-SA 4.0 分享。此版本包含中文翻译、重新排版及译注。
+> Gilbert Strang, *Calculus*, Third Edition, original provided by MIT OpenCourseWare; Chinese translation and typesetting by [GilbertStrang-Calculus-Transtion](https://github.com/Alpaca233114514/GilbertStrang-Calculus-Transtion). Except where otherwise noted, shared under CC BY-NC-SA 4.0. This version includes a Chinese translation, new typesetting, and translator's notes.
